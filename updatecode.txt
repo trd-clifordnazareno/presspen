@@ -1,0 +1,14 @@
+table css
+beauty button
+pharmacy button
+home
+about
+script
+footer
+data json
+table
+operation
+bussiness_page
+views
+ngroute
+routeparam

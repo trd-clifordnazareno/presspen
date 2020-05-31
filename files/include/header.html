@@ -1,0 +1,467 @@
+<html><head><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
+        <meta charset="UTF-8">
+        <meta name="description" content="Directing Template">
+        <meta name="keywords" content="Directing, unica, creative, html">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Directing | Template</title>
+
+        <!-- Google Font -->
+        <!--<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">-->
+
+        <!-- Css Styles -->
+        <link rel="stylesheet" href="../../css/bootstrap.min.css" type="text/css">
+        <link rel="stylesheet" href="../../css/font-awesome.min.css" type="text/css">
+        <link rel="stylesheet" href="../../css/elegant-icons.css" type="text/css">
+        <link rel="stylesheet" href="../../css/flaticon.css" type="text/css">
+        <link rel="stylesheet" href="../../css/nice-select.css" type="text/css">
+        <link rel="stylesheet" href="../../css/barfiller.css" type="text/css">
+        <link rel="stylesheet" href="../../css/magnific-popup.css" type="text/css">
+        <link rel="stylesheet" href="../../css/jquery-ui.min.css" type="text/css">
+        <link rel="stylesheet" href="../../css/owl.carousel.min.css" type="text/css">
+        <link rel="stylesheet" href="../../css/slicknav.min.css" type="text/css">
+        <link rel="stylesheet" href="../../css/style.css" type="text/css">
+
+
+        <script src="../../angularjs/angular.min.js"></script>
+    </head>
+
+
+
+    <body ng-app="myApp" ng-controller="myCtrl">
+        <div id="preloder" style="display: none;">
+            <div class="loader" style="display: none;"></div>
+        </div>
+        <header class="header">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-3 col-md-3">
+                        <div class="header__logo">
+                            <a href="./index.html"><img src="img/logo.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-9 col-md-9">
+                        <div class="header__nav">
+                            <nav class="header__menu mobile-menu">
+                                <!--<ul>
+                                    <li class="active"><a href="./index.html">Home</a></li>
+                                    <li><a href="./listing.html">Listing</a></li>
+                                    <li><a href="#">Categories</a></li>
+                                    <li><a href="#">Pages</a>
+                                        <ul class="dropdown">
+                                            <li><a href="./about.html">About</a></li>
+                                            <li><a href="./listing-details.html">Listing Details</a></li>
+                                            <li><a href="./blog-details.html">Blog Details</a></li>
+                                            <li><a href="./contact.html">Contact</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="./blog.html">Blog</a></li>
+                                    <li><a href="#">Shop</a></li>
+                                </ul>-->
+                            </nav>
+                            <div class="header__menu__right">
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="mobile-menu-wrap"><div class="slicknav_menu"><a href="#" aria-haspopup="true" role="button" tabindex="0" class="slicknav_btn slicknav_collapsed"><span class="slicknav_menutxt">MENU</span><span class="slicknav_icon"><span class="slicknav_icon-bar"></span><span class="slicknav_icon-bar"></span><span class="slicknav_icon-bar"></span></span></a><nav class="slicknav_nav slicknav_hidden" aria-hidden="true" role="menu" style="display: none;">
+                            <ul>
+                                <li class="active"><a href="./index.html" role="menuitem">Home</a></li>
+                                <li><a href="./listing.html" role="menuitem">Listing</a></li>
+                                <li><a href="#" role="menuitem">Categories</a></li>
+                                <li class="slicknav_collapsed slicknav_parent"><a href="#" role="menuitem" aria-haspopup="true" tabindex="-1" class="slicknav_item slicknav_row"></a><a href="#">Pages</a>
+                                    <span class="slicknav_arrow">►</span><ul class="dropdown slicknav_hidden" role="menu" aria-hidden="true" style="display: none;">
+                                        <li><a href="./about.html" role="menuitem" tabindex="-1">About</a></li>
+                                        <li><a href="./listing-details.html" role="menuitem" tabindex="-1">Listing Details</a></li>
+                                        <li><a href="./blog-details.html" role="menuitem" tabindex="-1">Blog Details</a></li>
+                                        <li><a href="./contact.html" role="menuitem" tabindex="-1">Contact</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="./blog.html" role="menuitem">Blog</a></li>
+                                <li><a href="#" role="menuitem">Shop</a></li>
+                            </ul>
+                        </nav></div><div class="slicknav_menu"><a href="#" aria-haspopup="true" role="button" tabindex="0" class="slicknav_btn slicknav_collapsed" style="outline: none;"><span class="slicknav_menutxt">MENU</span><span class="slicknav_icon"><span class="slicknav_icon-bar"></span><span class="slicknav_icon-bar"></span><span class="slicknav_icon-bar"></span></span></a><nav class="slicknav_nav slicknav_hidden" aria-hidden="true" role="menu" style="display: none;">
+                            <ul>
+                                <li class="active"><a href="./index.html" role="menuitem">Home</a></li>
+                                <li><a href="./listing.html" role="menuitem">Listing</a></li>
+                                <li><a href="#" role="menuitem">Categories</a></li>
+                                <li class="slicknav_collapsed slicknav_parent"><a href="#" role="menuitem" aria-haspopup="true" tabindex="-1" class="slicknav_item slicknav_row" style="outline: none;"></a><a href="#">Pages</a>
+                                    <span class="slicknav_arrow">►</span><ul class="dropdown slicknav_hidden" role="menu" aria-hidden="true" style="display: none;">
+                                        <li><a href="./about.html" role="menuitem" tabindex="-1">About</a></li>
+                                        <li><a href="./listing-details.html" role="menuitem" tabindex="-1">Listing Details</a></li>
+                                        <li><a href="./blog-details.html" role="menuitem" tabindex="-1">Blog Details</a></li>
+                                        <li><a href="./contact.html" role="menuitem" tabindex="-1">Contact</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="./blog.html" role="menuitem">Blog</a></li>
+                                <li><a href="#" role="menuitem">Shop</a></li>
+                            </ul>
+                        </nav></div><div class="slicknav_menu"><a href="#" aria-haspopup="true" role="button" tabindex="0" class="slicknav_btn slicknav_collapsed" style="outline: none;"><span class="slicknav_menutxt">MENU</span><span class="slicknav_icon"><span class="slicknav_icon-bar"></span><span class="slicknav_icon-bar"></span><span class="slicknav_icon-bar"></span></span></a><nav class="slicknav_nav slicknav_hidden" aria-hidden="true" role="menu" style="display: none;">
+                            <ul>
+                                <li class="active"><a href="./index.html" role="menuitem">Home</a></li>
+                                <li><a href="./listing.html" role="menuitem">Listing</a></li>
+                                <li><a href="#" role="menuitem">Categories</a></li>
+                                <li class="slicknav_collapsed slicknav_parent"><a href="#" role="menuitem" aria-haspopup="true" tabindex="-1" class="slicknav_item slicknav_row" style="outline: none;"></a><a href="#">Pages</a>
+                                    <span class="slicknav_arrow">►</span><ul class="dropdown slicknav_hidden" role="menu" aria-hidden="true" style="display: none;">
+                                        <li><a href="./about.html" role="menuitem" tabindex="-1">About</a></li>
+                                        <li><a href="./listing-details.html" role="menuitem" tabindex="-1">Listing Details</a></li>
+                                        <li><a href="./blog-details.html" role="menuitem" tabindex="-1">Blog Details</a></li>
+                                        <li><a href="./contact.html" role="menuitem" tabindex="-1">Contact</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="./blog.html" role="menuitem">Blog</a></li>
+                                <li><a href="#" role="menuitem">Shop</a></li>
+                            </ul>
+                        </nav></div><div class="slicknav_menu"><a href="#" aria-haspopup="true" role="button" tabindex="0" class="slicknav_btn slicknav_collapsed" style="outline: none;"><span class="slicknav_menutxt">MENU</span><span class="slicknav_icon"><span class="slicknav_icon-bar"></span><span class="slicknav_icon-bar"></span><span class="slicknav_icon-bar"></span></span></a><nav class="slicknav_nav slicknav_hidden" aria-hidden="true" role="menu" style="display: none;">
+                            <ul>
+                                <li class="active"><a href="./index.html" role="menuitem">Home</a></li>
+                                <li><a href="./listing.html" role="menuitem">Listing</a></li>
+                                <li><a href="#" role="menuitem">Categories</a></li>
+                                <li class="slicknav_collapsed slicknav_parent"><a href="#" role="menuitem" aria-haspopup="true" tabindex="-1" class="slicknav_item slicknav_row" style="outline: none;"></a><a href="#">Pages</a>
+                                    <span class="slicknav_arrow">►</span><ul class="dropdown slicknav_hidden" role="menu" aria-hidden="true" style="display: none;">
+                                        <li><a href="./about.html" role="menuitem" tabindex="-1">About</a></li>
+                                        <li><a href="./listing-details.html" role="menuitem" tabindex="-1">Listing Details</a></li>
+                                        <li><a href="./blog-details.html" role="menuitem" tabindex="-1">Blog Details</a></li>
+                                        <li><a href="./contact.html" role="menuitem" tabindex="-1">Contact</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="./blog.html" role="menuitem">Blog</a></li>
+                                <li><a href="#" role="menuitem">Shop</a></li>
+                            </ul>
+                        </nav></div><div class="slicknav_menu"><a href="#" aria-haspopup="true" role="button" tabindex="0" class="slicknav_btn slicknav_collapsed" style="outline: none;"><span class="slicknav_menutxt">MENU</span><span class="slicknav_icon"><span class="slicknav_icon-bar"></span><span class="slicknav_icon-bar"></span><span class="slicknav_icon-bar"></span></span></a><nav class="slicknav_nav slicknav_hidden" aria-hidden="true" role="menu" style="display: none;">
+                            <ul>
+                                <li class="active"><a href="./index.html" role="menuitem">Home</a></li>
+                                <li><a href="./listing.html" role="menuitem">Listing</a></li>
+                                <li><a href="#" role="menuitem">Categories</a></li>
+                                <li class="slicknav_collapsed slicknav_parent"><a href="#" role="menuitem" aria-haspopup="true" tabindex="-1" class="slicknav_item slicknav_row" style="outline: none;"></a><a href="#">Pages</a>
+                                    <span class="slicknav_arrow">►</span><ul class="dropdown slicknav_hidden" role="menu" aria-hidden="true" style="display: none;">
+                                        <li><a href="./about.html" role="menuitem" tabindex="-1">About</a></li>
+                                        <li><a href="./listing-details.html" role="menuitem" tabindex="-1">Listing Details</a></li>
+                                        <li><a href="./blog-details.html" role="menuitem" tabindex="-1">Blog Details</a></li>
+                                        <li><a href="./contact.html" role="menuitem" tabindex="-1">Contact</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="./blog.html" role="menuitem">Blog</a></li>
+                                <li><a href="#" role="menuitem">Shop</a></li>
+                            </ul>
+                        </nav></div></div>
+            </div>
+        </header>
+        <section class="hero set-bg" data-setbg="../../img/hero/hero-bg.jpg" style="background-color: cornflowerblue; background-image: url(&quot;../../img/hero/hero-bg.jpg&quot;); padding: 100px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="hero__text">
+                            <div class="section-title">
+                                <h2>Find Open Establishment And Services Near You</h2>
+                                
+                            </div>
+                            <div class="hero__search__form">
+                                <form action="#">
+                                    <input type="text" placeholder="Search..." ng-model="search" style="width:85%;">
+                                    <!--div class="select__option">
+                                        <select style="display: none;">
+                                            <option value="">Choose Categories</option>
+                                        </select><div class="nice-select" tabindex="0"><span class="current">Choose Categories</span><ul class="list"><li data-value="" class="option selected">Choose Categories</li></ul></div>
+                                    </div>-->
+                                    <!--<div class="select__option">
+                                        <select style="display: none;">
+                                            <option value="">Choose Location</option>
+                                        </select><div class="nice-select" tabindex="0"><span class="current">Choose Location</span><ul class="list"><li data-value="" class="option selected">Choose Location</li></ul></div>
+                                    </div>-->
+                                    <button type="submit" disabled="">AUTO SEARCH</button>
+                                </form>
+                            </div>
+                            <ul class="hero__categories__tags">
+                                <li><a href="#" ng-click="restaurantbtn()"> Restaurant</a></li>
+                                <li><a href="#"> Food &amp; Drink</a></li>
+                                <li><a href="#"> Shopping</a></li>
+                                <li><a href="#"> Beauty</a></li>
+                                <li><a href="#"> Hotels</a></li>
+                                
+                                
+                                
+                                
+                                <li><a href="#" ng-click="restaurantbtn()"> Pharmacy</a></li>
+                                <li><a href="#"> Hospitals &amp; Clinic</a></li>
+                                <li><a href="#"> Medical</a></li>
+                                <li><a href="#"> Dentist</a></li>
+                                <li><a href="#"> Education</a></li>
+                                <li><a href="#"> Police Station</a></li>
+                                <li><a href="#"> Airport</a></li>
+                                <li><a href="#"> Seaport</a></li>
+                                <li><a href="#"> Land Terminal</a></li>
+                                <li><a href="#"> Mall</a></li>
+                                <li><a href="#"> Supermarket</a></li>
+                                <li><a href="#"> Grocery</a></li>
+                                <li>
+                                <!--<select style="margin-top: -43px; background-color: transparent;/* border-color: transparent; *//* width: 100%; */width: -webkit-fill-available;border-color: transparent;">
+                                    <option>
+                                        
+                                    </option>
+                                    <option>
+                                        sadasdasdas
+                                    </option>
+                                    <option>
+                                        sadasdasdas
+                                    </option>
+                                    </select>-->
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        <div ng-view="">
+            <div>
+                <!--sample -->
+                <section class="categories spad">
+                    <div class="container">
+
+                        <div class="section-title">
+                            <h2 style="
+    margin-top: -70px;
+">Search Results</h2>
+                            <p>_____________________________________________________________________________</p>
+                        </div>
+
+                        <table style="
+                               border: 1;
+                               font-size: larger;
+                               " border="1">
+                            <tbody>
+                                <tr>
+                                    <td></td>
+                                    <td><center>Type</center></td>
+                            <td><center>Name</center></td>
+                            <td><center>Address</center></td>
+                            <td style="width:150px;"><center>Contact No.</center></td>
+                            <td><center>Operation</center></td>
+                            <td><center>Website</center></td>
+                            </tr>
+                            <tr ng-repeat="establishment in establishmentsdetails | filter:search">
+                                <td style="
+                                    width: 10%;
+                                    ">
+                                    <img src="{{geticon(establishment.details)}}" style="
+                                         width: 100%;
+                                         ">
+
+                                </td><td>
+                                    {{x.Name}}
+                                    <img src="{{}}" alt="" style="
+                                         margin-left: -30px;
+                                         position: absolute;
+                                         margin-top: -26px;
+                                         min-width: 50px;
+                                         ">
+                            <center style="
+                                    margin-left: 19px;
+                                    ">{{establishment.details}} </center>
+
+                        </td>
+                        <td>
+                            <h5 style="
+                                "><center>{{establishment.title}}</center></h5>
+                        </td><td>
+                        <center>
+                            <p ng-repeat="x in establishmentsdetailsextend" ng-if="x.Name == establishment.title" ng-if="x.contact == establishment.contact" style="color: #111111;">{{x.Address}}</p></center>
+                        </td><td>
+                        <center>
+                            {{establishment.contact}}
+                        </center>
+                        </td><td>
+                        <center>
+                            <div style="
+                                        margin-top: -19px;
+                                        float: none;
+                                        padding-top: 0px;
+                                        color: red;
+                                "  ng-if="establishment.open_establishment == 'Pansamantalang sarado'"><!--Open Now --></br>
+                                            {{"Close"}}
+                            </div>
+                            
+                            
+                            <div class="listing__item__text__info__right" style="
+                                        margin-top: -10px;
+                                        float: none;
+                                        padding-top: 0px;
+                                "  ng-if="establishment.open_establishment != 'Pansamantalang sarado'"></br>Open Now</br>
+                                            {{establishment.open_establishment}}
+                                            <p style="color:black; font-size: 10px;">(Not Trusted)</p>
+                            </div>
+                        </center>
+                        </td>
+                        <td><center><p ng-repeat="x in establishmentsdetailsextend" ng-if="x.Name == establishment.title" ng-if="x.contact == establishment.contact"><a href="{{x.Website}}">{{x.Website}}</a></p>
+                            <p><a href="">Menu</a></p></center></td>
+
+                        </tr>
+            </tbody></table>
+    </div>
+</section>
+<!-- end sample -->
+</div>
+</div>
+        </div>
+
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-6">
+                <div class="footer__about">
+                    <div class="footer__about__logo">
+                        <a href="./index.html"><img src="../../img/footer-logo.png" alt=""></a>
+                    </div>
+                    <p>Due to econonomic evolution and global change of life style including our country, We hope this can provide you an information. Lets make helping hands together.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 offset-lg-1 col-md-6">
+                <div class="footer__address">
+                    <ul>
+                        <li>
+                            <span>Call Us:</span>
+                            <p>+(63) 09234648295</p>
+                        </li>
+                        <li>
+                            <span>Email:</span>
+                            <p>info.colorlib@gmail .com</p>
+                        </li>
+                        <li>
+                            <span></span>
+                            <p></p>
+                        </li>
+                        <li>
+                            <span>Connect Us:</span>
+                            <div class="footer__social">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-instagram"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-skype"></i></a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 offset-lg-1 col-md-6">
+                <div class="footer__widget">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Support</a></li>
+                        <li></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">About</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">For Advertisers: 
+<span>Ads For Agents</span>
+<span>Ads For Business</span>
+<span>Ads For Marketers</span><br></a></li>
+                        <li><a href="#">&nbsp;&nbsp;You May Call +(63) 09234648296</a></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="footer__copyright">
+                    <div class="footer__copyright__text"><p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            Copyright ©<script>document.write(new Date().getFullYear());</script> All rights reserved | This Website is powered and made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="" target="_blank">Yelpages</a>
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                    </div>
+                    <div class="footer__copyright__links">
+                        <!--<a href="#">Terms</a>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Cookie Policy</a>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer></body></html>
+
+<script>
+var app = angular.module('myApp', []);
+app.controller('myCtrl', function($scope, $http) {
+  $http.get("csvjson.json")
+  .then(function(response) {
+      $scope.establishmentsdetails = response.data;
+  });
+  $http.get("csvjsonextend.json")
+  .then(function(response) {
+      $scope.establishmentsdetailsextend = response.data;
+  });
+  
+  
+  
+  $scope.aaa = function(b){
+      return $scope.a + b;
+  }
+  
+  
+  
+  
+  $scope.restaurantbtn = function(){
+      $scope.establishmentsdetails = "";
+      $http.get("csvjsonrestaurant.json")
+  .then(function(response) {
+      $scope.establishmentsdetails = response.data;
+  });
+  $http.get("csvjsonextendrestaurant.json")
+  .then(function(response) {
+      $scope.establishmentsdetailsextend = response.data;
+  });
+  }
+  
+  
+  $scope.geticon = function(establishmentdetails){
+      if (establishmentdetails == "Mall"){
+          $establishmenticon = "../../img/categories/cat-5.png";
+      }else if (establishmentdetails == "Tindahan ng computer"){
+          $establishmenticon = "../../img/categories/cat-5.png";
+      }else if (establishmentdetails == "Restaurant"){
+          $establishmenticon = "../../img/categories/cat-2.png";
+      }else{
+          return "../../img/listing/new/dentist.png";
+      }
+      return $establishmenticon;
+  }
+});
+</script>

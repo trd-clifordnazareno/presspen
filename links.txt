@@ -1,0 +1,1 @@
+/{{establishment.address}}/{{establishment.rate}}/{{establishment.reviews}}/{{establishment.website}}/{{establishment.title_description}}/{{establishment.contact}}/{{establishment.operation_establishment}}/{{establishment.other_detail_service}}/{{establishment.other_detail_service}}

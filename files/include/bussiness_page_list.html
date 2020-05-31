@@ -1,0 +1,96 @@
+<html lang="zxx"><head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Directing Template">
+    <meta name="keywords" content="Directing, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Directing | Template</title>
+
+    <!-- Google Font -->
+    <!--<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&amp;display=swap" rel="stylesheet">-->
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="../../css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="../../css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="../../css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="../../css/flaticon.css" type="text/css">
+    <link rel="stylesheet" href="../../css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="../../css/barfiller.css" type="text/css">
+    <link rel="stylesheet" href="../../css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="../../css/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="../../css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="../../css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="../../css/style.css" type="text/css">
+    <script src="../../angularjs/angular.min.js"></script>
+    <script src="../../angularjs/angular-route.js"></script>
+</head>
+
+<body  ng-app="myApp" ng-controller="myCtrl">
+    <div ng-view></div>
+</body></html>
+
+<script>
+var app = angular.module('myApp', ['ngRoute']);
+app.config(function ($routeProvider) {
+                $routeProvider
+                        .when("/:name/:address/:rate/:review/:title_description/:phone/:operation_establishment/:other_detail_service", {////:website
+                            templateUrl: "views/index.html",
+                            controller: "myCtrl"
+                        })
+                        .when("/blank", {
+                            template: "nothing"
+                        })
+                                .otherwise({
+                        redirectTo: '/blank'
+                        });
+            });
+app.controller('myCtrl', function($scope, $http, $routeParams) {
+  $scope.name = $routeParams.name;
+  $scope.address = $routeParams.address;
+  $scope.rate = $routeParams.rate;
+  $scope.review = $routeParams.review;
+  /*$scope.website = $routeParams.website;*/
+  $scope.title_description = $routeParams.title_description;
+  $scope.phone = $routeParams.phone;
+  $scope.operation_establishment = $routeParams.operation_establishment;
+  $scope.other_detail_service = $routeParams.other_detail_service;
+  
+  
+  
+  $http.get("../jsonfilesdata/default_json.json")
+                .then(function (response) {
+                    $scope.establishmentsdetails = response.data;
+                });
+                
+                
+                
+                
+                $scope.websites = function(a){
+                    $webname = "";
+angular.forEach($scope.establishmentsdetails, function(x, value){
+                                
+                                        //alert(x.photo_name);
+                                        $websitename = x.website;
+                                        $contact = x.contact;
+                                        if($contact == a){
+                                         $webname = $websitename;
+                                         //return $webname;
+                                     }
+                                        
+                                   
+                                });
+                                if($webname == ""){
+                                    return "None";
+                                }else{
+                                    return $webname;
+                                }
+                                
+                                }
+  
+});
+
+
+
+
+
+</script>
