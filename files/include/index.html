@@ -249,7 +249,7 @@
                                             <option value="">Choose Location</option>
                                         </select><div class="nice-select" tabindex="0"><span class="current">Choose Location</span><ul class="list"><li data-value="" class="option selected">Choose Location</li></ul></div>
                                     </div>-->
-                                    <button type="submit" disabled="">AUTO SEARCH</button>
+                                    <button type="submit" ng-click="search_btn()">AUTO SEARCH</button>
                                 </form>
                             </div>
                             <ul class="hero__categories__tags"style="background: #0000001c;" >
@@ -311,7 +311,7 @@
 
 
 
-                            <div style="overflow-x:auto;">
+                            <div style="overflow-x:auto;" ng-if="results_info_hide == true">
                                 <table style="
                                        border: 1;
                                        font-size: larger;
@@ -551,6 +551,7 @@
 <script>
     var app = angular.module('myApp', ['angularUtils.directives.dirPagination']);
     app.controller('myCtrl', function ($scope, $http) {
+        $scope.results_info_hide = false;
         $http.get("../jsonfilesdata/default_json.json")
                 .then(function (response) {
                     $scope.establishmentsdetails = response.data;
@@ -612,6 +613,11 @@
         
         $scope.baseurl = function(){
             return window.location.protocol;
+        }
+        
+        
+        $scope.search_btn = function(){
+            $scope.results_info_hide = true;
         }
 
 
