@@ -250,13 +250,18 @@
                                 </div>
                             </div>
                         </div>-->
-                        <!--<div class="listing__details__comment">
+                        <div class="listing__details__comment">
+                            
+                            
+                            
+                            
                             <h4>Comment</h4>
-                            <div class="listing__details__comment__item">
-                                <div class="listing__details__comment__item__pic">
-                                    <img src="../../img/listing/details/comment.png" alt="">
-                                </div>
-                                <div class="listing__details__comment__item__text">
+                            
+                            
+                            <div class="listing__details__comment__item" ng-repeat="a in establishmentsdetails" ng-if="a.title == name && a.address == address && a.contact == phone">
+                                {{get(a.title)}}
+                                
+                                <div class="listing__details__comment__item__text" ng-repeat="array in arr">
                                     <div class="listing__details__comment__item__rating">
                                         <i class="fa fa-star"></i>
                                         <i class="fa fa-star"></i>
@@ -264,61 +269,22 @@
                                         <i class="fa fa-star"></i>
                                         <i class="fa fa-star"></i>
                                     </div>
-                                    <span>March 22, 2019</span>
-                                    <h5>Marry Jane</h5>
-                                    <p>From ships to airports, museums to burger vans, from revered Michelin star
-                                        establish to the fleeting dynamism of pop-ups.</p>
-                                    <ul>
-                                        <li><i class="fa fa-hand-o-right"></i> Like</li>
-                                        <li><i class="fa fa-share-square-o"></i> Reply</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="listing__details__comment__item">
-                                <div class="listing__details__comment__item__pic">
+                                    <span>{{arrs[$index]}}</span>
+                                    <div class="listing__details__comment__item__pic">
                                     <img src="../../img/listing/details/comment.png" alt="">
                                 </div>
-                                <div class="listing__details__comment__item__text">
-                                    <div class="listing__details__comment__item__rating">
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                    </div>
-                                    <span>March 22, 2019</span>
-                                    <h5>Marry Jane</h5>
-                                    <p>From ships to airports, museums to burger vans, from revered Michelin star
-                                        establish to the fleeting dynamism of pop-ups.</p>
-                                    <ul>
-                                        <li><i class="fa fa-hand-o-right"></i> Like</li>
-                                        <li><i class="fa fa-share-square-o"></i> Reply</li>
-                                    </ul>
+                                    <h5>{{array.reviewer_name}}</h5>
+                                    <p>{{txt[$index]}}</p>
+                                    
                                 </div>
                             </div>
-                            <div class="listing__details__comment__item">
-                                <div class="listing__details__comment__item__pic">
-                                    <img src="../../img/listing/details/comment.png" alt="">
-                                </div>
-                                <div class="listing__details__comment__item__text">
-                                    <div class="listing__details__comment__item__rating">
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                    </div>
-                                    <span>March 22, 2019</span>
-                                    <h5>Marry Jane</h5>
-                                    <p>From ships to airports, museums to burger vans, from revered Michelin star
-                                        establish to the fleeting dynamism of pop-ups.</p>
-                                    <ul>
-                                        <li><i class="fa fa-hand-o-right"></i> Like</li>
-                                        <li><i class="fa fa-share-square-o"></i> Reply</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>-->
+                            
+                        </div>
+                        
+                        
+                        
+                        
+                        
                         <!--<div class="listing__details__review">
                             <h4>Add Review</h4>
                             <form action="#">
@@ -343,7 +309,7 @@
                                     <li><span class="icon_pin_alt"></span> {{address}}</li>
                                     <li><span class="icon_phone"></span> {{phone}}</li>
                                     <li><span class="icon_mail_alt"></span> Info.colorlib@gmail.com</li>
-                                    <li><span class="icon_globe-2"></span> {{websites(phone)}}</li>
+                                    <li><span class="icon_globe-2"></span> <p ng-if="websites(phone) == empty">None</p><p ng-if="websites(phone) != empty">{{websites(phone)}}</p></li>
                                 </ul>
                                 <div class="listing__sidebar__contact__social">
                                     <a href="#"><i class="fa fa-facebook"></i></a>
@@ -459,9 +425,12 @@
                     </ul>
                     <ul>
                         <li><a href="#">For Advertisers: 
-<span>Ads For Agents</span>
+<!--<span>Ads For Agents</span>
 <span>Ads For Business</span>
-<span>Ads For Marketers</span><br></a></li>
+<span>Ads For Marketers</span>-->
+<span>For Bussiness Posting</span>
+<span>Marketing</span>
+<span>And Inqueries</span><br></a></li>
                         <li><a href="#">&nbsp;&nbsp;You May Call +(63) 09234648296</a></li>
                         <li></li>
                         <li></li>

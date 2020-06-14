@@ -1,0 +1,1045 @@
+<div style="overflow-x:auto;" ng-if="results_info_hide == true && search != ''">
+                                <table style="
+                                       border: 1;
+                                       font-size: larger;
+                                       border:transparent;" border="1" role="table">
+                                    <tbody role="rowgroup">
+                                        <tr role="row" class="remove_header_row">
+                                            <td role="columnheader"></td>
+                                            <td role="columnheader"><center>Type</center></td>
+                                    <td role="columnheader"><center>Name</center></td>
+                                    <td role="columnheader"><center>Address</center></td>
+                                    <td style="width:150px;"><center>Contact No.</center></td>
+                                    <td role="columnheader"><center>Operation</center></td>
+                                    <td role="columnheader"><center>Website</center></td>
+                                    <td role="columnheader"><center>Description</center></td>
+                                    </tr>
+                                    <tr role="row" dir-paginate="establishment in establishmentsdetails | filter:search | itemsPerPage : 10 ">
+                                        <td style="
+                                            width: 10%;
+                                            " role="cell">
+                                            <img src="{{geticon(establishment.details)}}" style="
+                                                 width: 100%;
+                                                 ">
+
+                                        </td><td role="cell">
+                                            {{x.Name}}
+                                            <img src="{{}}" alt="" style="
+                                                 margin-left: -30px;
+                                                 position: absolute;
+                                                 margin-top: -26px;
+                                                 min-width: 50px;
+                                                 ">
+                                    <center style="
+                                            margin-left: 19px;
+                                            ">{{establishment.details}} </center>
+
+                                    </td>
+                                    <td role="cell">
+                                        <h5 style="
+                                            "><center>{{establishment.title}}</center></h5>
+                                    </td><td role="cell">
+                                    <center>
+                                        <p ng-if="establishment.address != ''">{{establishment.address}}</p>
+                                        <p ng-repeat="x in establishmentsdetailsextend" ng-if="x.Name == establishment.title" ng-if="x.contact == establishment.contact" style="color: #111111;">{{x.Address}}</p></center>
+                                </td><td role="cell">
+                            <center>
+                                {{establishment.contact}}
+                            </center>
+                        </td><td role="cell">
+                    <center>
+                        <div style="
+                             margin-top: -19px;
+                             float: none;
+                             padding-top: 0px;
+                             color: red;
+                             "  ng-if="establishment.open_establishment == 'Pansamantalang sarado'"><!--Open Now --></br>
+                            {{"Close"}}
+                        </div>
+
+
+                        <!--<div class="listing__item__text__info__right" style="
+                                    margin-top: -10px;
+                                    float: none;
+                                    padding-top: 0px;
+                            "  ng-if="establishment.open_establishment != 'Pansamantalang sarado'" ng-if="establishment.open_establishment != 'Closed'"></br>Open Now</br>
+                                        {{establishment.open_establishment}}
+                                        <p style="color:black; font-size: 10px;">(Not Trusted)</p>
+                        </div>-->
+                        <div class="listing__item__text__info__right" style="
+                             margin-top: -10px;
+                             float: none;
+                             padding-top: 0px;
+                             color:red;
+                             "  ng-if="establishment.open_establishment == 'Closed'"></br><!--Open Now--></br>
+                            {{establishment.open_establishment}}
+                            <p style="color:red; font-size: 10px;">NOTE : If You see this message it means Closed</p>
+                        </div>
+                        <div class="listing__item__text__info__right" style="
+                             margin-top: -10px;
+                             float: none;
+                             padding-top: 0px;
+                             color:red;
+                             "  ng-if="establishment.open_establishment == 'Temporarily Closed'"></br><!--Open Now--></br>
+                            {{establishment.open_establishment}}
+                            <p style="color:red; font-size: 10px;"></p>
+                        </div>
+                        <div class="listing__item__text__info__right" style="
+                             margin-top: -10px;
+                             float: none;
+                             padding-top: 0px;
+                             "  ng-if="establishment.open_establishment == 'Open'"></br><!--Open Now--></br>
+                            {{establishment.open_establishment}}
+                            <p style="color:red; font-size: 10px;"></p>
+                        </div>
+                        <div class="listing__item__text__info__right" style="
+                             margin-top: -10px;
+                             float: none;
+                             padding-top: 0px;
+                             "  ng-if="establishment.open_establishment != '*'"></br><!--Open Now--></br>
+                            {{establishment.open_establishment}}
+                            <p style="color:red; font-size: 10px;"></p>
+                        </div>
+
+
+
+
+                        <div class="listing__item__text__info__right" style="
+                             margin-top: -10px;
+                             float: none;
+                             padding-top: 0px;
+                             color:red;
+                             "  ng-if="establishment.open_establishment == 'Temporarily closed'"></br><!--Open Now--></br>
+                            {{establishment.open_establishment}}
+                            <p style="color:red; font-size: 10px;"></p>
+                        </div>
+
+
+
+
+
+                    </center>
+                    </td>
+                    <td role="cell"><center>{{establishment.website}}<p ng-repeat="x in establishmentsdetailsextend" ng-if="x.Name == establishment.title" ng-if="x.contact == establishment.contact"><a href="{{x.Website}}" target="_blank">{{x.Website}}</a></p>
+                        <p><!--<a href="">Menu</a>--> <a href="{{baseurl()}}/directing/files/include/bussiness_page_list.html#!/{{establishment.title}}/{{establishment.address}}/{{establishment.rate}}/{{establishment.reviews}}/{{establishment.title_description}}/{{establishment.contact}}/{{establishment.open_establishment}}/{{establishment.other_detail_service}}" target="_blank">lookout</a></p></center></td>
+                    <td role="cell" style="font-size: 19px;"><center></br>{{establishment.others}} <p> {{establishment.title_description}} </p></center></td>
+
+                    </tr>
+                    </tbody></table>
+            </div>
+
+
+$http.get("../jsonfilesdata/default_extend_json.json")
+                .then(function (response) {
+                    $scope.establishmentsdetailsextend = response.data;
+                });
+
+        $scope.aaa = function (b) {
+            return $scope.a + b;
+        }
+
+        $scope.restaurantbtn = function () {
+            $scope.establishmentsdetails = "";
+            $http.get("../jsonfilesdata/restaurant_json.json")
+                    .then(function (response) {
+                        $scope.establishmentsdetails = response.data;
+                    });
+            $http.get("../jsonfilesdata/restaurant_extend_json.json")
+                    .then(function (response) {
+                        $scope.establishmentsdetailsextend = response.data;
+                    });
+        }
+
+
+        $scope.mallbtn = function () {
+            $scope.establishmentsdetails = "";
+            $http.get("../jsonfilesdata/mall_json.json")
+                    .then(function (response) {
+                        $scope.establishmentsdetails = response.data;
+                    });
+            $http.get("../jsonfilesdata/mall_extend_json.json")
+                    .then(function (response) {
+                        $scope.establishmentsdetailsextend = response.data;
+                    });
+        }
+
+        $scope.pharmacybtn = function () {
+            $scope.establishmentsdetails = "";
+            $http.get("../jsonfilesdata/pharmacy_extend_json.json")
+                    .then(function (response) {
+                        $scope.establishmentsdetails = response.data;
+                    });
+        }
+
+        $scope.beauty = function () {
+            $scope.establishmentsdetails = "";
+            $http.get("../jsonfilesdata/beauty.json")
+                    .then(function (response) {
+                        $scope.establishmentsdetails = response.data;
+                    });
+            /*$http.get("../jsonfilesdata/mall_extend_json.json")
+             .then(function(response) {
+             $scope.establishmentsdetailsextend = response.data;
+             });*/
+        }
+        
+        
+        $scope.baseurl = function(){
+            return window.location.protocol;
+        }
+        
+        
+        $scope.search_btn = function(){
+            $scope.results_info_hide = true;
+        }
+
+
+$scope.geticon = function (establishmentdetails) {
+            if (establishmentdetails.toUpperCase() === ("Mall").toUpperCase() || establishmentdetails.toUpperCase() === ("Malls").toUpperCase() || establishmentdetails.toUpperCase() === ("Shopping Mall").toUpperCase() || establishmentdetails.toUpperCase() === ("Shopping Malls").toUpperCase()) {
+                $establishmenticon = "../../img/categories/new/mall.png";
+            } else if (establishmentdetails.toUpperCase() === ("Tindahan ng computer").toUpperCase() || establishmentdetails.toUpperCase() === ("computer store").toUpperCase() ||
+                    establishmentdetails.toUpperCase() === ("computer shop").toUpperCase()
+                    || establishmentdetails.toUpperCase() === ("computer").toUpperCase()) {
+                $establishmenticon = "../../img/categories/new/computer.png";
+            } else if (establishmentdetails.toUpperCase() === ("Restaurant").toUpperCase() ||
+                    establishmentdetails.toUpperCase() === ("Restaurants").toUpperCase() ||
+                    establishmentdetails.toUpperCase() === ("Resto").toUpperCase() ||
+                    establishmentdetails.toUpperCase() === ("bar").toUpperCase() ||
+                    establishmentdetails.toUpperCase() === ("Resto bar").toUpperCase() ||
+                    establishmentdetails.toUpperCase() === ("Restobar").toUpperCase() ||
+                    establishmentdetails.toUpperCase() === ("Restobars").toUpperCase() ||
+                    establishmentdetails.toUpperCase() === ("Resto bars").toUpperCase() ||
+                    establishmentdetails.toUpperCase() === ("bars").toUpperCase() ||
+                    establishmentdetails.toUpperCase() === ("Restos").toUpperCase()) {
+                $establishmenticon = "../../img/categories/new/restaurant.png";
+            } else if (establishmentdetails.toUpperCase() === ("Food and Drink").toUpperCase() || establishmentdetails.toUpperCase() === ("Foods and Drinks").toUpperCase() || establishmentdetails.toUpperCase() === ("Foods and Drink").toUpperCase() || establishmentdetails.toUpperCase() === ("Food and Drinks").toUpperCase()) {
+                $establishmenticon = "../../img/categories/new/food_and_drink.png";
+            } else if (establishmentdetails.toUpperCase() === ("Food & Drink").toUpperCase() || establishmentdetails.toUpperCase() === ("Foods & Drinks").toUpperCase() || establishmentdetails.toUpperCase() === ("Foods & Drink").toUpperCase() || establishmentdetails.toUpperCase() === ("Food & Drinks").toUpperCase()) {
+                $establishmenticon = "../../img/categories/new/food_and_drink.png";
+            } else if (establishmentdetails.toUpperCase() === ("Food").toUpperCase() || establishmentdetails.toUpperCase() === ("Foods").toUpperCase()) {
+                $establishmenticon = "../../img/categories/new/food_and_drink.png";
+            } else if (establishmentdetails.toUpperCase() === ("Drink").toUpperCase() || establishmentdetails.toUpperCase() === ("Drinks").toUpperCase()) {
+                $establishmenticon = "../../img/categories/new/food_and_drink.png";
+            } else if (establishmentdetails.toUpperCase() === ("Shopping").toUpperCase() || establishmentdetails.toUpperCase() === ("Shoppings").toUpperCase() || establishmentdetails.toUpperCase() === ("Shopper").toUpperCase() || establishmentdetails.toUpperCase() === ("Shoppers").toUpperCase()) {
+                $establishmenticon = "../../img/categories/new/shopping.png";
+            } else if (establishmentdetails.toUpperCase() === ("Beauty").toUpperCase() || establishmentdetails.toUpperCase() === ("Beauty Salon").toUpperCase() || establishmentdetails.toUpperCase() === ("Salon").toUpperCase() || establishmentdetails.toUpperCase() === ("Beauty Parlor").toUpperCase() || establishmentdetails.toUpperCase() === ("Parlor").toUpperCase() || establishmentdetails.toUpperCase() === ("Beauty Makeover").toUpperCase() || establishmentdetails.toUpperCase() === ("Makeover").toUpperCase()) {
+                $establishmenticon = "../../img/categories/new/beauty.png";
+            } else if (establishmentdetails.toUpperCase() === ("Hotel").toUpperCase() || establishmentdetails.toUpperCase() === ("Hotels").toUpperCase()) {
+                $establishmenticon = "../../img/categories/new/hotel.png";
+            } else if (establishmentdetails.toUpperCase() === ("Pharmacy").toUpperCase() || establishmentdetails.toUpperCase() === ("Pharmacies").toUpperCase()) {
+                $establishmenticon = "../../img/categories/new/pharacy.png";
+            } else if (establishmentdetails.toUpperCase() === ("Hospital").toUpperCase() || establishmentdetails.toUpperCase() === ("Hospitals").toUpperCase()) {
+                $establishmenticon = "../../img/categories/new/hospital.png";
+            } else if (establishmentdetails.toUpperCase() === ("Clinic").toUpperCase() || establishmentdetails.toUpperCase() === ("Clinics").toUpperCase()) {
+                $establishmenticon = "../../img/categories/new/hospital.png";
+            } else if (establishmentdetails.toUpperCase() === ("Medical").toUpperCase() || establishmentdetails.toUpperCase() === ("Medicals").toUpperCase()) {
+                $establishmenticon = "../../img/categories/new/medical.png";
+            } else if (establishmentdetails.toUpperCase() === ("Dentist").toUpperCase() || establishmentdetails.toUpperCase() === ("Dentists").toUpperCase() || establishmentdetails.toUpperCase() === ("Dental").toUpperCase() || establishmentdetails.toUpperCase() === ("Dental Clinic").toUpperCase() || establishmentdetails.toUpperCase() === ("Dentals").toUpperCase() || establishmentdetails.toUpperCase() === ("Dental clinics").toUpperCase() || establishmentdetails.toUpperCase() === ("Dentals clinic").toUpperCase()) {
+                $establishmenticon = "../../img/categories/new/dentist.png";
+            } else if (establishmentdetails.toUpperCase() === ("Education").toUpperCase() || establishmentdetails.toUpperCase() === ("Educations").toUpperCase() || establishmentdetails.toUpperCase() === ("School").toUpperCase() || establishmentdetails.toUpperCase() === ("Schools").toUpperCase()) {
+                $establishmenticon = "../../img/categories/new/education.png";
+            } else if (establishmentdetails.toUpperCase() === ("Police").toUpperCase()) {
+                $establishmenticon = "../../img/categories/new/police.png";
+            } else if (establishmentdetails.toUpperCase() === ("Police Station").toUpperCase() || establishmentdetails.toUpperCase() === ("Police Stations").toUpperCase()) {
+                $establishmenticon = "../../img/categories/new/police.png";
+            } else if (establishmentdetails.toUpperCase() === ("Airport").toUpperCase() || establishmentdetails.toUpperCase() === ("Airports").toUpperCase()) {
+                $establishmenticon = "../../img/categories/new/airport.png";
+            } else if (establishmentdetails.toUpperCase() === ("Seaport").toUpperCase() || establishmentdetails.toUpperCase() === ("Seaports").toUpperCase()) {
+                $establishmenticon = "../../img/categories/new/seaport.png";
+            } else if (establishmentdetails.toUpperCase() === ("Terminal").toUpperCase() || establishmentdetails.toUpperCase() === ("Terminals").toUpperCase()) {
+                $establishmenticon = "../../img/categories/new/terminal.png";
+            } else if (establishmentdetails.toUpperCase() === ("Bus Terminal").toUpperCase() || establishmentdetails.toUpperCase() === ("Bus Terminals").toUpperCase() || establishmentdetails.toUpperCase() === ("Bus").toUpperCase()) {
+                $establishmenticon = "../../img/categories/new/terminal.png";
+            } else if (establishmentdetails.toUpperCase() === ("Jeep terminal").toUpperCase() || establishmentdetails.toUpperCase() === ("Jeep terminals").toUpperCase()) {
+                $establishmenticon = "../../img/categories/new/terminal.png";
+            } else if (establishmentdetails.toUpperCase() === ("Land Tranportation").toUpperCase() || establishmentdetails.toUpperCase() === ("Land Transportations").toUpperCase()) {
+                $establishmenticon = "../../img/categories/new/terminal.png";
+            } else if (establishmentdetails.toUpperCase() === ("Jeepney terminal").toUpperCase() || establishmentdetails.toUpperCase() === ("Jeepney terminals").toUpperCase()) {
+                $establishmenticon = "../../img/categories/new/terminal.png";
+            } else if (establishmentdetails.toUpperCase() === ("Supermarket").toUpperCase() || establishmentdetails.toUpperCase() === ("Supermarkets").toUpperCase()) {
+                $establishmenticon = "../../img/categories/new/supermarket.png";
+            } else if (establishmentdetails.toUpperCase() === ("Grocery").toUpperCase() || establishmentdetails.toUpperCase() === ("Groceries").toUpperCase()) {
+                $establishmenticon = "../../img/categories/new/grocery.png";
+            } else if (establishmentdetails.toUpperCase() === ("Grocery Store").toUpperCase() || establishmentdetails.toUpperCase() === ("Grocery Stores").toUpperCase()) {
+                $establishmenticon = "../../img/categories/new/grocery.png";
+            } else if (establishmentdetails.toUpperCase() === ("Fire Station").toUpperCase() || establishmentdetails.toUpperCase() === ("Fire Stations").toUpperCase() || establishmentdetails.toUpperCase() === ("Fire Man").toUpperCase() || establishmentdetails.toUpperCase() === ("Fire Men").toUpperCase() || establishmentdetails.toUpperCase() === ("Fireman").toUpperCase() || establishmentdetails.toUpperCase() === ("Firemen").toUpperCase() || establishmentdetails.toUpperCase() === ("Bombero").toUpperCase()) {
+                $establishmenticon = "../../img/categories/new/firemen.png";
+            } else {
+                return "../../img/categories/new/none.png";
+            }
+            return $establishmenticon;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    var app = angular.module('myApp', ['angularUtils.directives.dirPagination', 'ngRoute']);
+    
+    
+    app.config(function ($routeProvider) {
+                $routeProvider
+                        .when("/", {////:website
+                            templateUrl: "views/main/index.html",
+                            controller: "myCtrl"
+                        })
+                        .when("/blank", {
+                            template: "nothing"
+                        })
+                                .otherwise({
+                        redirectTo: '/blank'
+                        });
+            });
+            
+    app.controller('myCtrl', function ($scope, $http) {
+        $scope.results_info_hide = false;
+        
+        $http.get("../jsonfilesdata/default_json.json")
+                .then(function (response) {
+                    $scope.establishmentsdetails = response.data;
+                });
+        
+        
+        $http.get("../jsonfilesdata/others.json")
+                .then(function (response) {
+                    $scope.others = response.data;
+                });
+                
+                
+                $scope.get = function(q){
+                    $get_out_res = [];
+                    $scope.arr = [];
+                    $scope.arrs = [];
+                    $scope.txt = [];
+                    angular.forEach($scope.others, function(x){
+                        $a = x.title;
+                        if(q == $a){
+                            $q = x.reviewer_name;
+                            $qqq = x.reviewer_date;
+                            angular.forEach($q, function(r){
+                                $scope.txt.push(x.reviewr_text);
+                                return $scope.arr.push(r);
+                                
+                            });
+                            
+                            
+                            
+                            
+                            angular.forEach($qqq, function(rs){
+                                return $scope.arrs.push(rs.reviewer_date);
+                                
+                            });exit;
+                        }
+                    });
+                    //return $scope.arr = $get_out_res;
+                }
+                
+                
+                
+                
+                $scope.gets = function(q){
+                    $get_out_res = [];
+                    $scope.arr = [];
+                    angular.forEach($scope.others, function(x){
+                        $a = x.title;
+                        if(q == $a){
+                            $q = x.reviewer_date;
+                            angular.forEach($q, function(r){
+                                return $scope.arr.push(r);
+                                
+                            });exit;
+                        }
+                    });
+                    //return $scope.arr = $get_out_res;
+                }
+                
+        
+        
+        
+        
+        
+        
+    $scope.limit = 4;
+    $scope.loadMore = function() {         
+    var increamented = $scope.limit + 4;
+    $scope.limit = increamented > $scope.establishmentsdetails.length ? $scope.establishmentsdetails.length : increamented;
+    };
+    
+    
+    
+    
+    $scope.loadless = function() {         
+    var increamented = $scope.limit - 4;
+    $scope.limit = increamented > $scope.establishmentsdetails.length ? $scope.establishmentsdetails.length : increamented;
+    };
+    
+    $scope.view = function(){
+        $datas = [];
+    angular.forEach($scope.establishmentsdetails, function(x, v){
+        $datas.push(x);
+        angular.forEach($datas, function(q){
+            
+            
+            if(q ==x.contact){
+                
+                //$scope.datas = x.contact;
+                
+                
+            }else{
+                //alert(1);exit;
+                $scope.datas = x.contact;
+            }
+            //alert(q);
+        });
+    });
+    $scope.datas = $datas;
+    }
+    
+
+
+        
+    });
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html><head><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
+        <meta charset="UTF-8">
+        <meta name="description" content="Directing Template">
+        <meta name="keywords" content="Directing, unica, creative, html">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>YelPage</title>
+
+        <!-- Google Font -->
+        <!--<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">-->
+
+        <!-- Css Styles -->
+        <link rel="stylesheet" href="../../css/bootstrap.min.css" type="text/css">
+        <link rel="stylesheet" href="../../css/font-awesome.min.css" type="text/css">
+        <link rel="stylesheet" href="../../css/elegant-icons.css" type="text/css">
+        <link rel="stylesheet" href="../../css/flaticon.css" type="text/css">
+        <link rel="stylesheet" href="../../css/nice-select.css" type="text/css">
+        <link rel="stylesheet" href="../../css/barfiller.css" type="text/css">
+        <link rel="stylesheet" href="../../css/magnific-popup.css" type="text/css">
+        <link rel="stylesheet" href="../../css/jquery-ui.min.css" type="text/css">
+        <link rel="stylesheet" href="../../css/owl.carousel.min.css" type="text/css">
+        <link rel="stylesheet" href="../../css/slicknav.min.css" type="text/css">
+        <link rel="stylesheet" href="../../css/style.css" type="text/css">
+
+
+        <script src="../../angularjs/angular.min.js"></script>
+        <script src="../../angularjs/angular-route.js"></script>
+        <script src="dirPagination.js"></script>
+	<link rel="stylesheet" href="../../css/bootstrpstylecss.css">
+        <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">-->
+        <style>
+            table {
+                border-collapse: collapse;
+                border-spacing: 0;
+                width: 100%;
+                border: 1px solid #ddd;
+            }
+
+            th, td {
+                text-align: left;
+                padding: 8px;
+            }
+
+            tr:nth-child(even){background-color: #f2f2f2}
+        </style>
+        <style>
+            /*
+                    Max width before this PARTICULAR table gets nasty. This query will take effect for any screen smaller than 760px and also iPads specifically.
+            */
+            @media
+            only screen 
+            and (max-width: 760px), (min-device-width: 768px) 
+            and (max-device-width: 1024px)  {
+
+                /* Force table to not be like tables anymore */
+                table, thead, tbody, th, td, tr {
+                    display: block;
+                }
+
+                /* Hide table headers (but not display: none;, for accessibility) */
+                thead tr {
+                    position: absolute;
+                    top: -9999px;
+                    left: -9999px;
+                }
+
+                tr {
+                    margin: 0 0 1rem 0;
+                }
+
+                tr:nth-child(odd) {
+                    background: #ccc;
+                }
+
+                td {
+                    /* Behave  like a "row" */
+                    border: none;
+                    border-bottom: 1px solid #eee;
+                    position: relative;
+                    padding-left: 50%;
+                }
+
+                td:before {
+                    /* Now like a table header */
+                    position: absolute;
+                    /* Top/left values mimic padding */
+                    top: 0;
+                    left: 6px;
+                    width: 45%;
+                    padding-right: 10px;
+                    white-space: nowrap;
+                }
+
+                /*
+                Label the data
+    You could also use a data-* attribute and content for this. That way "bloats" the HTML, this way means you need to keep HTML and CSS in sync. Lea Verou has a clever way to handle with text-shadow.
+                */
+                td:nth-of-type(1):before { content: ""; }
+                td:nth-of-type(2):before { content: "Type"; }
+                td:nth-of-type(3):before { content: "Name"; }
+                td:nth-of-type(4):before { content: "Address"; }
+                td:nth-of-type(5):before { content: "Contact No."; }
+                td:nth-of-type(6):before { content: "Operation"; }
+                td:nth-of-type(7):before { content: "Website"; }
+                td:nth-of-type(8):before { content: "Description"; }
+                .remove_header_row {display:none};
+            }
+        </style>
+    </head>
+    <body ng-app="myApp" ng-controller="myCtrl">
+        <div id="preloder" style="display: none;">
+            <div class="loader" style="display: none;"></div>
+        </div>
+        <header class="header" style="background:white; height: 11%;">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-3 col-md-3">
+                        <div class="header__logo">
+                            <a href="./index.html"><img src="../../img/logo.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-9 col-md-9">
+                        <div class="header__nav">
+                            <nav class="header__menu mobile-menu">
+                                <ul>
+                                    <li class="active"><a href="./index.html" style="color: #337ab7;">Home</a></li>
+                                    <li><a href="./about.html" style="color: #337ab7;">About</a></li>
+                                    <!--<li><a href="#">Categories</a></li>
+                                    <li><a href="#">Pages</a>
+                                        <ul class="dropdown">
+                                            <li><a href="./about.html">About</a></li>
+                                            <li><a href="./listing-details.html">Listing Details</a></li>
+                                            <li><a href="./blog-details.html">Blog Details</a></li>
+                                            <li><a href="./contact.html">Contact</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="./blog.html">Blog</a></li>
+                                    <li><a href="#">Shop</a></li>-->
+                                </ul>
+                            </nav>
+                            <div class="header__menu__right">
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="mobile-menu-wrap"><div class="slicknav_menu"><a href="#" aria-haspopup="true" role="button" tabindex="0" class="slicknav_btn slicknav_collapsed"><span class="slicknav_menutxt">MENU</span><span class="slicknav_icon"><span class="slicknav_icon-bar"></span><span class="slicknav_icon-bar"></span><span class="slicknav_icon-bar"></span></span></a><nav class="slicknav_nav slicknav_hidden" aria-hidden="true" role="menu" style="display: none;">
+                            <ul>
+                                <li class="active"><a href="./index.html" role="menuitem">Home</a></li>
+                                <li><a href="./listing.html" role="menuitem">Listing</a></li>
+                                <li><a href="#" role="menuitem">Categories</a></li>
+                                <li class="slicknav_collapsed slicknav_parent"><a href="#" role="menuitem" aria-haspopup="true" tabindex="-1" class="slicknav_item slicknav_row"></a><a href="#">Pages</a>
+                                    <span class="slicknav_arrow">►</span><ul class="dropdown slicknav_hidden" role="menu" aria-hidden="true" style="display: none;">
+                                        <li><a href="./about.html" role="menuitem" tabindex="-1">About</a></li>
+                                        <li><a href="./listing-details.html" role="menuitem" tabindex="-1">Listing Details</a></li>
+                                        <li><a href="./blog-details.html" role="menuitem" tabindex="-1">Blog Details</a></li>
+                                        <li><a href="./contact.html" role="menuitem" tabindex="-1">Contact</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="./blog.html" role="menuitem">Blog</a></li>
+                                <li><a href="#" role="menuitem">Shop</a></li>
+                            </ul>
+                        </nav></div><div class="slicknav_menu"><a href="#" aria-haspopup="true" role="button" tabindex="0" class="slicknav_btn slicknav_collapsed" style="outline: none;"><span class="slicknav_menutxt">MENU</span><span class="slicknav_icon"><span class="slicknav_icon-bar"></span><span class="slicknav_icon-bar"></span><span class="slicknav_icon-bar"></span></span></a><nav class="slicknav_nav slicknav_hidden" aria-hidden="true" role="menu" style="display: none;">
+                            <ul>
+                                <li class="active"><a href="./index.html" role="menuitem">Home</a></li>
+                                <li><a href="./listing.html" role="menuitem">Listing</a></li>
+                                <li><a href="#" role="menuitem">Categories</a></li>
+                                <li class="slicknav_collapsed slicknav_parent"><a href="#" role="menuitem" aria-haspopup="true" tabindex="-1" class="slicknav_item slicknav_row" style="outline: none;"></a><a href="#">Pages</a>
+                                    <span class="slicknav_arrow">►</span><ul class="dropdown slicknav_hidden" role="menu" aria-hidden="true" style="display: none;">
+                                        <li><a href="./about.html" role="menuitem" tabindex="-1">About</a></li>
+                                        <li><a href="./listing-details.html" role="menuitem" tabindex="-1">Listing Details</a></li>
+                                        <li><a href="./blog-details.html" role="menuitem" tabindex="-1">Blog Details</a></li>
+                                        <li><a href="./contact.html" role="menuitem" tabindex="-1">Contact</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="./blog.html" role="menuitem">Blog</a></li>
+                                <li><a href="#" role="menuitem">Shop</a></li>
+                            </ul>
+                        </nav></div><div class="slicknav_menu"><a href="#" aria-haspopup="true" role="button" tabindex="0" class="slicknav_btn slicknav_collapsed" style="outline: none;"><span class="slicknav_menutxt">MENU</span><span class="slicknav_icon"><span class="slicknav_icon-bar"></span><span class="slicknav_icon-bar"></span><span class="slicknav_icon-bar"></span></span></a><nav class="slicknav_nav slicknav_hidden" aria-hidden="true" role="menu" style="display: none;">
+                            <ul>
+                                <li class="active"><a href="./index.html" role="menuitem">Home</a></li>
+                                <li><a href="./listing.html" role="menuitem">Listing</a></li>
+                                <li><a href="#" role="menuitem">Categories</a></li>
+                                <li class="slicknav_collapsed slicknav_parent"><a href="#" role="menuitem" aria-haspopup="true" tabindex="-1" class="slicknav_item slicknav_row" style="outline: none;"></a><a href="#">Pages</a>
+                                    <span class="slicknav_arrow">►</span><ul class="dropdown slicknav_hidden" role="menu" aria-hidden="true" style="display: none;">
+                                        <li><a href="./about.html" role="menuitem" tabindex="-1">About</a></li>
+                                        <li><a href="./listing-details.html" role="menuitem" tabindex="-1">Listing Details</a></li>
+                                        <li><a href="./blog-details.html" role="menuitem" tabindex="-1">Blog Details</a></li>
+                                        <li><a href="./contact.html" role="menuitem" tabindex="-1">Contact</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="./blog.html" role="menuitem">Blog</a></li>
+                                <li><a href="#" role="menuitem">Shop</a></li>
+                            </ul>
+                        </nav></div><div class="slicknav_menu"><a href="#" aria-haspopup="true" role="button" tabindex="0" class="slicknav_btn slicknav_collapsed" style="outline: none;"><span class="slicknav_menutxt">MENU</span><span class="slicknav_icon"><span class="slicknav_icon-bar"></span><span class="slicknav_icon-bar"></span><span class="slicknav_icon-bar"></span></span></a><nav class="slicknav_nav slicknav_hidden" aria-hidden="true" role="menu" style="display: none;">
+                            <ul>
+                                <li class="active"><a href="./index.html" role="menuitem">Home</a></li>
+                                <li><a href="./listing.html" role="menuitem">Listing</a></li>
+                                <li><a href="#" role="menuitem">Categories</a></li>
+                                <li class="slicknav_collapsed slicknav_parent"><a href="#" role="menuitem" aria-haspopup="true" tabindex="-1" class="slicknav_item slicknav_row" style="outline: none;"></a><a href="#">Pages</a>
+                                    <span class="slicknav_arrow">►</span><ul class="dropdown slicknav_hidden" role="menu" aria-hidden="true" style="display: none;">
+                                        <li><a href="./about.html" role="menuitem" tabindex="-1">About</a></li>
+                                        <li><a href="./listing-details.html" role="menuitem" tabindex="-1">Listing Details</a></li>
+                                        <li><a href="./blog-details.html" role="menuitem" tabindex="-1">Blog Details</a></li>
+                                        <li><a href="./contact.html" role="menuitem" tabindex="-1">Contact</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="./blog.html" role="menuitem">Blog</a></li>
+                                <li><a href="#" role="menuitem">Shop</a></li>
+                            </ul>
+                        </nav></div><div class="slicknav_menu"><a href="#" aria-haspopup="true" role="button" tabindex="0" class="slicknav_btn slicknav_collapsed" style="outline: none;"><span class="slicknav_menutxt">MENU</span><span class="slicknav_icon"><span class="slicknav_icon-bar"></span><span class="slicknav_icon-bar"></span><span class="slicknav_icon-bar"></span></span></a><nav class="slicknav_nav slicknav_hidden" aria-hidden="true" role="menu" style="display: none;">
+                            <ul>
+                                <li class="active"><a href="./index.html" role="menuitem">Home</a></li>
+                                <li><a href="./listing.html" role="menuitem">Listing</a></li>
+                                <li><a href="#" role="menuitem">Categories</a></li>
+                                <li class="slicknav_collapsed slicknav_parent"><a href="#" role="menuitem" aria-haspopup="true" tabindex="-1" class="slicknav_item slicknav_row" style="outline: none;"></a><a href="#">Pages</a>
+                                    <span class="slicknav_arrow">►</span><ul class="dropdown slicknav_hidden" role="menu" aria-hidden="true" style="display: none;">
+                                        <li><a href="./about.html" role="menuitem" tabindex="-1">About</a></li>
+                                        <li><a href="./listing-details.html" role="menuitem" tabindex="-1">Listing Details</a></li>
+                                        <li><a href="./blog-details.html" role="menuitem" tabindex="-1">Blog Details</a></li>
+                                        <li><a href="./contact.html" role="menuitem" tabindex="-1">Contact</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="./blog.html" role="menuitem">Blog</a></li>
+                                <li><a href="#" role="menuitem">Shop</a></li>
+                            </ul>
+                        </nav></div></div>
+            </div>
+        </header>
+        <section class="hero set-bg" data-setbg="../../img/header/YelPages.jpg" style="background-color: cornflowerblue; background-image: url(&quot;../../img/header/YelPages.jpg&quot;); /*background-image: url('../../img/header/Yelpages (1).png');*/ padding: 100px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="hero__text" style="margin-top: 7%; margin-bottom: -3%;">
+                            <div class="section-title">
+                                <h2 style="background: #0000001c;">Find Establishment Places And Services Near You</h2>
+
+                            </div>
+                            <div class="hero__search__form">
+                                <form>
+                                    <input type="text" placeholder="Search..." ng-model="search" style="width:85%;">
+                                    <!--div class="select__option">
+                                        <select style="display: none;">
+                                            <option value="">Choose Categories</option>
+                                        </select><div class="nice-select" tabindex="0"><span class="current">Choose Categories</span><ul class="list"><li data-value="" class="option selected">Choose Categories</li></ul></div>
+                                    </div>-->
+                                    <!--<div class="select__option">
+                                        <select style="display: none;">
+                                            <option value="">Choose Location</option>
+                                        </select><div class="nice-select" tabindex="0"><span class="current">Choose Location</span><ul class="list"><li data-value="" class="option selected">Choose Location</li></ul></div>
+                                    </div>-->
+                                    <button type="submit" ng-click="search_btn()">AUTO SEARCH</button>
+                                </form>
+                            </div>
+                            <ul class="hero__categories__tags"style="background: #0000001c;" >
+                                <li><a href="#" ng-click="restaurantbtn()"> Restaurant</a></li>
+                                <li><a href="#"> Food &amp; Drink</a></li>
+                                <li><a href="#"> Shopping</a></li>
+                                <li><a href="#" ng-click="beauty()"> Beauty</a></li>
+                                <li><a href="#"> Hotels</a></li>
+
+
+
+
+                                <li><a href="#" ng-click="pharmacybtn()"> Pharmacy</a></li>
+                                <li><a href="#"> Hospitals &amp; Clinic</a></li>
+                                <li><a href="#"> Medical</a></li>
+                                <li><a href="#"> Dentist</a></li>
+                                <li><a href="#"> Education</a></li>
+                                <li><a href="#"> Police Station</a></li>
+                                <li><a href="#"> Airport</a></li>
+                                <li><a href="#"> Seaport</a></li>
+                                <li><a href="#"> Land Terminal</a></li>
+                                <li><a href="#" ng-click="mallbtn()"> Mall</a></li>
+                                <li><a href="#"> Supermarket</a></li>
+                                <li><a href="#"> Grocery</a></li>
+                                <li>
+                                    <!--<select style="margin-top: -43px; background-color: transparent;/* border-color: transparent; *//* width: 100%; */width: -webkit-fill-available;border-color: transparent;">
+                                        <option>
+                                            
+                                        </option>
+                                        <option>
+                                            sadasdasdas
+                                        </option>
+                                        <option>
+                                            sadasdasdas
+                                        </option>
+                                        </select>-->
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div>
+
+            
+                    <!--sample -->
+                    <section class="categories spad">
+                        <div class="container">
+
+                            <div class="section-title">
+                                <h2 style="
+                                    margin-top: -70px;
+                                    ">Search Results</h2>
+                                <p>_____________________________________________________________________________</p>
+                            </div>
+                            <!--<div ng-if="results_info_hide == false">
+                                <div ng-repeat="node in establishmentsdetails | limitTo:limit track by $index">
+                                    <div>{{node.title}}</div>
+
+                                </div>
+                                <button ng-click="loadMore()">Load more</button><button ng-click="loadless()">Load less</button>
+                            </div>-->
+                            {{view()}}
+                            <!--<div ng-repeat="a in datas">{{a.contact}}</div>-->
+                            
+                            
+                            
+                            
+                            <div ng-view>
+                <div>
+                    
+                    
+                            <!--<div ng-repeat="a in establishmentsdetails">
+                                <!--<div ng-repeat="logo in others"><div ng-repeat="x in logo.reviewer_name">{{x.reviewer_name}}</div></div>-->
+                                <!--{{a.title}}
+                                <!--<p>{{get(a.title)}}<p ng-repeat="array in arr">{{array.reviewer_name}}   {{arrs[$index]}} </br>{{txt[$index]}}</p>
+                                    
+                            </p>
+                            </div>-->
+
+                            
+
+
+            <div ng-if="results_info_hide == true && search != ''"><center><dir-pagination-controls></dir-pagination-controls></center></div>
+        </div>
+    </section>
+    <!-- end sample -->
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-6">
+                <div class="footer__about">
+                    <div class="footer__about__logo">
+                        <a href="./index.html"><img src="../../img/footer-logo.png" alt=""></a>
+                    </div>
+                    <p>Due to econonomic evolution and global change of life style including our country, We hope this can provide you an information. Lets make helping hands together.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 offset-lg-1 col-md-6">
+                <div class="footer__address">
+                    <ul>
+                        <li>
+                            <span>Call Us:</span>
+                            <p>+(63) 09234648295</p>
+                        </li>
+                        <li>
+                            <span>Email:</span>
+                            <p>info.colorlib@gmail .com</p>
+                        </li>
+                        <li>
+                            <span></span>
+                            <p></p>
+                        </li>
+                        <li>
+                            <!--<span>Connect Us:</span>
+                            <div class="footer__social">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-instagram"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-skype"></i></a>
+                            </div>-->
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 offset-lg-1 col-md-6">
+                <div class="footer__widget">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Support</a></li>
+                        <li></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">For Advertisers: 
+<span>Ads For Agents</span>
+<span>Ads For Business</span>
+<span>Ads For Marketers</span><br></a></li>
+                        <li><a href="#">&nbsp;&nbsp;You May Call +(63) 09234648296</a></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="footer__copyright">
+                    <div class="footer__copyright__text"><p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            Copyright ©<script>document.write(new Date().getFullYear());</script> All rights reserved | This Website is powered and made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="" target="_blank">YelPage</a>
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                    </div>
+                    <div class="footer__copyright__links">
+                        <!--<a href="#">Terms</a>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Cookie Policy</a>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer></body></html>
+
+<script>
+    var app = angular.module('myApp', ['angularUtils.directives.dirPagination', 'ngRoute']);
+    
+    
+    app.config(function ($routeProvider) {
+                $routeProvider
+                        .when("/", {////:website
+                            templateUrl: "views/main/index.html",
+                            controller: "myCtrl"
+                        })
+                        .when("/blank", {
+                            template: "nothing"
+                        })
+                                .otherwise({
+                        redirectTo: '/blank'
+                        });
+            });
+            
+    app.controller('myCtrl', function ($scope, $http) {
+        $scope.results_info_hide = false;
+        
+        $http.get("../jsonfilesdata/default_json.json")
+                .then(function (response) {
+                    $scope.establishmentsdetails = response.data;
+                });
+        
+        
+        $http.get("../jsonfilesdata/others.json")
+                .then(function (response) {
+                    $scope.others = response.data;
+                });
+                
+                
+                $scope.get = function(q){
+                    $get_out_res = [];
+                    $scope.arr = [];
+                    $scope.arrs = [];
+                    $scope.txt = [];
+                    angular.forEach($scope.others, function(x){
+                        $a = x.title;
+                        if(q == $a){
+                            $q = x.reviewer_name;
+                            $qqq = x.reviewer_date;
+                            angular.forEach($q, function(r){
+                                $scope.txt.push(x.reviewr_text);
+                                return $scope.arr.push(r);
+                                
+                            });
+                            
+                            
+                            
+                            
+                            angular.forEach($qqq, function(rs){
+                                return $scope.arrs.push(rs.reviewer_date);
+                                
+                            });exit;
+                        }
+                    });
+                    //return $scope.arr = $get_out_res;
+                }
+                
+                
+                
+                
+                $scope.gets = function(q){
+                    $get_out_res = [];
+                    $scope.arr = [];
+                    angular.forEach($scope.others, function(x){
+                        $a = x.title;
+                        if(q == $a){
+                            $q = x.reviewer_date;
+                            angular.forEach($q, function(r){
+                                return $scope.arr.push(r);
+                                
+                            });exit;
+                        }
+                    });
+                    //return $scope.arr = $get_out_res;
+                }
+                
+        
+        
+        
+        
+        
+        
+    $scope.limit = 4;
+    $scope.loadMore = function() {         
+    var increamented = $scope.limit + 4;
+    $scope.limit = increamented > $scope.establishmentsdetails.length ? $scope.establishmentsdetails.length : increamented;
+    };
+    
+    
+    
+    
+    $scope.loadless = function() {         
+    var increamented = $scope.limit - 4;
+    $scope.limit = increamented > $scope.establishmentsdetails.length ? $scope.establishmentsdetails.length : increamented;
+    };
+    
+    $scope.view = function(){
+        $datas = [];
+    angular.forEach($scope.establishmentsdetails, function(x, v){
+        $datas.push(x);
+        angular.forEach($datas, function(q){
+            
+            
+            if(q ==x.contact){
+                
+                //$scope.datas = x.contact;
+                
+                
+            }else{
+                //alert(1);exit;
+                $scope.datas = x.contact;
+            }
+            //alert(q);
+        });
+    });
+    $scope.datas = $datas;
+    }
+    
+
+
+        
+    });
+</script>

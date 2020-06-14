@@ -1,0 +1,79 @@
+
+<div class="tab-content" ng-if="results_info_hide == false">
+                        <div class="tab-pane active" id="tabs-1" role="tabpanel">
+                            <div class="row">
+                                
+                                
+                                
+                                
+                                <div class="col-lg-4 col-md-6" ng-repeat="a in establishmentsdetails | limitTo:limit track by $index">
+                                    <div class="listing__item">
+                                        <div class="listing__item__pic set-bg" data-setbg="../../img/listing/list-5.jpg" style="background-image: url(&quot;../../img/listing/list-5.jpg&quot;);">
+                                            <img src="../../img/listing/list_icon-5.png" alt="">
+                                            <div class="listing__item__pic__tag hot_deal">Hot Deal</div>
+                                            <div class="listing__item__pic__btns">
+                                                <a href="#"><span class="icon_zoom-in_alt"></span></a>
+                                                <a href="#"><span class="icon_heart_alt"></span></a>
+                                            </div>
+                                        </div>
+                                        <div class="listing__item__text">
+                                            <div class="listing__item__text__inside">
+                                                <h5>{{a.title}}</h5>
+                                                <div class="listing__item__text__rating">
+                                                    <div class="listing__item__rating__star">
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        <div ng-if="a.rate==1 && a.rate<=1.9"><span class="icon_star"></span></div>
+                                        <div ng-if="a.rate>=2 && a.rate<=2.9">
+                                            <span class="icon_star"></span>
+                                            <span class="icon_star"></span>
+                                        </div>
+                                        <div ng-if="a.rate>=3 && a.rate<=3.9">
+                                            <span class="icon_star"></span>
+                                            <span class="icon_star"></span>
+                                            <span class="icon_star"></span>
+                                        </div>
+                                        <div ng-if="a.rate>=4 && a.rate<=4.9">
+                                            <span class="icon_star"></span>
+                                            <span class="icon_star"></span>
+                                            <span class="icon_star"></span>
+                                            <span class="icon_star"></span>
+                                        </div>
+                                        <div ng-if="a.rate>=5 && a.rate<=5.9">
+                                            <span class="icon_star"></span>
+                                            <span class="icon_star"></span>
+                                            <span class="icon_star"></span>
+                                            <span class="icon_star"></span>
+                                            <span class="icon_star"></span>
+                                        </div>
+                                                <div>
+                                            <span>{{a.reviews}}</span>
+                                            
+                                        </div>        
+                                                    </div>
+                                                   
+                                                </div>
+                                                <ul>
+                                                    <li><span class="icon_pin_alt"></span> {{a.address}}</li>
+                                                    <li><span class="icon_phone"></span> {{a.contact}}</li>
+                                                </ul>
+                                            </div>
+                                            <div class="listing__item__text__info">
+                                                <div class="listing__item__text__info__left">
+                                                    <img src="../../img/listing/list_small_icon-4.png" alt="">
+                                                    <span>Shopping</span>
+                                                </div>
+                                                <div class="listing__item__text__info__right" style="color:gray;">{{a.open_establishment}}</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        
+                        <center><button ng-click="loadMore()">Load more</button><button ng-click="loadless()">Load less</button></center>
+                    </div>

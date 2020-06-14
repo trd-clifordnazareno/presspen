@@ -18307,18 +18307,6 @@
     "others": "Temporarily closed"
   },
   {
-    "title": "Jollibee SM L3",
-    "rate": 4.1,
-    "reviews": "(178)",
-    "section-result-cost": "?",
-    "details": "Fast Food",
-    "address": "114 Third Level, SM City North Reclamation Area, Juan Luna Extension, Kaohsiung St",
-    "title_description": "Fast-food chain with Filipino flavors",
-    "other_detail_service": "Delivery",
-    "open_establishment": "Open until 9:00 pm",
-    "others": "Temporarily closed"
-  },
-  {
     "title": "Jollibee",
     "rate": 4.2,
     "reviews": "(148)",
@@ -20761,18 +20749,6 @@
     "other_detail_service": "Delivery",
     "others": "Temporarily closed",
     "open_establishment": "Open until 10:00 pm"
-  },
-  {
-    "title": "Jollibee SM L3",
-    "rate": 4.1,
-    "reviews": "(178)",
-    "section-result-cost": "₱",
-    "details": "Fast Food",
-    "address": "114 Third Level, SM City North Reclamation Area, Juan Luna Extension, Kaohsiung St",
-    "title_description": "Fast-food chain with Filipino flavors",
-    "other_detail_service": "Delivery",
-    "others": "Temporarily closed",
-    "open_establishment": "Open until 9:00 pm"
   },
   {
     "title": "Breakfast Club",
@@ -24060,18 +24036,6 @@
     "others": "Closed"
   },
   {
-    "title": "Jollibee SM L3",
-    "details": "Fast Food",
-    "rate": 4.1,
-    "reviews": "(178)",
-    "section-result-cost": "₱",
-    "address": "114 Third Level, SM City North Reclamation Area, Juan Luna Extension, Kaohsiung St",
-    "title_description": "Fast-food chain with Filipino flavors",
-    "open_establishment": "Open until 9:00 pm",
-    "other_detail_service": "Delivery",
-    "others": ""
-  },
-  {
     "title": "Jollibee",
     "details": "Fast Food",
     "rate": 4,
@@ -24813,7 +24777,8 @@
     "title_description": "Fast-food chain with Filipino flavors",
     "open_establishment": "Open until 7:00 pm",
     "other_detail_service": "Delivery · Takeaway",
-    "others": "Temporarily closed"
+    "others": "Temporarily closed",
+    "contact": "1234567890"
   },
   {
     "title": "Tokyo Tokyo",
@@ -26184,18 +26149,6 @@
     "others": "Temporarily closed"
   },
   {
-    "title": "Jollibee SM L3",
-    "details": "Fast Food",
-    "rate": 4.1,
-    "reviews": "(178)",
-    "section-result-cost": "₱",
-    "address": "114 Third Level, SM City North Reclamation Area, Juan Luna Extension, Kaohsiung St",
-    "title_description": "Fast-food chain with Filipino flavors",
-    "open_establishment": "Open until 9:00 pm",
-    "other_detail_service": "Delivery",
-    "others": "Closed"
-  },
-  {
     "title": "McDonald's",
     "details": "Fast Food",
     "rate": 3.9,
@@ -27430,18 +27383,6 @@
     "open_establishment": "Open until 9:00 pm",
     "other_detail_service": "Delivery",
     "others": ""
-  },
-  {
-    "title": "Jollibee SM L3",
-    "details": "Fast Food",
-    "rate": 4.1,
-    "reviews": "(178)",
-    "section-result-cost": "₱",
-    "address": "114 Third Level, SM City North Reclamation Area, Juan Luna Extension, Kaohsiung St",
-    "title_description": "Fast-food chain with Filipino flavors",
-    "open_establishment": "Open until 9:00 pm",
-    "other_detail_service": "Delivery",
-    "others": "Closed"
   },
   {
     "title": "Jollibee",
@@ -30405,18 +30346,6 @@
     "others": "Closed"
   },
   {
-    "title": "Jollibee SM L3",
-    "details": "Fast Food",
-    "rate": 4.1,
-    "reviews": "(178)",
-    "section-result-cost": "?",
-    "address": "114 Third Level, SM City North Reclamation Area, Juan Luna Extension, Kaohsiung St",
-    "title_description": "Fast-food chain with Filipino flavors",
-    "open_establishment": "Open until 9:00 pm",
-    "other_detail_service": "Delivery",
-    "others": ""
-  },
-  {
     "title": "Jollibee",
     "details": "Fast Food",
     "rate": 4,
@@ -32529,18 +32458,6 @@
     "others": "Temporarily closed"
   },
   {
-    "title": "Jollibee SM L3",
-    "details": "Fast Food",
-    "rate": 4.1,
-    "reviews": "(178)",
-    "section-result-cost": "?",
-    "address": "114 Third Level, SM City North Reclamation Area, Juan Luna Extension, Kaohsiung St",
-    "title_description": "Fast-food chain with Filipino flavors",
-    "open_establishment": "Open until 9:00 pm",
-    "other_detail_service": "Delivery",
-    "others": "Closed"
-  },
-  {
     "title": "McDonald's",
     "details": "Fast Food",
     "rate": 3.9,
@@ -33775,18 +33692,6 @@
     "open_establishment": "Open until 9:00 pm",
     "other_detail_service": "Delivery",
     "others": ""
-  },
-  {
-    "title": "Jollibee SM L3",
-    "details": "Fast Food",
-    "rate": 4.1,
-    "reviews": "(178)",
-    "section-result-cost": "?",
-    "address": "114 Third Level, SM City North Reclamation Area, Juan Luna Extension, Kaohsiung St",
-    "title_description": "Fast-food chain with Filipino flavors",
-    "open_establishment": "Open until 9:00 pm",
-    "other_detail_service": "Delivery",
-    "others": "Closed"
   },
   {
     "title": "Jollibee",
@@ -36450,7 +36355,7 @@
     "others": ""
   },
   {
-    "title": "beestop",
+    "title": "McDonald's",
     "rate": 4.2,
     "reviews": "(17)",
     "section-result-cost": "",
@@ -40387,18 +40292,6 @@
     "others": "Closed"
   },
   {
-    "title": "Jollibee SM L3",
-    "details": "Fast Food",
-    "rate": 4.1,
-    "reviews": "(178)",
-    "section-result-cost": "?",
-    "address": "114 Third Level, SM City North Reclamation Area, Juan Luna Extension, Kaohsiung St",
-    "title_description": "Fast-food chain with Filipino flavors",
-    "open_establishment": "Open until 9:00 pm",
-    "other_detail_service": "Delivery",
-    "others": ""
-  },
-  {
     "title": "Jollibee",
     "details": "Fast Food",
     "rate": 4,
@@ -43567,18 +43460,6 @@
     "others": "Closed today"
   },
   {
-    "title": "Jollibee SM L3",
-    "details": "Fast Food",
-    "rate": 4.1,
-    "reviews": "(178)",
-    "section-result-cost": "?",
-    "address": "114 Third Level, SM City North Reclamation Area, Juan Luna Extension, Kaohsiung St",
-    "title_description": "Fast-food chain with Filipino flavors",
-    "open_establishment": "Open until 9:00 pm",
-    "other_detail_service": "Delivery",
-    "others": ""
-  },
-  {
     "title": "Jollibee",
     "details": "Fast Food",
     "rate": 4.4,
@@ -45545,18 +45426,6 @@
     "open_establishment": "Open until 8:00 pm",
     "other_detail_service": "Delivery",
     "others": ""
-  },
-  {
-    "title": "Jollibee SM L3",
-    "details": "Fast Food",
-    "rate": 4.1,
-    "reviews": "(178)",
-    "section-result-cost": "?",
-    "address": "114 Third Level, SM City North Reclamation Area, Juan Luna Extension, Kaohsiung St",
-    "title_description": "Fast-food chain with Filipino flavors",
-    "open_establishment": "Open until 9:00 pm",
-    "other_detail_service": "Delivery",
-    "others": "Temporarily closed"
   },
   {
     "title": "McDonald's",
@@ -48280,18 +48149,6 @@
     "others": "Closed"
   },
   {
-    "title": "Jollibee SM L3",
-    "details": "Fast Food",
-    "rate": 4.1,
-    "reviews": "(178)",
-    "section-result-cost": "₱",
-    "address": "114 Third Level, SM City North Reclamation Area, Juan Luna Extension, Kaohsiung St",
-    "title_description": "Fast-food chain with Filipino flavors",
-    "open_establishment": "Open until 9:00 pm",
-    "other_detail_service": "Delivery",
-    "others": ""
-  },
-  {
     "title": "Jollibee",
     "details": "Fast Food",
     "rate": 4,
@@ -50404,18 +50261,6 @@
     "others": "Temporarily closed"
   },
   {
-    "title": "Jollibee SM L3",
-    "details": "Fast Food",
-    "rate": 4.1,
-    "reviews": "(178)",
-    "section-result-cost": "₱",
-    "address": "114 Third Level, SM City North Reclamation Area, Juan Luna Extension, Kaohsiung St",
-    "title_description": "Fast-food chain with Filipino flavors",
-    "open_establishment": "Open until 9:00 pm",
-    "other_detail_service": "Delivery",
-    "others": "Closed"
-  },
-  {
     "title": "McDonald's",
     "details": "Fast Food",
     "rate": 3.9,
@@ -51650,18 +51495,6 @@
     "open_establishment": "Open until 9:00 pm",
     "other_detail_service": "Delivery",
     "others": ""
-  },
-  {
-    "title": "Jollibee SM L3",
-    "details": "Fast Food",
-    "rate": 4.1,
-    "reviews": "(178)",
-    "section-result-cost": "₱",
-    "address": "114 Third Level, SM City North Reclamation Area, Juan Luna Extension, Kaohsiung St",
-    "title_description": "Fast-food chain with Filipino flavors",
-    "open_establishment": "Open until 9:00 pm",
-    "other_detail_service": "Delivery",
-    "others": "Closed"
   },
   {
     "title": "Jollibee",
@@ -54866,23 +54699,6 @@
     "other_detail_service": "Delivery · Takeaway",
     "others": "",
     "open_establishment": "Open until 7:30 pm"
-  },
-  {
-    "section-result-partial-result-justification": "",
-    "title": "Jollibee SM L3",
-    "ad-badge": "Ad",
-    "rate": 4.1,
-    "reviews": "(178)",
-    "section-result-cost": "₱",
-    "section-result-separator": "·",
-    "details": "Fast Food",
-    "address": "114 Third Level, SM City North Reclamation Area, Juan Luna Extension, Kaohsiung St",
-    "title_description": "Fast-food chain with Filipino flavors",
-    "details-container": "/",
-    "details-container 2": "*",
-    "other_detail_service": "Delivery",
-    "others": "",
-    "open_establishment": "Open until 9:00 pm"
   },
   {
     "section-result-partial-result-justification": "",
@@ -60837,18 +60653,6 @@
     "title_description": "Fast-food chain with Filipino flavors",
     "open_establishment": "Open until 10:00 pm",
     "others": "Temporarily closed",
-    "other_detail_service": "Delivery"
-  },
-  {
-    "title": "Jollibee SM L3",
-    "details": "Fast Food",
-    "rate": 4.1,
-    "reviews": "(178)",
-    "section-result-cost": "₱",
-    "address": "114 Third Level, SM City North Reclamation Area, Juan Luna Extension, Kaohsiung St",
-    "title_description": "Fast-food chain with Filipino flavors",
-    "open_establishment": "Open until 9:00 pm",
-    "others": "",
     "other_detail_service": "Delivery"
   },
   {

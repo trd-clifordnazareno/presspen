@@ -110,7 +110,7 @@
         <div id="preloder" style="display: none;">
             <div class="loader" style="display: none;"></div>
         </div>
-        <header class="header" style="background:white; height: 11%; height: 70px;">
+        <header class="header" style="background:#17a2b8; height: 11%; height: 70px;">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-3 col-md-3">
@@ -122,8 +122,8 @@
                         <div class="header__nav">
                             <nav class="header__menu mobile-menu">
                                 <ul>
-                                    <li class="active"><a href="./index.html" style="color: #337ab7;">Home</a></li>
-                                    <li><a href="./about.html" style="color: #337ab7;">About</a></li>
+                                    <li class="active"><a href="./index.html" style="color: #f8f9fa;">Home</a></li>
+                                    <li><a href="./about.html" style="color: #f8f9fa;">About</a></li>
                                     <!--<li><a href="#">Categories</a></li>
                                     <li><a href="#">Pages</a>
                                         <ul class="dropdown">
@@ -227,18 +227,18 @@
                         </nav></div></div>
             </div>
         </header>
-        <section class="hero set-bg" data-setbg="../../img/header/YelPages.jpg" style="background-color: cornflowerblue; background-image: url(&quot;../../img/header/YelPages.jpg&quot;); /*background-image: url('../../img/header/Yelpages (1).png');*/ padding: 100px;">
+        <section class="hero set-bg" data-setbg="../../img/header/YelPages.jpg" style="background-color: white; /*background-image: url(&quot;../../img/header/YelPages.jpg&quot;);*/ /*background-image: url('../../img/header/Yelpages (1).png'); #004794e6*/ padding: 50px;">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="hero__text" style="margin-top: 7%; margin-bottom: -3%;">
                             <div class="section-title">
-                                <h2 style="background: #0000001c;">Find Establishment Places And Services Near You</h2>
+                                <h2 style="background: none; color: #323232;">Find Establishment Places And Services Near You</h2>
 
                             </div>
                             <div class="hero__search__form">
                                 <form>
-                                    <input type="text" placeholder="Search..." ng-model="search" style="width:85%;">
+                                    <input type="text" placeholder="Search..." ng-model="search" style="width:85%; border: 1px solid">
                                     <!--div class="select__option">
                                         <select style="display: none;">
                                             <option value="">Choose Categories</option>
@@ -249,23 +249,23 @@
                                             <option value="">Choose Location</option>
                                         </select><div class="nice-select" tabindex="0"><span class="current">Choose Location</span><ul class="list"><li data-value="" class="option selected">Choose Location</li></ul></div>
                                     </div>-->
-                                    <button type="submit" ng-click="search_btn()">AUTO SEARCH</button>
+                                    <button type="submit" ng-click="search_btn()" style="background-color:#17a2b8">AUTO SEARCH</button>
                                 </form>
                             </div>
-                            <ul class="hero__categories__tags"style="background: #0000001c;" >
-                                <li><a href="#" ng-click="restaurantbtn()" style="color:{{restaurantbtncolor}}; border-color: {{restaurantbtnbordercolor}}; border-width: {{restaurantbtnwidth}};"> Restaurant</a></li>
-                                <li><a href="#"> Food &amp; Drink</a></li>
-                                <li><a href="#"> Shopping</a></li>
-                                <li><a href="#" ng-click="beauty()" style="color:{{beautybtncolor}}; border-color: {{beautybtnbordercolor}}; border-width: {{beautybtnwidth}};"> Beauty</a></li>
-                                <li><a href="#"> Hotels</a></li>
+                            <ul class="hero__categories__tags"style="background: none;" >
+                                <li><a href="#" ng-click="takeoutbtn()" style="color:{{takeoutbtncolor}}; border-color: {{takeoutbtnbordercolor}}; border-width: {{takeoutbtnwidth}}; font-size: 19px;"> TakeOut</a></li>
+                                <li><a href="#" ng-click="deliverybtn()" style="color:{{deliverybtncolor}}; border-color: {{deliverybtnbordercolor}}; border-width: {{deliverybtnwidth}}; font-size: 19px;"> Delivery</a></li>
+                                <li><a href="#" ng-click="grocerybtn()" style="color:{{grocerybtncolor}}; border-color: {{grocerybtnbordercolor}}; border-width: {{grocerybtnwidth}}; font-size: 19px;"> Grocery</a></li>
+                                <!--<li><a href="#" ng-click="beauty()" style="color:{{beautybtncolor}}; border-color: {{beautybtnbordercolor}}; border-width: {{beautybtnwidth}};"> Beauty</a></li>-->
+                                <li><a href="#" ng-click="pharmacybtn()" style="color:{{pharmacybtncolor}}; border-color: {{pharmacybtnbordercolor}}; border-width: {{pharmacybtnwidth}}; font-size: 19px;"> Pharmacy</a></li>
 
 
 
 
-                                <li><a href="#" ng-click="pharmacybtn()" style="color:{{pharmacybtncolor}}; border-color: {{pharmacybtnbordercolor}}; border-width: {{pharmacybtnwidth}};"> Pharmacy</a></li>
-                                <li><a href="#"> Hospitals &amp; Clinic</a></li>
-                                <li><a href="#"> Medical</a></li>
-                                <li><a href="#"> Dentist</a></li>
+                                <!--<li><a href="#" ng-click="pharmacybtn()" style="color:{{pharmacybtncolor}}; border-color: {{pharmacybtnbordercolor}}; border-width: {{pharmacybtnwidth}};"> Pharmacy</a></li>-->
+                                <li><a href="#" ng-click="gasolinestationbtn()" style="color:{{gasolinestationbtncolor}}; border-color: {{gasolinestationbtnbordercolor}}; border-width: {{gasolinestationbtnwidth}}; font-size: 19px;"> Gasoline Station</a></li>
+                                <li><a href="#" ng-click="hotelbtn()" style="color:{{hotelbtncolor}}; border-color: {{hotelbtnbordercolor}}; border-width: {{hotelbtnwidth}}; font-size: 19px;"> Hotel</a></li>
+                                <!--<li><a href="#"> Dentist</a></li>
                                 <li><a href="#"> Education</a></li>
                                 <li><a href="#"> Police Station</a></li>
                                 <li><a href="#"> Airport</a></li>
@@ -275,13 +275,13 @@
                                 <li><a href="#"> Supermarket</a></li>
                                 <li><a href="#"> Grocery</a></li>
                                 <li><a href="#"> Places</a></li>
-                                <li><a href="#"> Hardware</a></li>
+                                <li><a href="#"> Hardware</a></li>-->
                                 <li><a href="#" ng-click="allbtn()" style="
-    color: #f0ff07;
-    border-color: #f0ff07;
+    color: #17a2b8;
+    border-color: #17a2b8;
     /* background-color: #ff0000ad; */
     border-width: 3px;
-"> All</a></li>
+ font-size: 19px;"> All</a></li>
                                 <li>
                                     <!--<select style="margin-top: -43px; background-color: transparent;/* border-color: transparent; *//* width: 100%; */width: -webkit-fill-available;border-color: transparent;">
                                         <option>
@@ -307,13 +307,13 @@
             <div ng-view="">
                 <div>
                     <!--sample -->
-                    <section class="categories spad">
+                    <section class="categories spad" style="background-color:white">
                         <div class="container">
 
                             <div class="section-title">
-                                <h2 style="
+                                <h3 style="
                                     margin-top: -70px;
-                                    ">Search Results</h2>
+                                    ">Search Results {{search}} Near Cebu</h3>
                                 <p>_____________________________________________________________________________</p>
                             </div>
                             <!--<div ng-if="results_info_hide == false">
@@ -409,7 +409,7 @@
                             </div>
                         </div>
                         
-                                    <center><button ng-click="loadMore()" style="border-color: transparent; color: #337ab7;">Load more</button><button ng-click="loadless()" style="border-color: transparent; color: #337ab7;">Load less</button></center>
+                                    <center><button ng-click="loadMore()" style="border-color: transparent; color: #17a2b8;">Load more</button><button ng-click="loadless()" style="border-color: transparent; color: #17a2b8;">Load less</button></center>
                     </div>
                             </div>
                     
@@ -492,7 +492,7 @@
                             </div>
                         </div>
                         
-                        <center><button ng-click="loadMore()" style="border-color: transparent; color: #337ab7;">Load more</button><button ng-click="loadless()" style="border-color: transparent; color: #337ab7;">Load less</button></center>
+                        <center><button ng-click="loadMore()" style="border-color: transparent; color: #17a2b8;">Load more</button><button ng-click="loadless()" style="border-color: transparent; color: #17a2b8;">Load less</button></center>
                     </div>
                             <!--<div ng-repeat="a in establishmentsdetails">
                                 <!--<div ng-repeat="logo in others"><div ng-repeat="x in logo.reviewer_name">{{x.reviewer_name}}</div></div>-->
@@ -661,7 +661,7 @@
 
 
 
-<footer class="footer">
+        <footer class="footer" style="background:#17a2b8">
     <div class="container">
         <div class="row">
             <div class="col-lg-3 col-md-6">
@@ -669,19 +669,19 @@
                     <div class="footer__about__logo">
                         <a href="./index.html"><img src="../../img/footer-logo.png" alt=""></a>
                     </div>
-                    <p>Due to econonomic evolution and global change of life style including our country, We hope this can provide you an information. Lets make helping hands together.</p>
+                    <p style="color: #2125299e;">Due to econonomic evolution and global change of life style including our country, We hope this can provide you an information. Lets make helping hands together.</p>
                 </div>
             </div>
             <div class="col-lg-4 offset-lg-1 col-md-6">
                 <div class="footer__address">
                     <ul>
                         <li>
-                            <span>Call Us:</span>
-                            <p>+(63) 09234648295</p>
+                            <span style="color: #212529; font-size: 19px;">Call Us:</span>
+                            <p style="color: #dee2e6;">+(63) 09234648295</p>
                         </li>
                         <li>
-                            <span>Email:</span>
-                            <p>info.colorlib@gmail .com</p>
+                            <span style="color: #212529; font-size: 19px;">Email:</span>
+                            <p style="color: #dee2e6;">info.colorlib@gmail .com</p>
                         </li>
                         <li>
                             <span></span>
@@ -702,21 +702,21 @@
             <div class="col-lg-3 offset-lg-1 col-md-6">
                 <div class="footer__widget">
                     <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="#">Support</a></li>
+                        <li><a href="index.html" style="color: #dee2e6;">Home</a></li>
+                        <li><a href="#" style="color: #dee2e6;">Support</a></li>
                         <li></li>
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="about.html">About</a></li>
+                        <li><a href="#" style="color: #dee2e6;">Contact</a></li>
+                        <li><a href="about.html"style="color: #dee2e6;" >About</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#">For Advertisers: 
+                        <li><a href="#" style="color: #dee2e6;">For Advertisers: 
 <!--<span>Ads For Agents</span>
 <span>Ads For Business</span>
 <span>Ads For Marketers</span>-->
-<span>For Bussiness Posting</span>
-<span>Marketing</span>
-<span>And Inqueries</span><br></a></li>
-                        <li><a href="#">&nbsp;&nbsp;You May Call +(63) 09234648296</a></li>
+<span style="color: #dee2e6;">For Bussiness Posting</span>
+<span style="color: #dee2e6;">Marketing</span>
+<span style="color: #dee2e6;">And Inqueries</span><br></a></li>
+                        <li><a href="#" style="color: #dee2e6;">&nbsp;&nbsp;You May Call +(63) 09234648296</a></li>
                         <li></li>
                         <li></li>
                         <li></li>
@@ -726,8 +726,8 @@
         </div>
         <div class="row">
             <div class="col-lg-12">
-                <div class="footer__copyright">
-                    <div class="footer__copyright__text"><p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                <div class="footer__copyright" style="background:#17a2b8; border-top: none;">
+                    <div class="footer__copyright__text"><p style="color: #212529de;"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                             Copyright ©<script>document.write(new Date().getFullYear());</script> All rights reserved | This Website is powered and made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="" target="_blank">YelPage</a>
                             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
                     </div>
@@ -747,6 +747,47 @@
     app.controller('myCtrl', function ($scope, $http) {
         $scope.results_info_hide = false;
         
+        
+        
+        /// default
+        
+        $scope.takeoutbtncolor = "#17a2b8";
+        $scope.takeoutbtnbordercolor = "transparent";
+        
+        
+        $scope.deliverybtncolor = "#17a2b8";
+        $scope.deliverybtnbordercolor = "transparent";
+        
+        
+        $scope.grocerybtncolor = "#17a2b8";
+        $scope.grocerybtnbordercolor = "transparent";
+        
+        
+        $scope.pharmacybtncolor = "#17a2b8";
+        $scope.pharmacybtnbordercolor = "transparent";
+        
+        
+        $scope.gasolinestationbtncolor = "#17a2b8";
+        $scope.gasolinestationbtnbordercolor = "transparent";
+        
+        
+        $scope.hotelbtncolor = "#17a2b8";
+        $scope.hotelbtnbordercolor = "transparent";
+        
+        
+        /*$scope.mallbtncolor = "#337ab7";
+        $scope.mallbtnbordercolor = "transparent";
+        
+        
+        $scope.pharmacybtncolor = "#337ab7";
+        $scope.pharmacybtnbordercolor = "transparent";
+        
+        
+        $scope.beautybtncolor = "#337ab7";
+        $scope.beautybtnbordercolor = "transparent";*/
+        
+        
+        /// end default
         
         
         
@@ -826,7 +867,7 @@
             return $scope.a + b;
         }
 
-        $scope.restaurantbtn = function () {
+        $scope.takeoutbtn = function () {
             $scope.establishmentsdetails = "";
             $http.get("../jsonfilesdata/restaurant_json.json")
                     .then(function (response) {
@@ -838,26 +879,47 @@
                     });
                     
                     
-                    $scope.restaurantbtncolor = "#f0ff07";
-                    $scope.restaurantbtnbordercolor = "#f0ff07";
-                    $scope.restaurantbtnwidth = "3px";
+                    $scope.takeoutbtncolor = "#17a2b8";
+                    $scope.takeoutbtnbordercolor = "#17a2b8";
+                    $scope.takeoutbtnwidth = "3px";
                     
                     
+                    $scope.deliverybtncolor = "#17a2b8";
+                    $scope.deliverybtnbordercolor = "transparent";
+                    $scope.deliverybtnwidth = "";
                     
                     
-                    $scope.beautybtncolor = "";
-                    $scope.beautybtnbordercolor = "";
+                    $scope.grocerybtncolor = "#17a2b8";
+                    $scope.grocerybtnbordercolor = "transparent";
+                    $scope.grocerybtnwidth = "";
+                    
+                    
+                    $scope.beautybtncolor = "#17a2b8";
+                    $scope.beautybtnbordercolor = "transparent";
                     $scope.beautybtnwidth = "";
                     
                     
-                    $scope.pharmacybtncolor = "";
-                    $scope.pharmacybtnbordercolor = "";
+                    $scope.pharmacybtncolor = "#17a2b8";
+                    $scope.pharmacybtnbordercolor = "transparent";
                     $scope.pharmacybtnwidth = "";
                     
                     
-                    $scope.mallbtncolor = "";
-                    $scope.mallbtnbordercolor = "";
+                    $scope.gasolinestationbtncolor = "#17a2b8";
+                    $scope.gasolinestationbtnbordercolor = "transparent";
+                    $scope.gasolinestationbtnwidth = "";
+                    
+                    
+                    $scope.hotelbtncolor = "#17a2b8";
+                    $scope.hotelbtnbordercolor = "transparent";
+                    $scope.hotelbtnwidth = "";
+                    
+                    
+                    $scope.mallbtncolor = "#17a2b8";
+                    $scope.mallbtnbordercolor = "transparent";
                     $scope.mallbtnwidth = "";
+                    
+                    
+                    $scope.search = "Takeout";
         }
 
 
@@ -873,27 +935,27 @@
                     });
                     
                     
-                    $scope.restaurantbtncolor = "";
-                    $scope.restaurantbtnbordercolor = "";
-                    $scope.restaurantbtnwidth = "";
+                    $scope.takeoutbtncolor = "#17a2b8";
+                    $scope.takeoutbtnbordercolor = "transparent";
+                    $scope.takeoutbtnwidth = "";
                     
                     
-                    $scope.beautybtncolor = "";
-                    $scope.beautybtnbordercolor = "";
+                    $scope.beautybtncolor = "#17a2b8";
+                    $scope.beautybtnbordercolor = "transparent";
                     $scope.beautybtnwidth = "";
                     
                     
-                    $scope.pharmacybtncolor = "";
-                    $scope.pharmacybtnbordercolor = "";
+                    $scope.pharmacybtncolor = "#17a2b8";
+                    $scope.pharmacybtnbordercolor = "transparent";
                     $scope.pharmacybtnwidth = "";
                     
                     
-                    $scope.mallbtncolor = "#f0ff07";
-                    $scope.mallbtnbordercolor = "#f0ff07";
+                    $scope.mallbtncolor = "#17a2b8";
+                    $scope.mallbtnbordercolor = "#17a2b8";
                     $scope.mallbtnwidth = "3px";
         }
 
-        $scope.pharmacybtn = function () {
+        $scope.pharmacybtn_extra = function () {
             $scope.establishmentsdetails = "";
             $http.get("../jsonfilesdata/pharmacy_extend_json.json")
                     .then(function (response) {
@@ -901,25 +963,25 @@
                     });
                     
                     
-                    $scope.restaurantbtncolor = "";
-                    $scope.restaurantbtnbordercolor = "";
-                    $scope.restaurantbtnwidth = "";
+                    $scope.takeoutbtncolor = "#17a2b8";
+                    $scope.takeoutbtnbordercolor = "transparent";
+                    $scope.takeoutbtnwidth = "";
                     
                     
-                    $scope.beautybtncolor = "";
-                    $scope.beautybtnbordercolor = "";
+                    $scope.beautybtncolor = "#17a2b8";
+                    $scope.beautybtnbordercolor = "transparent";
                     $scope.beautybtnwidth = "";
                     
                     
-                    $scope.pharmacybtncolor = "#f0ff07";
-                    $scope.pharmacybtnbordercolor = "#f0ff07";
+                    $scope.pharmacybtncolor = "#17a2b8";
+                    $scope.pharmacybtnbordercolor = "#337ab7";
                     $scope.pharmacybtnwidth = "3px";
                     
                     
                     
                     
-                    $scope.mallbtncolor = "";
-                    $scope.mallbtnbordercolor = "";
+                    $scope.mallbtncolor = "#17a2b8";
+                    $scope.mallbtnbordercolor = "transparent";
                     $scope.mallbtnwidth = "";
         }
 
@@ -935,28 +997,210 @@
              });*/
         
         
-                    $scope.restaurantbtncolor = "";
-                    $scope.restaurantbtnbordercolor = "";
-                    $scope.restaurantbtnwidth = "";
+                    $scope.takeoutbtncolor = "#17a2b8";
+                    $scope.takeoutbtnbordercolor = "transparent";
+                    $scope.takeoutbtnwidth = "";
                     
                     
-                    $scope.beautybtncolor = "#f0ff07";
-                    $scope.beautybtnbordercolor = "#f0ff07";
+                    $scope.beautybtncolor = "#17a2b8";
+                    $scope.beautybtnbordercolor = "#337ab7";
                     $scope.beautybtnwidth = "3px";
                     
                     
                     
                     
-                    $scope.mallbtncolor = "";
-                    $scope.mallbtnbordercolor = "";
+                    $scope.mallbtncolor = "#17a2b8";
+                    $scope.mallbtnbordercolor = "transparent";
                     $scope.mallbtnwidth = "";
                     
                     
                     
                     
-                    $scope.pharmacybtncolor = "";
-                    $scope.pharmacybtnbordercolor = "";
+                    $scope.pharmacybtncolor = "#17a2b8";
+                    $scope.pharmacybtnbordercolor = "transparent";
                     $scope.pharmacybtnwidth = "";
+        }
+        
+        
+        $scope.deliverybtn = function(){
+                    $scope.grocerybtncolor = "#17a2b8";
+                    $scope.grocerybtnbordercolor = "transparent";
+                    $scope.grocerybtnwidth = "";
+                    
+                    
+                    $scope.takeoutbtncolor = "#17a2b8";
+                    $scope.takeoutbtnbordercolor = "transparent";
+                    $scope.takeoutbtnwidth = "";
+                    
+                    
+                    $scope.deliverybtncolor = "#17a2b8";
+                    $scope.deliverybtnbordercolor = "#17a2b8";
+                    $scope.deliverybtnwidth = "3px";
+                    
+                    
+                    $scope.pharmacybtncolor = "#17a2b8";
+                    $scope.pharmacybtnbordercolor = "transparent";
+                    $scope.pharmacybtnwidth = "";
+                    
+                    
+                    $scope.gasolinestationbtncolor = "#17a2b8";
+                    $scope.gasolinestationbtnbordercolor = "transparent";
+                    $scope.gasolinestationbtnwidth = "";
+                    
+                    
+                    $scope.hotelbtncolor = "#17a2b8";
+                    $scope.hotelbtnbordercolor = "transparent";
+                    $scope.hotelbtnwidth = "";
+                    
+                    
+                    $scope.search = "Delivery";
+        }
+        
+        
+        $scope.grocerybtn = function(){
+                    $scope.grocerybtncolor = "#17a2b8";
+                    $scope.grocerybtnbordercolor = "#17a2b8";
+                    $scope.grocerybtnwidth = "3px";
+                    
+                    
+                    $scope.takeoutbtncolor = "#17a2b8";
+                    $scope.takeoutbtnbordercolor = "transparent";
+                    $scope.takeoutbtnwidth = "";
+                    
+                    
+                    $scope.deliverybtncolor = "#17a2b8";
+                    $scope.deliverybtnbordercolor = "transparent";
+                    $scope.deliverybtnwidth = "";
+                    
+                    
+                    $scope.pharmacybtncolor = "#17a2b8";
+                    $scope.pharmacybtnbordercolor = "transparent";
+                    $scope.pharmacybtnwidth = "";
+                    
+                    
+                    $scope.gasolinestationbtncolor = "#17a2b8";
+                    $scope.gasolinestationbtnbordercolor = "transparent";
+                    $scope.gasolinestationbtnwidth = "";
+                    
+                    
+                    $scope.hotelbtncolor = "#17a2b8";
+                    $scope.hotelbtnbordercolor = "transparent";
+                    $scope.hotelbtnwidth = "";
+                    
+                    
+                    $scope.search = "Grocery";
+        }
+        
+        
+        $scope.pharmacybtn = function(){
+            
+            
+                    $scope.establishmentsdetails = "";
+                    $http.get("../jsonfilesdata/pharmacy_extend_json.json")
+                        .then(function (response) {
+                            $scope.establishmentsdetails = response.data;
+                    });
+                    $scope.pharmacybtncolor = "#17a2b8";
+                    $scope.pharmacybtnbordercolor = "#17a2b8";
+                    $scope.pharmacybtnwidth = "3px";
+                    
+                    
+                    $scope.grocerybtncolor = "#17a2b8";
+                    $scope.grocerybtnbordercolor = "transparent";
+                    $scope.grocerybtnwidth = "";
+                    
+                    
+                    $scope.takeoutbtncolor = "#17a2b8";
+                    $scope.takeoutbtnbordercolor = "transparent";
+                    $scope.takeoutbtnwidth = "";
+                    
+                    
+                    $scope.deliverybtncolor = "#17a2b8";
+                    $scope.deliverybtnbordercolor = "transparent";
+                    $scope.deliverybtnwidth = "";
+                    
+                    
+                    $scope.gasolinestationbtncolor = "#17a2b8";
+                    $scope.gasolinestationbtnbordercolor = "transparent";
+                    $scope.gasolinestationbtnwidth = "";
+                    
+                    
+                    $scope.hotelbtncolor = "#17a2b8";
+                    $scope.hotelbtnbordercolor = "transparent";
+                    $scope.hotelbtnwidth = "";
+                    
+                    
+                    $scope.search = "Pharmacy";
+        }
+        
+        
+        $scope.gasolinestationbtn = function(){
+                    $scope.pharmacybtncolor = "#17a2b8";
+                    $scope.pharmacybtnbordercolor = "transparent";
+                    $scope.pharmacybtnwidth = "";
+                    
+                    
+                    $scope.grocerybtncolor = "#17a2b8";
+                    $scope.grocerybtnbordercolor = "transparent";
+                    $scope.grocerybtnwidth = "";
+                    
+                    
+                    $scope.takeoutbtncolor = "#17a2b8";
+                    $scope.takeoutbtnbordercolor = "transparent";
+                    $scope.takeoutbtnwidth = "";
+                    
+                    
+                    $scope.deliverybtncolor = "#17a2b8";
+                    $scope.deliverybtnbordercolor = "transparent";
+                    $scope.deliverybtnwidth = "";
+                    
+                    
+                    $scope.hotelbtncolor = "#17a2b8";
+                    $scope.hotelbtnbordercolor = "transparent";
+                    $scope.hotelbtnwidth = "";
+                    
+                    
+                    $scope.gasolinestationbtncolor = "#17a2b8";
+                    $scope.gasolinestationbtnbordercolor = "#17a2b8";
+                    $scope.gasolinestationbtnwidth = "3px";
+                    
+                    
+                    $scope.search = "Gasoline Station";
+        }
+        
+        
+        $scope.hotelbtn = function(){
+                    $scope.pharmacybtncolor = "#17a2b8";
+                    $scope.pharmacybtnbordercolor = "transparent";
+                    $scope.pharmacybtnwidth = "";
+                    
+                    
+                    $scope.grocerybtncolor = "#17a2b8";
+                    $scope.grocerybtnbordercolor = "transparent";
+                    $scope.grocerybtnwidth = "";
+                    
+                    
+                    $scope.takeoutbtncolor = "#17a2b8";
+                    $scope.takeoutbtnbordercolor = "transparent";
+                    $scope.takeoutbtnwidth = "";
+                    
+                    
+                    $scope.deliverybtncolor = "#17a2b8";
+                    $scope.deliverybtnbordercolor = "transparent";
+                    $scope.deliverybtnwidth = "";
+                    
+                    
+                    $scope.gasolinestationbtncolor = "#17a2b8";
+                    $scope.gasolinestationbtnbordercolor = "transparent";
+                    $scope.gasolinestationbtnwidth = "";
+                    
+                    
+                    $scope.hotelbtncolor = "#17a2b8";
+                    $scope.hotelbtnbordercolor = "#17a2b8";
+                    $scope.hotelbtnwidth = "3px";
+                    
+                    
+                    $scope.search = "Hotel";
         }
         
         
@@ -1029,6 +1273,9 @@
                 .then(function (response) {
                     $scope.establishmentsdetails = response.data;
                 });
+                
+                
+                $scope.search = "";
     }
     
 
