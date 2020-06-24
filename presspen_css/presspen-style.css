@@ -127,13 +127,13 @@ ol {
 	color: #707070;
 }
 
-.set-bg {
+.presspen-set-bg {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top center;
 }
 
-.spad {
+.presspen-spad {
 	padding-top: 100px;
 	padding-bottom: 100px;
 }
@@ -177,7 +177,7 @@ ol {
 
 /* Preloder */
 
-#preloder {
+#presspen_preloder {
 	position: fixed;
 	width: 100%;
 	height: 100%;
@@ -243,7 +243,7 @@ ol {
   Header
 -----------------------*/
 
-.header {
+.presspen-header {
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -388,7 +388,7 @@ ol {
   Hero
 -----------------------*/
 
-.hero {
+.presspen-hero {
 	padding: 300px 0;
 }
 
@@ -527,7 +527,7 @@ ol {
   Most Search Tab
 -----------------------*/
 
-.most-search {
+.presspen-most-search {
 	padding-bottom: 70px;
 }
 
@@ -593,7 +593,7 @@ ol {
   Work section
 -----------------------*/
 
-.work {
+.presspen-work {
 	padding-bottom: 70px;
 	padding-top: 90px;
 	background: #f9f9f9;
@@ -703,8 +703,8 @@ ol {
 	bottom: -58px;
 	margin: 0 auto;
 	font-family: "FontAwesome";
-	content: "ÔÑç";
-	color: #f03250;
+	content: "ÔÑ?";
+	color: transparent;
 	opacity: 0.2;
 	font-size: 60px;
 	z-index: -1;
@@ -818,7 +818,7 @@ ol {
   Newalatter 
 -----------------------*/
 
-.newslatter {
+.presspen-newslatter {
 	background: #f9f9f9;
 	padding: 50px 0 40px;
 }
@@ -873,7 +873,7 @@ ol {
   Footer
 -----------------------*/
 
-.footer {
+.presspen-footer {
 	padding-top: 70px;
 	padding-bottom: 0;
 }
@@ -2100,7 +2100,7 @@ ol {
   Breadcrumb
 -----------------------*/
 
-.breadcrumb-area {
+.presspen-breadcrumb-area {
 	padding-top: 200px;
 	padding-bottom: 120px;
 }
@@ -2145,7 +2145,7 @@ ol {
   Checkout
 -----------------------*/
 
-.categories {
+.presspen-categories {
 	padding-bottom: 70px;
 	background: #f9f9f9;
 	overflow: hidden;
@@ -2831,7 +2831,7 @@ ol {
   Team
 -----------------------*/
 
-.team {
+.presspen-team {
 	padding-bottom: 70px;
 }
 

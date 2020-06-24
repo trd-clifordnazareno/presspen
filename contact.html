@@ -1,39 +1,36 @@
-<!DOCTYPE html>
-<html lang="zxx">
-
-<head>
+<html lang="zxx"><head>
     <meta charset="UTF-8">
     <meta name="description" content="Directing Template">
     <meta name="keywords" content="Directing, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Directing | Template</title>
+    <title>PressPen | Reaching Hands Together</title>
 
     <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&amp;display=swap" rel="stylesheet">
 
     <!-- Css Styles -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
-    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
-    <link rel="stylesheet" href="css/flaticon.css" type="text/css">
-    <link rel="stylesheet" href="css/nice-select.css" type="text/css">
-    <link rel="stylesheet" href="css/barfiller.css" type="text/css">
-    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
-    <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
-    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
-    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="presspen_css/presspen-bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="presspen_css/presspen-font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="presspen_css/presspen-elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="presspen_css/presspen-flaticon.css" type="text/css">
+    <link rel="stylesheet" href="presspen_css/presspen-nice-select.css" type="text/css">
+    <link rel="stylesheet" href="presspen_css/presspen-barfiller.css" type="text/css">
+    <link rel="stylesheet" href="presspen_css/presspen-magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="presspen_css/presspen-jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="presspen_css/presspen-owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="presspen_css/presspen-slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="presspen_css/presspen-style.css" type="text/css">
 </head>
 
 <body>
     <!-- Page Preloder -->
-    <div id="preloder">
-        <div class="loader"></div>
+    <div id="presspen_preloder" style="display: none;">
+        <div class="loader" style="display: none;"></div>
     </div>
 
     <!-- Header Section Begin -->
-    <header class="header">
+    <header class="presspen-header">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-3 col-md-3">
@@ -45,43 +42,51 @@
                     <div class="header__nav">
                         <nav class="header__menu mobile-menu">
                             <ul>
-                                <li><a href="./index.html">Home</a></li>
-                                <li><a href="./listing.html">Listing</a></li>
-                                <li><a href="#">Categories</a></li>
-                                <li><a href="#">Pages</a>
-                                    <ul class="dropdown">
-                                        <li><a href="./about.html">About</a></li>
-                                        <li><a href="./listing-details.html">Listing Details</a></li>
-                                        <li><a href="./blog-details.html">Blog Details</a></li>
-                                        <li><a href="./contact.html">Contact</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="./blog.html">Blog</a></li>
-                                <li><a href="#">Shop</a></li>
+                                <li><a href="./">Home</a></li>
+                                <li><a href="./about.html">About</a></li>
+                                <li><a href="./contact.html">Contact</a></li>
+                                
+                                
+                                
+                                
                             </ul>
                         </nav>
-                        <div class="header__menu__right">
-                            <a href="#" class="primary-btn"><i class="fa fa-plus"></i>Add Listing</a>
-                            <a href="#" class="login-btn"><i class="fa fa-user"></i></a>
-                        </div>
+                        
                     </div>
                 </div>
             </div>
-            <div id="mobile-menu-wrap"></div>
+            <div id="mobile-menu-wrap"><div class="slicknav_menu"><a href="#" aria-haspopup="true" role="button" tabindex="0" class="slicknav_btn slicknav_collapsed" style="outline: none;"><span class="slicknav_menutxt">MENU</span><span class="slicknav_icon"><span class="slicknav_icon-bar"></span><span class="slicknav_icon-bar"></span><span class="slicknav_icon-bar"></span></span></a><nav class="slicknav_nav slicknav_hidden" aria-hidden="true" role="menu" style="display: none;">
+                            <ul>
+                                <li><a href="./index.html" role="menuitem">Home</a></li>
+                                <li><a href="./listing.html" role="menuitem">Listing</a></li>
+                                <li><a href="#" role="menuitem">Categories</a></li>
+                                <li class="slicknav_collapsed slicknav_parent"><a href="#" role="menuitem" aria-haspopup="true" tabindex="-1" class="slicknav_item slicknav_row" style="outline: none;"><a href="#">Pages</a>
+                                    <span class="slicknav_arrow">►</span></a><ul class="dropdown slicknav_hidden" role="menu" aria-hidden="true" style="display: none;">
+                                        <li><a href="./about.html" role="menuitem" tabindex="-1">About</a></li>
+                                        <li><a href="./listing-details.html" role="menuitem" tabindex="-1">Listing Details</a></li>
+                                        <li><a href="./blog-details.html" role="menuitem" tabindex="-1">Blog Details</a></li>
+                                        <li><a href="./contact.html" role="menuitem" tabindex="-1">Contact</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="./blog.html" role="menuitem">Blog</a></li>
+                                <li><a href="#" role="menuitem">Shop</a></li>
+                            </ul>
+                        </nav></div></div>
         </div>
     </header>
     <!-- Header Section End -->
 
     <!-- Breadcrumb Begin -->
-    <div class="breadcrumb-area set-bg" data-setbg="img/breadcrumb/breadcrumb-normal.jpg">
+    <div class="presspen-breadcrumb-area presspen-set-bg" style="/*background-image: url(&quot;img/breadcrumb/breadcrumb-normal.jpg&quot;);*/ background-color: #17a2b8;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <div class="breadcrumb__text">
-                        <h2>Contact Us</h2>
+                        <h2 style="
+">Contact Us</h2>
                         <div class="breadcrumb__option">
-                            <a href="#"><i class="fa fa-home"></i> Home</a>
-                            <span>Contacts</span>
+                            <a href="./"><i class="fa fa-home" style="color: #f8f9fa;"></i> Home</a>
+                            <span style="color: #dee2e6;">Contacts</span>
                         </div>
                     </div>
                 </div>
@@ -91,76 +96,73 @@
     <!-- Breadcrumb End -->
 
     <!-- Contact Section Begin -->
-    <section class="contact spad">
+    <section class="contact presspen-spad">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
-                    <div class="contact__map">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d423283.43556031643!2d-118.69192431097179!3d34.020730495817475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2sLos%20Angeles%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1586670019340!5m2!1sen!2sbd"
-                            height="550" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                    </div>
-                </div>
+                
             </div>
             <div class="row">
-                <div class="col-lg-4 col-md-4">
+                <div class="col-md-2"></div>
+<div class="col-md-4">
                     <div class="contact__widget">
-                        <div class="contact__widget__address">
-                            <h4>Contact Us</h4>
+                        <div class="contact__widget__address" style="
+">
+                            <h4 style="
+    color: #17a2b8;
+">Contact Us</h4>
                             <ul>
-                                <li><i class="fa fa-send"></i> 40 Baria Sreet 133/2 NewYork City</li>
-                                <li><i class="fa fa-envelope"></i> hello@atheme.com</li>
-                                <li><i class="fa fa-phone"></i> +88-111-555-666</li>
+                                <li style="
+    color: #17a2b8;
+"><i class="fa fa-send"></i> 40 Baria Sreet 133/2 NewYork City</li>
+                                <li style="
+    color: #17a2b8;
+"><i class="fa fa-envelope"></i> hello@atheme.com</li>
+                                <li style="
+    color: #17a2b8;
+"><i class="fa fa-phone"></i> +88-111-555-666</li>
                             </ul>
                         </div>
-                        <div class="contact__widget__time">
-                            <h4>Opening Hours</h4>
-                            <ul>
-                                <li><i class="fa fa-clock-o"></i> Mon - Fri: 6:30am - 07:45pm</li>
-                                <li><i class="fa fa-clock-o"></i> Sat - Sun: 8:30am - 05:45pm</li>
-                            </ul>
-                        </div>
+                        
                     </div>
                 </div>
-                <div class="col-lg-8 col-md-8">
-                    <form action="#" class="contact__form">
-                        <div class="row">
-                            <div class="col-lg-6 col-md-6">
-                                <input type="text" placeholder="First Name">
-                            </div>
-                            <div class="col-lg-6 col-md-6">
-                                <input type="text" placeholder="Last Name">
-                            </div>
-                            <div class="col-lg-6 col-md-6">
-                                <input type="text" placeholder="Your Email">
-                            </div>
-                            <div class="col-lg-6 col-md-6">
-                                <input type="text" placeholder="Phone Number">
-                            </div>
+                <div class="col-md-4">
+                    <div class="contact__widget__time">
+                            <h4 style="
+    color: #17a2b8;
+">Opening Hours</h4>
+                            <ul>
+                                <li style="
+    color: #17a2b8;
+"><i class="fa fa-clock-o"></i> Mon - Fri: 6:30am - 07:45pm</li>
+                                <li style="
+    color: #17a2b8;
+"><i class="fa fa-clock-o"></i> Sat - Sun: 8:30am - 05:45pm</li>
+                            </ul>
                         </div>
-                        <textarea placeholder="Message"></textarea>
-                        <button type="submit" class="site-btn">SEND MESSAGE</button>
-                    </form>
+                    <div class="col-md-4"></div>
                 </div>
             </div>
         </div>
     </section>
     <!-- Contact Section End -->
 
-    <!-- Newslatter Section Begin -->
-    <section class="newslatter">
+    
+
+    
+    <!-- Newslatter Section End -->
+<section class="presspen-newslatter">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-6">
                     <div class="newslatter__text">
-                        <h3>Subscribe Newsletter</h3>
-                        <p>Subscribe to our newsletter and don’t miss anything</p>
+                        <h3 style="color: #17a2b8;">Subscribe Newsletter</h3>
+                        <p style="color: #17a2b8;">Subscribe to our newsletter and don’t miss anything</p>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <form action="#" class="newslatter__form">
                         <input type="text" placeholder="Your email">
-                        <button type="submit">Subscribe</button>
+                        <button type="submit" style="background: #17a2b8;">Subscribe</button>
                     </form>
                 </div>
             </div>
@@ -169,94 +171,105 @@
     <!-- Newslatter Section End -->
 
     <!-- Footer Section Begin -->
-    <footer class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6">
-                    <div class="footer__about">
-                        <div class="footer__about__logo">
-                            <a href="./index.html"><img src="img/footer-logo.png" alt=""></a>
-                        </div>
-                        <p>Challenging the way things have always been done can lead to creative new options that reward
-                            you.</p>
+    <footer class="presspen-footer" style="background:#17a2b8">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-6">
+                <div class="footer__about">
+                    <div class="footer__about__logo">
+                        <a href="./index.html"><img src="img/footer-logo.png" alt="Presspen Reaching Hands Togethere Connecting people to business and business to reach potential people"></a>
                     </div>
-                </div>
-                <div class="col-lg-4 offset-lg-1 col-md-6">
-                    <div class="footer__address">
-                        <ul>
-                            <li>
-                                <span>Call Us:</span>
-                                <p>(+12) 345-678-910</p>
-                            </li>
-                            <li>
-                                <span>Email:</span>
-                                <p>info.colorlib@gmail .com</p>
-                            </li>
-                            <li>
-                                <span>Fax:</span>
-                                <p>(+12) 345-678-910</p>
-                            </li>
-                            <li>
-                                <span>Connect Us:</span>
-                                <div class="footer__social">
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-instagram"></i></a>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                    <a href="#"><i class="fa fa-skype"></i></a>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-3 offset-lg-1 col-md-6">
-                    <div class="footer__widget">
-                        <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Support</a></li>
-                            <li><a href="#">How it work</a></li>
-                            <li><a href="#">Contact</a></li>
-                            <li><a href="#">Blog</a></li>
-                        </ul>
-                        <ul>
-                            <li><a href="#">Sign In</a></li>
-                            <li><a href="#">How it Work</a></li>
-                            <li><a href="#">Advantages</a></li>
-                            <li><a href="#">Direo App</a></li>
-                            <li><a href="#">Packages</a></li>
-                        </ul>
-                    </div>
+                    <p style="color: #2125299e;"><!--Due to econonomic evolution and global change of life style including our country, We hope this can provide you an information. Lets make helping hands together.-->Guiding you is our commitment by helping you as a seeker. We wish you to be safe. Let's make helping hands together.</p>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="footer__copyright">
-                        <div class="footer__copyright__text"><p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-                        </div>
-                        <div class="footer__copyright__links">
-                            <a href="#">Terms</a>
-                            <a href="#">Privacy Policy</a>
-                            <a href="#">Cookie Policy</a>
-                        </div>
+            <div class="col-lg-4 offset-lg-1 col-md-6">
+                <div class="footer__address">
+                    <ul>
+                        <li>
+                            <span style="color: #212529; font-size: 19px;">Call Us:</span>
+                            <p style="color: #dee2e6;">+(63) 09234648295</p>
+                        </li>
+                        <li>
+                            <span style="color: #212529; font-size: 19px;">Email:</span>
+                            <p style="color: #dee2e6;">www.presspen@gmail.com</p>
+                        </li>
+                        <li>
+                            <span></span>
+                            <p></p>
+                        </li>
+                        <li>
+                            <span style="color: #dee2e6;">Connect Us:</span>
+                            <div class="footer__social">
+                                <a href="#"><i class="fa fa-facebook" style="color: #f8f9fa;"> Facebook</i></a>
+                                <!--<a href="#"><i class="fa fa-instagram"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-skype"></i></a>-->
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 offset-lg-1 col-md-6">
+                <div class="footer__widget">
+                    <ul>
+                        <li><a href="./" style="color: #dee2e6;">Home</a></li>
+                        <li><a href="#" style="color: #dee2e6;">Support</a></li>
+                        <li></li>
+                        <li><a href="./contact.html" style="color: #dee2e6;">Contact</a></li>
+                        <li><a href="about.html" style="color: #dee2e6;">About</a></li>
+                    </ul>
+                    <ul>
+                        <li><p style="color: #dee2e6; text-decoration: none;">For Advertisers <span style="font-size: larger; font-weight: bold;">: </span>
+<!--<span>Ads For Agents</span>
+<span>Ads For Business</span>
+<span>Ads For Marketers</span>-->
+<!--<span style="color: #dee2e6;">For Bussiness</span>
+<span style="color: #dee2e6;">Marketing  Posting</span>
+<span style="color: #dee2e6;">And Inqueries</span>-->
+</p><p style="color: #dee2e6;">For Business Marketing Posting And Inqueries You May Call At +(63) 09234648296</p>
+
+<br><p></p></li>
+                        <!--<li><a href="#" style="color: #dee2e6; text-decoration: none;">&nbsp;&nbsp;You May Call +(63) 09234648296</a></li>-->
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="footer__copyright" style="background:#17a2b8; border-top: none;">
+                    <div class="footer__copyright__text"><p style="color: #212529de;"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            Copyright ©<script>document.write(new Date().getFullYear());</script> All rights reserved | This Website is powered and made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="" target="_blank"><span style="color: #f8f9fa">PressPen</span></a>
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                    </div>
+                    <div class="footer__copyright__links">
+                        <!--<a href="#">Terms</a>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Cookie Policy</a>-->
                     </div>
                 </div>
             </div>
         </div>
-    </footer>
+    </div>
+</footer>
+
+    
+    
     <!-- Footer Section End -->
 
     <!-- Js Plugins -->
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.nice-select.min.js"></script>
-    <script src="js/jquery-ui.min.js"></script>
-    <script src="js/jquery.nicescroll.min.js"></script>
-    <script src="js/jquery.barfiller.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/jquery.slicknav.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/main.js"></script>
-</body>
+    <script src="presspen_js/presspen-jquery-3.3.1.min.js"></script>
+    <script src="presspen_js/presspen-bootstrap.min.js"></script>
+    <script src="presspen_js/presspen-jquery.nice-select.min.js"></script>
+    <script src="presspen_js/presspen-jquery-ui.min.js"></script>
+    <script src="presspen_js/presspen-jquery.nicescroll.min.js"></script>
+    <script src="presspen_js/presspen-jquery.barfiller.js"></script>
+    <script src="presspen_js/presspen-jquery.magnific-popup.min.js"></script>
+    <script src="presspen_js/presspen-jquery.slicknav.js"></script>
+    <script src="presspen_js/presspen-owl.carousel.min.js"></script>
+    <script src="presspen_js/presspen-main.js"></script>
 
-</html>
+
+</body></html>

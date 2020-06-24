@@ -1,0 +1,43 @@
+change when clickingh in categories ----------------------------done
+make view -----------------------------------------------------in the future
+remove operation --------------------------------------------------done
+remove lookout ---------------------------------------------------done
+change photos in home
+change photos in type in home
+change photos in how does it work in home
+change local businesses recommendation
+check spelling and grammar
+about ---------------------------------------------------------done
+contact ------------------------------------------------------done
+put all categories -------------------------------------------------done
+
+for seo :
+	photo attribute value
+	pharagraph -------------------------------------------------done
+	meta
+	naming of html ----------------------------------------------done
+	naming of css ----------------------------------------------done
+	naming of external files --------------------------------------done
+	naming of intenal files ------------------------------------done
+	naming of page ----------------------------------------------done
+	naming of classes -------------------------------------------done
+
+create new ----------------------------------------------------------done
+remove comments
+
+
+
+scrape
+check spelling and grammar
+put a meta
+download photos and put
+upload
+create an account
+create a page
+
+
+put a presspen in image
+
+
+create a logo
+

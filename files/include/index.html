@@ -4,28 +4,29 @@
         <meta name="keywords" content="Directing, unica, creative, html">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>YelPage</title>
+        <title id="title_landing_cateegories">YelPage</title>
 
         <!-- Google Font -->
         <!--<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">-->
 
         <!-- Css Styles -->
-        <link rel="stylesheet" href="../../css/bootstrap.min.css" type="text/css">
-        <link rel="stylesheet" href="../../css/font-awesome.min.css" type="text/css">
-        <link rel="stylesheet" href="../../css/elegant-icons.css" type="text/css">
-        <link rel="stylesheet" href="../../css/flaticon.css" type="text/css">
-        <link rel="stylesheet" href="../../css/nice-select.css" type="text/css">
-        <link rel="stylesheet" href="../../css/barfiller.css" type="text/css">
-        <link rel="stylesheet" href="../../css/magnific-popup.css" type="text/css">
-        <link rel="stylesheet" href="../../css/jquery-ui.min.css" type="text/css">
-        <link rel="stylesheet" href="../../css/owl.carousel.min.css" type="text/css">
-        <link rel="stylesheet" href="../../css/slicknav.min.css" type="text/css">
-        <link rel="stylesheet" href="../../css/style.css" type="text/css">
+        <link rel="stylesheet" href="../../presspen_css/presspen-bootstrap.min.css" type="text/css">
+        <link rel="stylesheet" href="../../presspen_css/presspen-font-awesome.min.css" type="text/css">
+        <link rel="stylesheet" href="../../presspen_css/presspen-elegant-icons.css" type="text/css">
+        <link rel="stylesheet" href="../../presspen_css/presspen-flaticon.css" type="text/css">
+        <link rel="stylesheet" href="../../presspen_css/presspen-nice-select.css" type="text/css">
+        <link rel="stylesheet" href="../../presspen_css/presspen-barfiller.css" type="text/css">
+        <link rel="stylesheet" href="../../presspen_css/presspen-magnific-popup.css" type="text/css">
+        <link rel="stylesheet" href="../../presspen_css/presspen-jquery-ui.min.css" type="text/css">
+        <link rel="stylesheet" href="../../presspen_css/presspen-owl.carousel.min.css" type="text/css">
+        <link rel="stylesheet" href="../../presspen_css/presspen-slicknav.min.css" type="text/css">
+        <link rel="stylesheet" href="../../presspen_css/presspen-style.css" type="text/css">
 
 
         <script src="../../angularjs/angular.min.js"></script>
         <script src="dirPagination.js"></script>
-	<link rel="stylesheet" href="../../css/bootstrpstylecss.css">
+	<link rel="stylesheet" href="../../presspen_css/presspen-bootstrpstylecss.css">
+        <script src="../../presspen_js/presspen-jquery.min.js"></script>
         <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">-->
         <style>
             table {
@@ -107,10 +108,10 @@
         </style>
     </head>
     <body ng-app="myApp" ng-controller="myCtrl">
-        <div id="preloder" style="display: none;">
+        <div id="presspen_preloder" style="display: none;">
             <div class="loader" style="display: none;"></div>
         </div>
-        <header class="header" style="background:white; height: 11%; height: 70px;">
+        <header class="presspen-header" style="background:#17a2b8; height: 11%; height: 70px;">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-3 col-md-3">
@@ -122,8 +123,9 @@
                         <div class="header__nav">
                             <nav class="header__menu mobile-menu">
                                 <ul>
-                                    <li class="active"><a href="./index.html" style="color: #337ab7;">Home</a></li>
-                                    <li><a href="./about.html" style="color: #337ab7;">About</a></li>
+                                    <li><a href="../../" style="color: #f8f9fa; text-decoration: none;">Home</a></li>
+                                    <li><a href="../../about.html" style="color: #f8f9fa; text-decoration: none;">About</a></li>
+                                    <li><a href="../../contact.html" style="color: #f8f9fa; text-decoration: none;">Contact</a></li>
                                     <!--<li><a href="#">Categories</a></li>
                                     <li><a href="#">Pages</a>
                                         <ul class="dropdown">
@@ -227,18 +229,27 @@
                         </nav></div></div>
             </div>
         </header>
-        <section class="hero set-bg" data-setbg="../../img/header/YelPages.jpg" style="background-color: cornflowerblue; background-image: url(&quot;../../img/header/YelPages.jpg&quot;); /*background-image: url('../../img/header/Yelpages (1).png');*/ padding: 100px;">
+        <section class="presspen-hero presspen-set-bg" data-setbg="../../img/header/YelPages.jpg" style="background-color: white; /*background-image: url(&quot;../../img/header/YelPages.jpg&quot;);*/ /*background-image: url('../../img/header/Yelpages (1).png'); #004794e6*/ padding: 50px;">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="hero__text" style="margin-top: 7%; margin-bottom: -3%;">
+                            <div class="section-title" style="
+                            margin-top: -30px;
+                            ">
+                                                           <img src="../../img/listing/list-5.jpg" style="
+                                width: 70%;
+                                height: 100px;
+                            ">
+
+                            </div>
                             <div class="section-title">
-                                <h2 style="background: #0000001c;">Find Establishment Places And Services Near You</h2>
+                                <h2 style="background: none; color: #17a2b8;">Find Establishment Places And Services Near You</h2>
 
                             </div>
                             <div class="hero__search__form">
                                 <form>
-                                    <input type="text" placeholder="Search..." ng-model="search" style="width:85%;">
+                                    <input type="text" placeholder="Search..." ng-model="search" style="width:85%; border: 1px solid">
                                     <!--div class="select__option">
                                         <select style="display: none;">
                                             <option value="">Choose Categories</option>
@@ -249,23 +260,25 @@
                                             <option value="">Choose Location</option>
                                         </select><div class="nice-select" tabindex="0"><span class="current">Choose Location</span><ul class="list"><li data-value="" class="option selected">Choose Location</li></ul></div>
                                     </div>-->
-                                    <button type="submit" ng-click="search_btn()">AUTO SEARCH</button>
+                                    <button type="submit" ng-click="search_btn()" style="background-color:#17a2b8">{{presspenbtgraph}}</button>
                                 </form>
                             </div>
-                            <ul class="hero__categories__tags"style="background: #0000001c;" >
-                                <li><a href="#" ng-click="restaurantbtn()" style="color:{{restaurantbtncolor}}; border-color: {{restaurantbtnbordercolor}}; border-width: {{restaurantbtnwidth}};"> Restaurant</a></li>
-                                <li><a href="#"> Food &amp; Drink</a></li>
-                                <li><a href="#"> Shopping</a></li>
-                                <li><a href="#" ng-click="beauty()" style="color:{{beautybtncolor}}; border-color: {{beautybtnbordercolor}}; border-width: {{beautybtnwidth}};"> Beauty</a></li>
-                                <li><a href="#"> Hotels</a></li>
+                            
+                            
+                            
+                            
+                            <ul class="hero__categories__tags" style="background: none;">
+                                <li><a href="#" ng-click="moneytransferrerbtn()" style="color:#17a2b8; border-color: {{moneytransferrerbordercolor}}; border-width: {{moneytransferrerwidth}}; font-size: 19px; text-decoration: none; font-weight: bold;"> Money Transferrer</a></li>
+                                <li><a href="#" ng-click="grocerybtn()" style="color:#17a2b8; border-color: {{grocerybtnbordercolor}}; border-width: {{grocerybtnwidth}}; font-size: 19px; text-decoration: none; font-weight: bold;"> Grocery</a></li>
+                                <li><a href="#" ng-click="pharmacybtn()" style="color:#17a2b8; border-color: {{pharmacybtnbordercolor}}; border-width: {{pharmacybtnwidth}}; font-size: 19px; text-decoration: none;font-weight: bold; "> Pharmacy</a></li>
 
 
 
 
-                                <li><a href="#" ng-click="pharmacybtn()" style="color:{{pharmacybtncolor}}; border-color: {{pharmacybtnbordercolor}}; border-width: {{pharmacybtnwidth}};"> Pharmacy</a></li>
-                                <li><a href="#"> Hospitals &amp; Clinic</a></li>
-                                <li><a href="#"> Medical</a></li>
-                                <li><a href="#"> Dentist</a></li>
+                                <!--<li><a href="#" ng-click="pharmacybtn()" style="color:{{pharmacybtncolor}}; border-color: {{pharmacybtnbordercolor}}; border-width: {{pharmacybtnwidth}};"> Pharmacy</a></li>-->
+                                <li><a href="#" ng-click="gasolinestationbtn()" style="color:#17a2b8; border-color: {{gasolinestationbtnbordercolor}}; border-width: {{gasolinestationbtnwidth}}; font-size: 19px; text-decoration: none; font-weight: bold;"> Gasoline Station</a></li>
+                                <li><a href="#" ng-click="bankbtn()" style="color:#17a2b8; border-color: {{banksbordercolor}}; border-width: {{bankswidth}}; font-size: 19px; text-decoration: none; font-weight: bold;"> Banks</a></li>
+                                <!--<li><a href="#"> Dentist</a></li>
                                 <li><a href="#"> Education</a></li>
                                 <li><a href="#"> Police Station</a></li>
                                 <li><a href="#"> Airport</a></li>
@@ -275,13 +288,8 @@
                                 <li><a href="#"> Supermarket</a></li>
                                 <li><a href="#"> Grocery</a></li>
                                 <li><a href="#"> Places</a></li>
-                                <li><a href="#"> Hardware</a></li>
-                                <li><a href="#" ng-click="allbtn()" style="
-    color: #f0ff07;
-    border-color: #f0ff07;
-    /* background-color: #ff0000ad; */
-    border-width: 3px;
-"> All</a></li>
+                                <li><a href="#"> Hardware</a></li>-->
+                                
                                 <li>
                                     <!--<select style="margin-top: -43px; background-color: transparent;/* border-color: transparent; *//* width: 100%; */width: -webkit-fill-available;border-color: transparent;">
                                         <option>
@@ -296,6 +304,71 @@
                                         </select>-->
                                 </li>
                             </ul>
+                            
+                            
+                            
+                            <div class="section-title" style="
+                                margin-top: -30px;
+                                font-size: 15px;
+                                font-weight: bold;
+                                color: #17a2b8;
+                                margin-bottom: -1px;
+                            " id="hideline">___________________________________________________________________________________________
+                            </div>
+                            <ul class="hero__categories__tags"style="background: none; margin-top: 10px;"  id="hidemore">
+                                <li><a href="#" ng-click="foodsandrestaurantbtn()" style="color:{{foodsandrestaurantbtncolor}}; border-color: {{foodsandrestaurantbtnbordercolor}}; border-width: {{foodsandrestaurantbtnwidth}}; font-size: 19px; text-decoration: none;"> Foods Restaurants</a></li>
+                                <li><a href="#" ng-click="portsbtn()" style="color:{{portsbtncolor}}; border-color: {{portsbtnbordercolor}}; border-width: {{portsbtnwidth}}; font-size: 19px; text-decoration: none;"> Ports</a></li>
+                                <li><a href="#" ng-click="postofficebtn()" style="color:{{postofficebtncolor}}; border-color: {{postofficebtnbordercolor}}; border-width: {{postofficebtnwidth}}; font-size: 19px; text-decoration: none;"> Post Office</a></li>
+                                <!--<li><a href="#" ng-click="beauty()" style="color:{{beautybtncolor}}; border-color: {{beautybtnbordercolor}}; border-width: {{beautybtnwidth}};"> Beauty</a></li>-->
+                                <li><a href="#" ng-click="mallsbtn()" style="color:{{mallsbtncolor}}; border-color: {{mallsbtnbordercolor}}; border-width: {{mallsbtnwidth}}; font-size: 19px; text-decoration: none;"> Malls</a></li>
+
+
+
+
+                                <!--<li><a href="#" ng-click="pharmacybtn()" style="color:{{pharmacybtncolor}}; border-color: {{pharmacybtnbordercolor}}; border-width: {{pharmacybtnwidth}};"> Pharmacy</a></li>-->
+                                <li><a href="#" ng-click="hardwarebtn()" style="color:{{hardwarebtncolor}}; border-color: {{hardwarebtnbordercolor}}; border-width: {{hardwarebtnwidth}}; font-size: 19px; text-decoration: none;"> Hardware</a></li>
+                                <li><a href="#" ng-click="hotelbtn()" style="color:{{hotelbtncolor}}; border-color: {{hotelbtnbordercolor}}; border-width: {{hotelbtnwidth}}; font-size: 19px; text-decoration: none;"> Hotel</a></li>
+                                <li><a href="#" ng-click="hospitalbtn()" style="color:{{hospitalbtncolor}}; border-color: {{hospitalbtnbordercolor}}; border-width: {{hospitalbtnwidth}}; font-size: 19px; text-decoration: none;"> Hospital</a></li>
+                                <!--<li><a href="#"> Dentist</a></li>
+                                <li><a href="#"> Education</a></li>
+                                <li><a href="#"> Police Station</a></li>
+                                <li><a href="#"> Airport</a></li>
+                                <li><a href="#"> Seaport</a></li>
+                                <li><a href="#"> Land Terminal</a></li>
+                                <li><a href="#" ng-click="mallbtn()" style="color:{{mallbtncolor}}; border-color: {{mallbtnbordercolor}}; border-width: {{mallbtnwidth}}"> Mall</a></li>
+                                <li><a href="#"> Supermarket</a></li>
+                                <li><a href="#"> Grocery</a></li>
+                                <li><a href="#"> Places</a></li>
+                                <li><a href="#"> Hardware</a></li>-->
+                                <li><a href="#" ng-click="allbtn()" style="
+    color: #17a2b8;
+    border-color: #17a2b8;
+    /* background-color: #ff0000ad; */
+    border-width: 3px;
+ font-size: 19px; text-decoration: none;"> All</a></li>
+                                <li>
+                                    <!--<select style="margin-top: -43px; background-color: transparent;/* border-color: transparent; *//* width: 100%; */width: -webkit-fill-available;border-color: transparent;">
+                                        <option>
+                                            
+                                        </option>
+                                        <option>
+                                            sadasdasdas
+                                        </option>
+                                        <option>
+                                            sadasdasdas
+                                        </option>
+                                        </select>-->
+                                </li>
+                            </ul>
+                            
+                            
+                            <div class="section-title" style="
+                                margin-bottom: -39px;
+                            "><button ng-click="showcategories()" style="border-color: transparent; color: #17a2b8;" id="printnameloadmore">Load more</button>
+                            <button ng-click="hidecategories()" style="border-color: transparent; color: #17a2b8;" id="printnameloadless">Load less</button></div>
+                            
+                            
+                            
                         </div>
                     </div>
                 </div>
@@ -307,14 +380,17 @@
             <div ng-view="">
                 <div>
                     <!--sample -->
-                    <section class="categories spad">
+                    <section class="presspen-categories presspen-spad" style="background-color:white">
                         <div class="container">
 
                             <div class="section-title">
-                                <h2 style="
-                                    margin-top: -70px;
-                                    ">Search Results</h2>
-                                <p>_____________________________________________________________________________</p>
+                                <h3 style="
+                                    margin-top: -70px; color: #17a2b8;
+                                    ">{{allsearch}} Search Results {{search}} Near Cebu</h3>
+                                <p style="font-size: 15px;
+                                font-weight: bold;
+                                color: #17a2b8;">___________________________________________________________________________________________
+                            </p>
                             </div>
                             <!--<div ng-if="results_info_hide == false">
                                 <div ng-repeat="node in establishmentsdetails | limitTo:limit track by $index">
@@ -339,16 +415,16 @@
                                 
                                 <div class="col-lg-4 col-md-6" ng-repeat="a in establishmentsdetails | limitTo:limit track by $index">
                                     <div class="listing__item">
-                                        <div class="listing__item__pic set-bg" data-setbg="../../img/listing/list-5.jpg" style="background-image: url(&quot;../../img/listing/list-5.jpg&quot;);height: 100px; position: relative; ">
+                                        <!--<div class="listing__item__pic set-bg" data-setbg="../../img/listing/list-5.jpg" style="background-image: url(&quot;../../img/listing/list-5.jpg&quot;);height: 100px; position: relative; ">
                                             <img src="../../img/listing/list_icon-5.png" alt="">
                                             <div class="listing__item__pic__tag hot_deal">Hot Deal</div>
                                             <div class="listing__item__pic__btns">
                                                 <a href="#" ng-click="gotowebsite(a.website)"><span style='margin-left:-7px;'>Website</span></a>
                                             </div>
-                                        </div>
+                                        </div>-->
                                         <div class="listing__item__text" style='padding-left: 10px; padding-right: 10px; padding-top: 19px;'>
                                             <div class="listing__item__text__inside">
-                                                <h5>{{a.title}}</h5>
+                                                <h5 style="color: #018ca2;">{{a.title}}</h5>
                                                 <div class="listing__item__text__rating">
                                                     <div class="listing__item__rating__star">
                                                         
@@ -391,13 +467,24 @@
                                                    
                                                 </div>
                                                 <ul style="margin-top: -10px;">
-                                                    <li><span class="icon_pin_alt"></span> {{a.address}}</li>
-                                                    <li><span class="icon_phone"></span> {{a.contact}}</li>
+                                                    <li ng-if="a.address != empty"><span class="icon_pin_alt"></span> {{a.address + ', Cebu City, 6000 Cebu'}}</li>
+                                                    <li ng-if="a.contact != ''"><span class="icon_phone"></span> {{a.contact}}</li>
+                                                    
+                                                    
+                                                    <li class="ng-binding"><span></span><a href="{{a.website}}" ng-if="a.website != ''">Website</a></li>
+                                                    <li class="ng-binding" style="
+                                                        margin-left: -24px;
+                                                        width: 37;
+                                                        "> <img src="../../img/listing/details/map-icon.png" alt="Presspen maps logo address categories that will help business establishments information here in cebu city"><span style="
+                                                        margin-left: 50px;
+                                                        margin-top: -9%;
+                                                        color: #323232;
+                                                    "> Maps</span> </li>
                                                 </ul>
                                             </div>
-                                            <div class="listing__item__text__info" style="margin-top:-17px;">
+                                            <div class="listing__item__text__info" style="margin-top:-17px; border-top: none;">
                                                 <div class="listing__item__text__info__left">
-                                                    <img src="{{geticon(a.details)}}" alt="">
+                                                    <img src="{{geticon(a.details)}}" alt="Presspen Reaching Hands Togethere Connecting people to business and business to reach potential people local business and establishments locator here in cebu city">
                                                     <span>{{a.details}}</span>
                                                 </div>
                                                 <div class="listing__item__text__info__right" style="color:gray;">{{a.open_establishment}}</div>
@@ -409,7 +496,7 @@
                             </div>
                         </div>
                         
-                                    <center><button ng-click="loadMore()" style="border-color: transparent; color: #337ab7;">Load more</button><button ng-click="loadless()" style="border-color: transparent; color: #337ab7;">Load less</button></center>
+                                    <center><button ng-click="loadMore()" style="border-color: transparent; color: #17a2b8;">Load more</button><button ng-click="loadless()" style="border-color: transparent; color: #17a2b8;">Load less</button></center>
                     </div>
                             </div>
                     
@@ -422,16 +509,16 @@
                                 
                                 <div class="col-lg-4 col-md-6" ng-repeat="a in establishmentsdetails | limitTo:limit track by $index">
                                     <div class="listing__item">
-                                        <div class="listing__item__pic set-bg" data-setbg="../../img/listing/list-5.jpg" style="background-image: url(&quot;../../img/listing/list-5.jpg&quot;); height: 100px; position: relative; ">
+                                        <!--<div class="listing__item__pic set-bg" data-setbg="../../img/listing/list-5.jpg" style="background-image: url(&quot;../../img/listing/list-5.jpg&quot;); height: 100px; position: relative; ">
                                             <img src="../../img/listing/list_icon-5.png" alt="">
                                             <div class="listing__item__pic__tag hot_deal">Hot Deal</div>
                                             <div class="listing__item__pic__btns">
                                                 <a href="#" ng-click="gotowebsite(a.website)"><span style='margin-left:-7px;'>Website</span></a>
                                             </div>
-                                        </div>
+                                        </div>-->
                                         <div class="listing__item__text" style='padding-left: 10px; padding-right: 10px; padding-top: 19px;'>
                                             <div class="listing__item__text__inside">
-                                                <h5>{{a.title}}</h5>
+                                                <h5 style="color: #018ca2;">{{a.title}}</h5>
                                                 <div class="listing__item__text__rating">
                                                     <div class="listing__item__rating__star">
                                                         
@@ -474,13 +561,24 @@
                                                    
                                                 </div>
                                                 <ul style="margin-top: -10px;">
-                                                    <li><span class="icon_pin_alt"></span> {{a.address}}</li>
-                                                    <li><span class="icon_phone"></span> {{a.contact}}</li>
+                                                    <li ng-if="a.address != empty"><span class="icon_pin_alt"></span> {{a.address + ', Cebu City, 6000 Cebu'}}</li>
+                                                    <li ng-if="a.contact != ''"><span class="icon_phone"></span> {{a.contact}}</li>
+                                                    
+                                                    
+                                                    <li class="ng-binding"><span></span><a href="{{a.website}}" ng-if="a.website != empty && a.website != ''">Website</a></li>
+                                                    <li class="ng-binding" style="
+                                                        margin-left: -24px;
+                                                        width: 37;
+                                                        "> <img src="../../img/listing/details/map-icon.png" alt="Presspen reaching hand's togethere by gathering business establishments information and to make Connecting people to business and business to reach potential people in cebu city"><span style="
+                                                        margin-left: 50px;
+                                                        margin-top: -9%;
+                                                        color: #323232
+                                                    "> Maps</span> </li>
                                                 </ul>
                                             </div>
-                                            <div class="listing__item__text__info" style="margin-top:-17px;">
+                                            <div class="listing__item__text__info" style="margin-top:-17px; border-top: none;">
                                                 <div class="listing__item__text__info__left">
-                                                    <img src="{{geticon(a.details)}}" alt="">
+                                                    <img src="{{geticon(a.details)}}" alt="Presspen Reaching Hands Togethere Connecting people to business and business to reach potential people">
                                                     <span>{{a.details}}</span>
                                                 </div>
                                                 <div class="listing__item__text__info__right" style="color:gray;">{{a.open_establishment}}</div>
@@ -492,7 +590,7 @@
                             </div>
                         </div>
                         
-                        <center><button ng-click="loadMore()" style="border-color: transparent; color: #337ab7;">Load more</button><button ng-click="loadless()" style="border-color: transparent; color: #337ab7;">Load less</button></center>
+                        <center><button ng-click="loadMore()" style="border-color: transparent; color: #17a2b8;">Load more</button><button ng-click="loadless()" style="border-color: transparent; color: #17a2b8;">Load less</button></center>
                     </div>
                             <!--<div ng-repeat="a in establishmentsdetails">
                                 <!--<div ng-repeat="logo in others"><div ng-repeat="x in logo.reviewer_name">{{x.reviewer_name}}</div></div>-->
@@ -502,7 +600,7 @@
                             </p>
                             </div>-->
 
-                            <div style="overflow-x:auto;" ng-if="results_info_hide == true && search != ''">
+                            <div style="overflow-x:auto; margin-top: -10%;" ng-if="results_info_hide == true && search != ''">
                                 <table style="
                                        border: 1;
                                        font-size: larger;
@@ -514,15 +612,16 @@
                                     <td role="columnheader"><center>Name</center></td>
                                     <td role="columnheader"><center>Address</center></td>
                                     <td style="width:150px;"><center>Contact No.</center></td>
-                                    <td role="columnheader"><center>Operation</center></td>
+                                    <!--<td role="columnheader"><center>Operation</center></td>-->
                                     <td role="columnheader"><center>Website</center></td>
-                                    <td role="columnheader"><center>Description</center></td>
+                                    <!--<td role="columnheader"><center>Description</center></td>-->
+                                    <td role="columnheader"><center>Maps</center></td>
                                     </tr>
                                     <tr role="row" dir-paginate="establishment in establishmentsdetails | filter:search | itemsPerPage : 10 ">
                                         <td style="
                                             width: 10%;
                                             " role="cell">
-                                            <img src="{{geticon(establishment.details)}}" style="
+                                            <img src="{{geticon(establishment.details)}}" alt="Presspen Connecting people to business and business to reach potential people gathering business establishments information in cebu city" style="
                                                  width: 100%;
                                                  ">
 
@@ -544,21 +643,28 @@
                                             "><center>{{establishment.title}}</center></h5>
                                     </td><td role="cell">
                                     <center>
-                                        <p ng-if="establishment.address != ''">{{establishment.address}}</p>
-                                        <p ng-repeat="x in establishmentsdetailsextend" ng-if="x.Name == establishment.title" ng-if="x.contact == establishment.contact" style="color: #111111;">{{x.Address}}</p></center>
+                                        <p ng-if="establishment.address != ''" style="color: #343a40;">{{establishment.address + ', Cebu City, 6000 Cebu'}}</p>
+                                        <p ng-if="establishment.address == ''" style="color: #343a40;">{{'Not Available'}}</p>
+                                        <!--<p ng-repeat="x in establishmentsdetailsextend" ng-if="x.Name == establishment.title" ng-if="x.contact == establishment.contact" style="color: #6c757d;">{{x.Address}}</p></center>-->
                                 </td><td role="cell">
-                            <center>
+                            <center ng-if="a.contact != ''">
                                 {{establishment.contact}}
                             </center>
-                        </td><td role="cell">
+                                <center ng-if="establishment.contact == ''">
+                                {{'Under Verification'}}
+                            </center>
+                        </td><!-- comment td for operation<td role="cell">
                     <center>
+                        <!-- start
                         <div style="
                              margin-top: -19px;
                              float: none;
                              padding-top: 0px;
                              color: red;
+                             font-size: 13px;
                              "  ng-if="establishment.open_establishment == 'Pansamantalang sarado'"><!--Open Now --></br>
-                            {{"Close"}}
+                            <!--{{"Close"}}-->
+                            <!-- start Due To Government Advisory This Will Might Be Temporarily Close
                         </div>
 
 
@@ -570,13 +676,14 @@
                                         {{establishment.open_establishment}}
                                         <p style="color:black; font-size: 10px;">(Not Trusted)</p>
                         </div>-->
+                        <!-- start read : remove all start if you want to use this elements
                         <div class="listing__item__text__info__right" style="
                              margin-top: -10px;
                              float: none;
                              padding-top: 0px;
                              color:red;
                              "  ng-if="establishment.open_establishment == 'Closed'"></br><!--Open Now--></br>
-                            {{establishment.open_establishment}}
+                            <!-- start{{establishment.open_establishment}}
                             <p style="color:red; font-size: 10px;">NOTE : If You see this message it means Closed</p>
                         </div>
                         <div class="listing__item__text__info__right" style="
@@ -585,7 +692,7 @@
                              padding-top: 0px;
                              color:red;
                              "  ng-if="establishment.open_establishment == 'Temporarily Closed'"></br><!--Open Now--></br>
-                            {{establishment.open_establishment}}
+                            <!-- start{{establishment.open_establishment}}
                             <p style="color:red; font-size: 10px;"></p>
                         </div>
                         <div class="listing__item__text__info__right" style="
@@ -593,7 +700,7 @@
                              float: none;
                              padding-top: 0px;
                              "  ng-if="establishment.open_establishment == 'Open'"></br><!--Open Now--></br>
-                            {{establishment.open_establishment}}
+                            <!-- start{{establishment.open_establishment}}
                             <p style="color:red; font-size: 10px;"></p>
                         </div>
                         <div class="listing__item__text__info__right" style="
@@ -601,32 +708,36 @@
                              float: none;
                              padding-top: 0px;
                              "  ng-if="establishment.open_establishment != '*'"></br><!--Open Now--></br>
-                            {{establishment.open_establishment}}
+                            <!-- start{{establishment.open_establishment}}
                             <p style="color:red; font-size: 10px;"></p>
                         </div>
+                        
 
 
 
-
-                        <div class="listing__item__text__info__right" style="
+                        <!-- start<div class="listing__item__text__info__right" style="
                              margin-top: -10px;
                              float: none;
                              padding-top: 0px;
                              color:red;
                              "  ng-if="establishment.open_establishment == 'Temporarily closed'"></br><!--Open Now--></br>
-                            {{establishment.open_establishment}}
+                            <!-- start{{establishment.open_establishment}}
                             <p style="color:red; font-size: 10px;"></p>
                         </div>
+                            end start-->
 
 
 
 
 
-                    </center>
-                    </td>
-                    <td role="cell"><center>{{establishment.website}}<p ng-repeat="x in establishmentsdetailsextend" ng-if="x.Name == establishment.title" ng-if="x.contact == establishment.contact"><a href="{{x.Website}}" target="_blank">{{x.Website}}</a></p>
-                        <p><!--<a href="">Menu</a>--> <a href="{{baseurl()}}/directing/files/include/bussiness_page_list.html#!/{{establishment.title}}/{{establishment.address}}/{{establishment.rate}}/{{establishment.reviews}}/{{establishment.title_description}}/{{establishment.contact}}/{{establishment.open_establishment}}/{{establishment.other_detail_service}}" target="_blank">lookout</a></p></center></td>
-                    <td role="cell" style="font-size: 19px;"><center></br>{{establishment.others}} <p> {{establishment.title_description}} </p></center></td>
+                    <!--</center>
+                    </td> end comment td for operation -->
+                    <td role="cell"><center><p></p><a href='{{establishment.website}}' target="_blank" ng-if="establishment.website != '' && establishment.website != empty" style="color: #17a2b8; font-weight: bold;">Website</a><!--<p ng-repeat="x in establishmentsdetailsextend" ng-if="x.Name == establishment.title" ng-if="x.contact == establishment.contact"><a href="{{x.Website}}" target="_blank">{{x.Website}}</a></p>-->
+                        <p><!--<a href="">Menu</a>--> <!--<a href="{{baseurl()}}/directing/files/include/bussiness_page_list.html#!/{{establishment.title}}/{{establishment.address}}/{{establishment.rate}}/{{establishment.reviews}}/{{establishment.title_description}}/{{establishment.contact}}/{{establishment.open_establishment}}/{{establishment.other_detail_service}}" target="_blank">lookout</a>--></p></center></td>
+                    <!--<td role="cell" style="font-size: 19px;"><center></br>{{establishment.others}} <p> {{establishment.title_description}} </p></center></td>-->
+            
+            
+            <td role="cell" style="font-size: 19px;"> maps </td>
 
                     </tr>
                     </tbody></table>
@@ -661,40 +772,40 @@
 
 
 
-<footer class="footer">
+        <footer class="presspen-footer" style="background:#17a2b8">
     <div class="container">
         <div class="row">
             <div class="col-lg-3 col-md-6">
                 <div class="footer__about">
                     <div class="footer__about__logo">
-                        <a href="./index.html"><img src="../../img/footer-logo.png" alt=""></a>
+                        <a href="./index.html"><img src="../../img/footer-logo.png" alt="Presspen logo in finding business establishments and its informations in cebu city"></a>
                     </div>
-                    <p>Due to econonomic evolution and global change of life style including our country, We hope this can provide you an information. Lets make helping hands together.</p>
+                    <p style="color: #2125299e;"><!--Due to econonomic evolution and global change of life style including our country, We hope this can provide you an information. Lets make helping hands together.-->Guiding you is our commitment by helping you as a seeker. We wish you to be safe. Let's make helping hands together.</p>
                 </div>
             </div>
             <div class="col-lg-4 offset-lg-1 col-md-6">
                 <div class="footer__address">
                     <ul>
                         <li>
-                            <span>Call Us:</span>
-                            <p>+(63) 09234648295</p>
+                            <span style="color: #212529; font-size: 19px;">Call Us:</span>
+                            <p style="color: #dee2e6;">+(63) 09234648295</p>
                         </li>
                         <li>
-                            <span>Email:</span>
-                            <p>info.colorlib@gmail .com</p>
+                            <span style="color: #212529; font-size: 19px;">Email:</span>
+                            <p style="color: #dee2e6;">www.presspen@gmail.com</p>
                         </li>
                         <li>
                             <span></span>
                             <p></p>
                         </li>
                         <li>
-                            <!--<span>Connect Us:</span>
+                            <span style="color: #dee2e6;">Connect Us:</span>
                             <div class="footer__social">
-                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-instagram"></i></a>
+                                <a href="#"><i class="fa fa-facebook" style="color: #f8f9fa;"> Facebook</i></a>
+                                <!--<a href="#"><i class="fa fa-instagram"></i></a>
                                 <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-skype"></i></a>
-                            </div>-->
+                                <a href="#"><i class="fa fa-skype"></i></a>-->
+                            </div>
                         </li>
                     </ul>
                 </div>
@@ -702,21 +813,24 @@
             <div class="col-lg-3 offset-lg-1 col-md-6">
                 <div class="footer__widget">
                     <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="#">Support</a></li>
+                        <li><a href="../../" style="color: #dee2e6;">Home</a></li>
+                        <li><a href="#" style="color: #dee2e6;">Support</a></li>
                         <li></li>
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="about.html">About</a></li>
+                        <li><a href="../../contact.html" style="color: #dee2e6;">Contact</a></li>
+                        <li><a href="../../about.html"style="color: #dee2e6;" >About</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#">For Advertisers: 
+                        <li><p style="color: #dee2e6; text-decoration: none;">For Advertisers <span style="font-size: larger; font-weight: bold;">: </span>
 <!--<span>Ads For Agents</span>
 <span>Ads For Business</span>
 <span>Ads For Marketers</span>-->
-<span>For Bussiness Posting</span>
-<span>Marketing</span>
-<span>And Inqueries</span><br></a></li>
-                        <li><a href="#">&nbsp;&nbsp;You May Call +(63) 09234648296</a></li>
+<!--<span style="color: #dee2e6;">For Bussiness</span>
+<span style="color: #dee2e6;">Marketing  Posting</span>
+<span style="color: #dee2e6;">And Inqueries</span>-->
+<p style="color: #dee2e6;">For Business Marketing Posting And Inqueries You May Call At +(63) 09234648296</p>
+
+<br></p></li>
+                        <!--<li><a href="#" style="color: #dee2e6; text-decoration: none;">&nbsp;&nbsp;You May Call +(63) 09234648296</a></li>-->
                         <li></li>
                         <li></li>
                         <li></li>
@@ -726,9 +840,9 @@
         </div>
         <div class="row">
             <div class="col-lg-12">
-                <div class="footer__copyright">
-                    <div class="footer__copyright__text"><p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                            Copyright ©<script>document.write(new Date().getFullYear());</script> All rights reserved | This Website is powered and made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="" target="_blank">YelPage</a>
+                <div class="footer__copyright" style="background:#17a2b8; border-top: none;">
+                    <div class="footer__copyright__text"><p style="color: #212529de;"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            Copyright ©<script>document.write(new Date().getFullYear());</script> All rights reserved | This Website is powered and made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="" target="_blank"><span style="color: #f8f9fa">Presspen</span></a>
                             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
                     </div>
                     <div class="footer__copyright__links">
@@ -747,6 +861,86 @@
     app.controller('myCtrl', function ($scope, $http) {
         $scope.results_info_hide = false;
         
+        
+        
+        /// default
+        
+        
+        $("#hidemore").hide();
+        $("#hideline").hide();
+        $("#printnameloadmore").show();
+        $("#printnameloadless").hide();
+        
+        $scope.takeoutbtncolor = "#17a2b8";
+        $scope.takeoutbtnbordercolor = "transparent";
+        
+        
+        $scope.deliverybtncolor = "#17a2b8";
+        $scope.deliverybtnbordercolor = "transparent";
+        
+        
+        $scope.grocerybtncolor = "#17a2b8";
+        $scope.grocerybtnbordercolor = "transparent";
+        
+        
+        $scope.pharmacybtncolor = "#17a2b8";
+        $scope.pharmacybtnbordercolor = "transparent";
+        
+        
+        $scope.gasolinestationbtncolor = "#17a2b8";
+        $scope.gasolinestationbtnbordercolor = "transparent";
+        
+        
+        $scope.hotelbtncolor = "#17a2b8";
+        $scope.hotelbtnbordercolor = "transparent";
+        
+        
+        $scope.hospitalbtncolor = "#17a2b8";
+        $scope.hospitalbtnbordercolor = "transparent";
+        
+        
+        
+        $scope.moneytransferrerbordercolor = "transparent";
+        
+        
+        $scope.banksbordercolor = "transparent";
+        
+        
+        $scope.foodsandrestaurantbtncolor = "#17a2b8";
+        $scope.foodsandrestaurantbtnbordercolor = "transparent";
+        
+        $scope.portsbtncolor = "#17a2b8";
+        $scope.portsbtnbordercolor = "transparent";
+        
+        
+        $scope.postofficebtncolor = "#17a2b8";
+        $scope.postofficebtnbordercolor = "transparent";
+        
+        
+        $scope.mallsbtncolor = "#17a2b8";
+        $scope.mallsbtnbordercolor = "transparent";
+        
+        
+        $scope.hardwarebtncolor = "#17a2b8";
+        $scope.hardwarebtnbordercolor = "transparent";
+        
+        
+        $scope.presspenbtgraph = "Press The Pen";
+        
+        
+        /*$scope.mallbtncolor = "#337ab7";
+        $scope.mallbtnbordercolor = "transparent";
+        
+        
+        $scope.pharmacybtncolor = "#337ab7";
+        $scope.pharmacybtnbordercolor = "transparent";
+        
+        
+        $scope.beautybtncolor = "#337ab7";
+        $scope.beautybtnbordercolor = "transparent";*/
+        
+        
+        /// end default
         
         
         
@@ -826,7 +1020,7 @@
             return $scope.a + b;
         }
 
-        $scope.restaurantbtn = function () {
+        $scope.takeoutbtn = function () {
             $scope.establishmentsdetails = "";
             $http.get("../jsonfilesdata/restaurant_json.json")
                     .then(function (response) {
@@ -838,26 +1032,517 @@
                     });
                     
                     
-                    $scope.restaurantbtncolor = "#f0ff07";
-                    $scope.restaurantbtnbordercolor = "#f0ff07";
-                    $scope.restaurantbtnwidth = "3px";
+                    
+                    $scope.hospitalbtncolor = "#17a2b8";
+                    $scope.hospitalbtnbordercolor = "transparent";
+                    $scope.hospitalbtnwidth = "";
+                    
+        
+                    $scope.takeoutbtncolor = "#17a2b8";
+                    $scope.takeoutbtnbordercolor = "#17a2b8";
+                    $scope.takeoutbtnwidth = "3px";
                     
                     
+                    $scope.deliverybtncolor = "#17a2b8";
+                    $scope.deliverybtnbordercolor = "transparent";
+                    $scope.deliverybtnwidth = "";
                     
                     
-                    $scope.beautybtncolor = "";
-                    $scope.beautybtnbordercolor = "";
+                    $scope.grocerybtncolor = "#17a2b8";
+                    $scope.grocerybtnbordercolor = "transparent";
+                    $scope.grocerybtnwidth = "";
+                    
+                    
+                    $scope.beautybtncolor = "#17a2b8";
+                    $scope.beautybtnbordercolor = "transparent";
                     $scope.beautybtnwidth = "";
                     
                     
-                    $scope.pharmacybtncolor = "";
-                    $scope.pharmacybtnbordercolor = "";
+                    $scope.pharmacybtncolor = "#17a2b8";
+                    $scope.pharmacybtnbordercolor = "transparent";
                     $scope.pharmacybtnwidth = "";
                     
                     
-                    $scope.mallbtncolor = "";
-                    $scope.mallbtnbordercolor = "";
+                    $scope.gasolinestationbtncolor = "#17a2b8";
+                    $scope.gasolinestationbtnbordercolor = "transparent";
+                    $scope.gasolinestationbtnwidth = "";
+                    
+                    
+                    $scope.hotelbtncolor = "#17a2b8";
+                    $scope.hotelbtnbordercolor = "transparent";
+                    $scope.hotelbtnwidth = "";
+                    
+                    
+                    $scope.mallbtncolor = "#17a2b8";
+                    $scope.mallbtnbordercolor = "transparent";
                     $scope.mallbtnwidth = "";
+                    
+                    
+                    $scope.search = "Takeout";
+                    
+                    
+                    document.getElementById("title_landing_cateegories").innerHTML = "CATFISH - TAKEOUT";
+        }
+        
+        
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        $scope.foodsandrestaurantbtn = function(){
+            $scope.hospitalbtncolor = "#17a2b8";
+                    $scope.hospitalbtnbordercolor = "transparent";
+                    $scope.hospitalbtnwidth = "";
+                    
+        
+                    $scope.foodsandrestaurantbtncolor = "#17a2b8";
+                    $scope.foodsandrestaurantbtnbordercolor = "#17a2b8";
+                    $scope.foodsandrestaurantbtnwidth = "3px";
+                    
+                    
+                    $scope.deliverybtncolor = "#17a2b8";
+                    $scope.deliverybtnbordercolor = "transparent";
+                    $scope.deliverybtnwidth = "";
+                    
+                    
+                    $scope.grocerybtncolor = "#17a2b8";
+                    $scope.grocerybtnbordercolor = "transparent";
+                    $scope.grocerybtnwidth = "";
+                    
+                    
+                    $scope.beautybtncolor = "#17a2b8";
+                    $scope.beautybtnbordercolor = "transparent";
+                    $scope.beautybtnwidth = "";
+                    
+                    
+                    $scope.pharmacybtncolor = "#17a2b8";
+                    $scope.pharmacybtnbordercolor = "transparent";
+                    $scope.pharmacybtnwidth = "";
+                    
+                    
+                    $scope.gasolinestationbtncolor = "#17a2b8";
+                    $scope.gasolinestationbtnbordercolor = "transparent";
+                    $scope.gasolinestationbtnwidth = "";
+                    
+                    
+                    $scope.hotelbtncolor = "#17a2b8";
+                    $scope.hotelbtnbordercolor = "transparent";
+                    $scope.hotelbtnwidth = "";
+                    
+                    
+                    $scope.mallbtncolor = "#17a2b8";
+                    $scope.mallbtnbordercolor = "transparent";
+                    $scope.mallbtnwidth = "";
+                    
+                    
+                    $scope.moneytransferrerbordercolor = "transparent";
+            $scope.moneytransferrerwidth = "";
+            
+            
+            $scope.grocerybtnbordercolor = "transparent";
+            $scope.grocerybtnwidth = "";
+            
+            
+                    $scope.pharmacybtnbordercolor = "transparent";
+                    $scope.pharmacybtnwidth = "";
+                    
+                    $scope.gasolinestationbtnbordercolor = "transparent";
+                    $scope.gasolinestationbtnwidth = "";
+                    
+                    
+                    $scope.banksbordercolor = "transparent";
+                    $scope.bankswidth = "";
+                    
+                    
+                    $scope.hardwarebtnbordercolor = "transparent";
+                    $scope.hardwarebtnwidth = "";
+                    
+                    
+                    $scope.portsbtnbordercolor = "transparent";
+                    $scope.portsbtnwidth = "";
+                    
+                    
+                    $scope.postofficebtnbordercolor = "transparent";
+                    $scope.postofficebtnwidth = "";
+                    
+                    
+                    $scope.mallsbtnbordercolor = "transparent";
+                    $scope.mallsbtnwidth = "";
+                    
+                    
+                    $scope.moneytransferrerbordercolor = "transparent";
+                    $scope.moneytransferrerwidth = "";
+                    
+                    
+                    $scope.search = "Foods";
+                    
+                    
+                    document.getElementById("title_landing_cateegories").innerHTML = "CATFISH - Foods And Restaurants";
+        }
+        
+        
+        $scope.portsbtn = function(){
+             $scope.hospitalbtncolor = "#17a2b8";
+                    $scope.hospitalbtnbordercolor = "transparent";
+                    $scope.hospitalbtnwidth = "";
+                    
+        
+                    $scope.foodsandrestaurantbtncolor = "#17a2b8";
+                    $scope.foodsandrestaurantbtnbordercolor = "transparent";
+                    $scope.foodsandrestaurantbtnwidth = "0px";
+                    
+                    
+                    $scope.deliverybtncolor = "#17a2b8";
+                    $scope.deliverybtnbordercolor = "transparent";
+                    $scope.deliverybtnwidth = "";
+                    
+                    
+                    $scope.grocerybtncolor = "#17a2b8";
+                    $scope.grocerybtnbordercolor = "transparent";
+                    $scope.grocerybtnwidth = "";
+                    
+                    
+                    $scope.beautybtncolor = "#17a2b8";
+                    $scope.beautybtnbordercolor = "transparent";
+                    $scope.beautybtnwidth = "";
+                    
+                    
+                    $scope.pharmacybtncolor = "#17a2b8";
+                    $scope.pharmacybtnbordercolor = "transparent";
+                    $scope.pharmacybtnwidth = "";
+                    
+                    
+                    $scope.gasolinestationbtncolor = "#17a2b8";
+                    $scope.gasolinestationbtnbordercolor = "transparent";
+                    $scope.gasolinestationbtnwidth = "";
+                    
+                    
+                    $scope.hotelbtncolor = "#17a2b8";
+                    $scope.hotelbtnbordercolor = "transparent";
+                    $scope.hotelbtnwidth = "";
+                    
+                    
+                    $scope.mallbtncolor = "#17a2b8";
+                    $scope.mallbtnbordercolor = "transparent";
+                    $scope.mallbtnwidth = "";
+                    
+                    
+                    $scope.moneytransferrerbordercolor = "transparent";
+            $scope.moneytransferrerwidth = "0px";
+            
+            
+            $scope.grocerybtnbordercolor = "transparent";
+            $scope.grocerybtnwidth = "";
+            
+            
+                    $scope.pharmacybtnbordercolor = "transparent";
+                    $scope.pharmacybtnwidth = "";
+                    
+                    $scope.gasolinestationbtnbordercolor = "transparent";
+                    $scope.gasolinestationbtnwidth = "";
+                    
+                    
+                    $scope.banksbordercolor = "transparent";
+                    $scope.bankswidth = "0px";
+                    
+                    
+                    $scope.portsbtncolor = "#17a2b8";
+                    $scope.portsbtnbordercolor = "#17a2b8";
+                    $scope.portsbtnwidth = "3px";
+                    
+                    
+                    $scope.postofficebtncolor = "#17a2b8";
+                    $scope.postofficebtnbordercolor = "transparent";
+                    $scope.postofficebtnwidth = "0px";
+                    
+                    
+                    $scope.mallsbtncolor = "#17a2b8";
+                    $scope.mallsbtnbordercolor = "transparent";
+                    $scope.mallsbtnwidth = "0px";
+                    
+                    
+                    $scope.hardwarebtncolor = "#17a2b8";
+                    $scope.hardwarebtnbordercolor = "transparent";
+                    $scope.hardwarebtnwidth = "0px";
+                    
+                    
+                    $scope.search = "Ports";
+                    
+                    
+                    document.getElementById("title_landing_cateegories").innerHTML = "CATFISH - AirPorts And Seaports";
+        }
+        
+        
+        $scope.postofficebtn = function(){
+            $scope.hospitalbtncolor = "#17a2b8";
+                    $scope.hospitalbtnbordercolor = "transparent";
+                    $scope.hospitalbtnwidth = "";
+                    
+        
+                    $scope.foodsandrestaurantbtncolor = "#17a2b8";
+                    $scope.foodsandrestaurantbtnbordercolor = "transparent";
+                    $scope.foodsandrestaurantbtnwidth = "0px";
+                    
+                    
+                    $scope.deliverybtncolor = "#17a2b8";
+                    $scope.deliverybtnbordercolor = "transparent";
+                    $scope.deliverybtnwidth = "";
+                    
+                    
+                    $scope.grocerybtncolor = "#17a2b8";
+                    $scope.grocerybtnbordercolor = "transparent";
+                    $scope.grocerybtnwidth = "";
+                    
+                    
+                    $scope.beautybtncolor = "#17a2b8";
+                    $scope.beautybtnbordercolor = "transparent";
+                    $scope.beautybtnwidth = "";
+                    
+                    
+                    $scope.pharmacybtncolor = "#17a2b8";
+                    $scope.pharmacybtnbordercolor = "transparent";
+                    $scope.pharmacybtnwidth = "";
+                    
+                    
+                    $scope.gasolinestationbtncolor = "#17a2b8";
+                    $scope.gasolinestationbtnbordercolor = "transparent";
+                    $scope.gasolinestationbtnwidth = "";
+                    
+                    
+                    $scope.hotelbtncolor = "#17a2b8";
+                    $scope.hotelbtnbordercolor = "transparent";
+                    $scope.hotelbtnwidth = "";
+                    
+                    
+                    $scope.mallbtncolor = "#17a2b8";
+                    $scope.mallbtnbordercolor = "transparent";
+                    $scope.mallbtnwidth = "";
+                    
+                    
+                    $scope.moneytransferrerbordercolor = "transparent";
+            $scope.moneytransferrerwidth = "0px";
+            
+            
+            $scope.grocerybtnbordercolor = "transparent";
+            $scope.grocerybtnwidth = "";
+            
+            
+                    $scope.pharmacybtnbordercolor = "transparent";
+                    $scope.pharmacybtnwidth = "";
+                    
+                    $scope.gasolinestationbtnbordercolor = "transparent";
+                    $scope.gasolinestationbtnwidth = "";
+                    
+                    
+                    $scope.banksbordercolor = "transparent";
+                    $scope.bankswidth = "0px";
+                    
+                    
+                    $scope.portsbtncolor = "#17a2b8";
+                    $scope.portsbtnbordercolor = "transparent";
+                    $scope.portsbtnwidth = "0px";
+                    
+                    
+                    $scope.postofficebtncolor = "#17a2b8";
+                    $scope.postofficebtnbordercolor = "#17a2b8";
+                    $scope.postofficebtnwidth = "3px";
+                    
+                    
+                    $scope.mallsbtncolor = "#17a2b8";
+                    $scope.mallsbordercolor = "transparent";
+                    $scope.mallsbtnwidth = "0px";
+                    
+                    
+                    $scope.hardwarebtncolor = "#17a2b8";
+                    $scope.hardwarebordercolor = "transparent";
+                    $scope.hardwarebtnwidth = "0px";
+                    
+                    
+                    $scope.search = "Post Office";
+                    
+                    
+                    document.getElementById("title_landing_cateegories").innerHTML = "CATFISH - Post Offices";
+        }
+        
+        
+        $scope.mallsbtn = function(){
+            $scope.hospitalbtncolor = "#17a2b8";
+                    $scope.hospitalbtnbordercolor = "transparent";
+                    $scope.hospitalbtnwidth = "";
+                    
+        
+                    $scope.foodsandrestaurantbtncolor = "#17a2b8";
+                    $scope.foodsandrestaurantbtnbordercolor = "transparent";
+                    $scope.foodsandrestaurantbtnwidth = "0px";
+                    
+                    
+                    $scope.deliverybtncolor = "#17a2b8";
+                    $scope.deliverybtnbordercolor = "transparent";
+                    $scope.deliverybtnwidth = "";
+                    
+                    
+                    $scope.grocerybtncolor = "#17a2b8";
+                    $scope.grocerybtnbordercolor = "transparent";
+                    $scope.grocerybtnwidth = "";
+                    
+                    
+                    $scope.beautybtncolor = "#17a2b8";
+                    $scope.beautybtnbordercolor = "transparent";
+                    $scope.beautybtnwidth = "";
+                    
+                    
+                    $scope.pharmacybtncolor = "#17a2b8";
+                    $scope.pharmacybtnbordercolor = "transparent";
+                    $scope.pharmacybtnwidth = "";
+                    
+                    
+                    $scope.gasolinestationbtncolor = "#17a2b8";
+                    $scope.gasolinestationbtnbordercolor = "transparent";
+                    $scope.gasolinestationbtnwidth = "";
+                    
+                    
+                    $scope.hotelbtncolor = "#17a2b8";
+                    $scope.hotelbtnbordercolor = "transparent";
+                    $scope.hotelbtnwidth = "";
+                    
+                    
+                    $scope.mallbtncolor = "#17a2b8";
+                    $scope.mallbtnbordercolor = "transparent";
+                    $scope.mallbtnwidth = "";
+                    
+                    
+                    $scope.hardwarebtncolor = "#17a2b8";
+                    $scope.hardwarebtnbordercolor = "transparent";
+                    $scope.hardwarebtnwidth = "";
+                    
+                    
+                    $scope.moneytransferrerbordercolor = "transparent";
+            $scope.moneytransferrerwidth = "0px";
+            
+            
+            $scope.grocerybtnbordercolor = "transparent";
+            $scope.grocerybtnwidth = "";
+            
+            
+                    $scope.pharmacybtnbordercolor = "transparent";
+                    $scope.pharmacybtnwidth = "";
+                    
+                    $scope.gasolinestationbtnbordercolor = "transparent";
+                    $scope.gasolinestationbtnwidth = "";
+                    
+                    
+                    $scope.banksbordercolor = "transparent";
+                    $scope.bankswidth = "0px";
+                    
+                    
+                    $scope.portsbtncolor = "#17a2b8";
+                    $scope.portsbtnbordercolor = "transparent";
+                    $scope.portsbtnwidth = "0px";
+                    
+                    
+                    $scope.postofficebtncolor = "#17a2b8";
+                    $scope.postofficebtnbordercolor = "transparent";
+                    $scope.postofficebtnwidth = "0px";
+                    
+                    
+                    $scope.mallsbtncolor = "#17a2b8";
+                    $scope.mallsbtnbordercolor = "#17a2b8";
+                    $scope.mallsbtnwidth = "3px";
+                    
+                    
+                    $scope.search = "Mall";
+                    
+                    
+                    document.getElementById("title_landing_cateegories").innerHTML = "CATFISH - Malls";
+        }
+        
+        
+        $scope.hardwarebtn = function(){
+            $scope.hospitalbtncolor = "#17a2b8";
+                    $scope.hospitalbtnbordercolor = "transparent";
+                    $scope.hospitalbtnwidth = "";
+                    
+        
+                    $scope.foodsandrestaurantbtncolor = "#17a2b8";
+                    $scope.foodsandrestaurantbtnbordercolor = "transparent";
+                    $scope.foodsandrestaurantbtnwidth = "0px";
+                    
+                    
+                    $scope.deliverybtncolor = "#17a2b8";
+                    $scope.deliverybtnbordercolor = "transparent";
+                    $scope.deliverybtnwidth = "";
+                    
+                    
+                    $scope.grocerybtncolor = "#17a2b8";
+                    $scope.grocerybtnbordercolor = "transparent";
+                    $scope.grocerybtnwidth = "";
+                    
+                    
+                    $scope.beautybtncolor = "#17a2b8";
+                    $scope.beautybtnbordercolor = "transparent";
+                    $scope.beautybtnwidth = "";
+                    
+                    
+                    $scope.pharmacybtncolor = "#17a2b8";
+                    $scope.pharmacybtnbordercolor = "transparent";
+                    $scope.pharmacybtnwidth = "";
+                    
+                    
+                    $scope.gasolinestationbtncolor = "#17a2b8";
+                    $scope.gasolinestationbtnbordercolor = "transparent";
+                    $scope.gasolinestationbtnwidth = "";
+                    
+                    
+                    $scope.hotelbtncolor = "#17a2b8";
+                    $scope.hotelbtnbordercolor = "transparent";
+                    $scope.hotelbtnwidth = "";
+                    
+                    
+                    $scope.mallbtncolor = "#17a2b8";
+                    $scope.mallbtnbordercolor = "transparent";
+                    $scope.mallbtnwidth = "";
+                    
+                    
+                    $scope.moneytransferrerbordercolor = "transparent";
+            $scope.moneytransferrerwidth = "0px";
+            
+            
+            $scope.grocerybtnbordercolor = "transparent";
+            $scope.grocerybtnwidth = "";
+            
+            
+                    $scope.pharmacybtnbordercolor = "transparent";
+                    $scope.pharmacybtnwidth = "";
+                    
+                    $scope.gasolinestationbtnbordercolor = "transparent";
+                    $scope.gasolinestationbtnwidth = "";
+                    
+                    
+                    $scope.banksbordercolor = "transparent";
+                    $scope.bankswidth = "0px"
+                    
+                    
+                    $scope.portsbtncolor = "#17a2b8";
+                    $scope.portsbtnbordercolor = "transparent";
+                    $scope.portsbtnwidth = "0px";
+                    
+                    
+                    $scope.postofficebtncolor = "#17a2b8";
+                    $scope.postofficebtnbordercolor = "transparent";
+                    $scope.postofficebtnwidth = "0px";
+                    
+                    
+                    $scope.mallsbtncolor = "#17a2b8";
+                    $scope.mallsbtnbordercolor = "transparent";
+                    $scope.mallsbtnwidth = "0px";
+                    
+                    
+                    $scope.hardwarebtncolor = "#17a2b8";
+                    $scope.hardwarebtnbordercolor = "#17a2b8";
+                    $scope.hardwarebtnwidth = "3px";
+                    
+                    
+                    $scope.search = "Hardware";
+                    
+                    
+                    document.getElementById("title_landing_cateegories").innerHTML = "CATFISH - Hardwares";
         }
 
 
@@ -873,27 +1558,36 @@
                     });
                     
                     
-                    $scope.restaurantbtncolor = "";
-                    $scope.restaurantbtnbordercolor = "";
-                    $scope.restaurantbtnwidth = "";
+                    $scope.hospitalbtncolor = "#17a2b8";
+                    $scope.hospitalbtnbordercolor = "transparent";
+                    $scope.hospitalbtnwidth = "";
                     
                     
-                    $scope.beautybtncolor = "";
-                    $scope.beautybtnbordercolor = "";
+                    
+                    $scope.takeoutbtncolor = "#17a2b8";
+                    $scope.takeoutbtnbordercolor = "transparent";
+                    $scope.takeoutbtnwidth = "";
+                    
+                    
+                    $scope.beautybtncolor = "#17a2b8";
+                    $scope.beautybtnbordercolor = "transparent";
                     $scope.beautybtnwidth = "";
                     
                     
-                    $scope.pharmacybtncolor = "";
-                    $scope.pharmacybtnbordercolor = "";
+                    $scope.pharmacybtncolor = "#17a2b8";
+                    $scope.pharmacybtnbordercolor = "transparent";
                     $scope.pharmacybtnwidth = "";
                     
                     
-                    $scope.mallbtncolor = "#f0ff07";
-                    $scope.mallbtnbordercolor = "#f0ff07";
+                    $scope.mallbtncolor = "#17a2b8";
+                    $scope.mallbtnbordercolor = "#17a2b8";
                     $scope.mallbtnwidth = "3px";
+                    
+                    
+                    document.getElementById("title_landing_cateegories").innerHTML = "CATFISH - MALL";
         }
 
-        $scope.pharmacybtn = function () {
+        $scope.pharmacybtn_extra = function () {
             $scope.establishmentsdetails = "";
             $http.get("../jsonfilesdata/pharmacy_extend_json.json")
                     .then(function (response) {
@@ -901,26 +1595,31 @@
                     });
                     
                     
-                    $scope.restaurantbtncolor = "";
-                    $scope.restaurantbtnbordercolor = "";
-                    $scope.restaurantbtnwidth = "";
+                    $scope.takeoutbtncolor = "#17a2b8";
+                    $scope.takeoutbtnbordercolor = "transparent";
+                    $scope.takeoutbtnwidth = "";
                     
                     
-                    $scope.beautybtncolor = "";
-                    $scope.beautybtnbordercolor = "";
+                    $scope.beautybtncolor = "#17a2b8";
+                    $scope.beautybtnbordercolor = "transparent";
                     $scope.beautybtnwidth = "";
                     
                     
-                    $scope.pharmacybtncolor = "#f0ff07";
-                    $scope.pharmacybtnbordercolor = "#f0ff07";
+                    $scope.pharmacybtncolor = "#17a2b8";
+                    $scope.pharmacybtnbordercolor = "#337ab7";
                     $scope.pharmacybtnwidth = "3px";
                     
                     
                     
                     
-                    $scope.mallbtncolor = "";
-                    $scope.mallbtnbordercolor = "";
+                    $scope.mallbtncolor = "#17a2b8";
+                    $scope.mallbtnbordercolor = "transparent";
                     $scope.mallbtnwidth = "";
+                    
+                    
+                    $scope.hospitalbtncolor = "#17a2b8";
+                    $scope.hospitalbtnbordercolor = "transparent";
+                    $scope.hospitalbtnwidth = "";
         }
 
         $scope.beauty = function () {
@@ -935,28 +1634,491 @@
              });*/
         
         
-                    $scope.restaurantbtncolor = "";
-                    $scope.restaurantbtnbordercolor = "";
-                    $scope.restaurantbtnwidth = "";
+                    $scope.takeoutbtncolor = "#17a2b8";
+                    $scope.takeoutbtnbordercolor = "transparent";
+                    $scope.takeoutbtnwidth = "";
                     
                     
-                    $scope.beautybtncolor = "#f0ff07";
-                    $scope.beautybtnbordercolor = "#f0ff07";
+                    $scope.beautybtncolor = "#17a2b8";
+                    $scope.beautybtnbordercolor = "#337ab7";
                     $scope.beautybtnwidth = "3px";
                     
                     
                     
                     
-                    $scope.mallbtncolor = "";
-                    $scope.mallbtnbordercolor = "";
+                    $scope.mallbtncolor = "#17a2b8";
+                    $scope.mallbtnbordercolor = "transparent";
                     $scope.mallbtnwidth = "";
                     
                     
                     
                     
-                    $scope.pharmacybtncolor = "";
-                    $scope.pharmacybtnbordercolor = "";
+                    $scope.pharmacybtncolor = "#17a2b8";
+                    $scope.pharmacybtnbordercolor = "transparent";
                     $scope.pharmacybtnwidth = "";
+                    
+                    
+                    $scope.hospitalbtncolor = "#17a2b8";
+                    $scope.hospitalbtnbordercolor = "transparent";
+                    $scope.hospitalbtnwidth = "";
+                    
+                    
+                    document.getElementById("title_landing_cateegories").innerHTML = "CATFISH - BEAUTY";
+        }
+        
+        
+        $scope.deliverybtn = function(){
+                    $scope.grocerybtncolor = "#17a2b8";
+                    $scope.grocerybtnbordercolor = "transparent";
+                    $scope.grocerybtnwidth = "";
+                    
+                    
+                    $scope.takeoutbtncolor = "#17a2b8";
+                    $scope.takeoutbtnbordercolor = "transparent";
+                    $scope.takeoutbtnwidth = "";
+                    
+                    
+                    $scope.deliverybtncolor = "#17a2b8";
+                    $scope.deliverybtnbordercolor = "#17a2b8";
+                    $scope.deliverybtnwidth = "3px";
+                    
+                    
+                    $scope.pharmacybtncolor = "#17a2b8";
+                    $scope.pharmacybtnbordercolor = "transparent";
+                    $scope.pharmacybtnwidth = "";
+                    
+                    
+                    $scope.gasolinestationbtncolor = "#17a2b8";
+                    $scope.gasolinestationbtnbordercolor = "transparent";
+                    $scope.gasolinestationbtnwidth = "";
+                    
+                    
+                    $scope.hotelbtncolor = "#17a2b8";
+                    $scope.hotelbtnbordercolor = "transparent";
+                    $scope.hotelbtnwidth = "";
+                    
+                    
+                    $scope.hospitalbtncolor = "#17a2b8";
+                    $scope.hospitalbtnbordercolor = "transparent";
+                    $scope.hospitalbtnwidth = "";
+                    
+                    
+                    $scope.search = "Delivery";
+                    
+                    
+                    document.getElementById("title_landing_cateegories").innerHTML = "CATFISH - DELIVERY";
+        }
+        
+        
+        $scope.grocerybtn = function(){
+                    $scope.grocerybtncolor = "#17a2b8";
+                    $scope.grocerybtnbordercolor = "#17a2b8";
+                    $scope.grocerybtnwidth = "3px";
+                    
+                    
+                    $scope.takeoutbtncolor = "#17a2b8";
+                    $scope.takeoutbtnbordercolor = "transparent";
+                    $scope.takeoutbtnwidth = "";
+                    
+                    
+                    $scope.deliverybtncolor = "#17a2b8";
+                    $scope.deliverybtnbordercolor = "transparent";
+                    $scope.deliverybtnwidth = "";
+                    
+                    
+                    $scope.pharmacybtncolor = "#17a2b8";
+                    $scope.pharmacybtnbordercolor = "transparent";
+                    $scope.pharmacybtnwidth = "";
+                    
+                    
+                    $scope.gasolinestationbtncolor = "#17a2b8";
+                    $scope.gasolinestationbtnbordercolor = "transparent";
+                    $scope.gasolinestationbtnwidth = "";
+                    
+                    
+                    $scope.hotelbtncolor = "#17a2b8";
+                    $scope.hotelbtnbordercolor = "transparent";
+                    $scope.hotelbtnwidth = "";
+                    
+                    
+                    $scope.hospitalbtncolor = "#17a2b8";
+                    $scope.hospitalbtnbordercolor = "transparent";
+                    $scope.hospitalbtnwidth = "";
+                    
+                    
+                    $scope.moneytransferrerbordercolor = "transparent";
+                    $scope.moneytransferrerwidth = "0px";
+                    
+                    
+                    $scope.banksbordercolor = "transparent";
+                    $scope.bankswidth = "0px";
+                    
+                    
+                    $scope.foodsandrestaurantbtnbordercolor = "transparent";
+                    $scope.foodsandrestaurantbtnwidth = "";
+                    
+                    
+                    $scope.portsbtnbordercolor = "transparent";
+            $scope.portsbtnwidth = "";
+                    
+                    
+                    $scope.search = "Grocery";
+                    
+                    
+                    document.getElementById("title_landing_cateegories").innerHTML = "CATFISH - GROCERY";
+        }
+        
+        
+        $scope.pharmacybtn = function(){
+            
+            
+                    $scope.establishmentsdetails = "";
+                    $http.get("../jsonfilesdata/pharmacy_extend_json.json")
+                        .then(function (response) {
+                            $scope.establishmentsdetails = response.data;
+                    });
+                    $scope.pharmacybtncolor = "#17a2b8";
+                    $scope.pharmacybtnbordercolor = "#17a2b8";
+                    $scope.pharmacybtnwidth = "3px";
+                    
+                    
+                    $scope.grocerybtncolor = "#17a2b8";
+                    $scope.grocerybtnbordercolor = "transparent";
+                    $scope.grocerybtnwidth = "";
+                    
+                    
+                    $scope.takeoutbtncolor = "#17a2b8";
+                    $scope.takeoutbtnbordercolor = "transparent";
+                    $scope.takeoutbtnwidth = "";
+                    
+                    
+                    $scope.deliverybtncolor = "#17a2b8";
+                    $scope.deliverybtnbordercolor = "transparent";
+                    $scope.deliverybtnwidth = "";
+                    
+                    
+                    $scope.gasolinestationbtncolor = "#17a2b8";
+                    $scope.gasolinestationbtnbordercolor = "transparent";
+                    $scope.gasolinestationbtnwidth = "";
+                    
+                    
+                    $scope.hotelbtncolor = "#17a2b8";
+                    $scope.hotelbtnbordercolor = "transparent";
+                    $scope.hotelbtnwidth = "";
+                    
+                    
+                    $scope.hospitalbtncolor = "#17a2b8";
+                    $scope.hospitalbtnbordercolor = "transparent";
+                    $scope.hospitalbtnwidth = "";
+                    
+                    
+                    $scope.moneytransferrerbordercolor = "transparent";
+                    $scope.moneytransferrerwidth = "";
+                    
+                    
+                    $scope.banksbordercolor = "transparent";
+                    $scope.bankswidth = "";
+                    
+                    
+                    $scope.foodsandrestaurantbtnbordercolor = "transparent";
+                    $scope.foodsandrestaurantbtnwidth = "";
+                    
+                    
+                    $scope.portsbtnbordercolor = "transparent";
+            $scope.portsbtnwidth = "";
+                    
+                    
+                    $scope.search = "Pharmacy";
+                    
+                    
+                    document.getElementById("title_landing_cateegories").innerHTML = "CATFISH - PHARMACY DRUG STORE";
+        }
+        
+        
+        $scope.gasolinestationbtn = function(){
+                    $scope.hospitalbtncolor = "#17a2b8";
+                    $scope.hospitalbtnbordercolor = "transparent";
+                    $scope.hospitalbtnwidth = "";
+                    
+                    
+                    $scope.pharmacybtncolor = "#17a2b8";
+                    $scope.pharmacybtnbordercolor = "transparent";
+                    $scope.pharmacybtnwidth = "";
+                    
+                    
+                    $scope.grocerybtncolor = "#17a2b8";
+                    $scope.grocerybtnbordercolor = "transparent";
+                    $scope.grocerybtnwidth = "";
+                    
+                    
+                    $scope.takeoutbtncolor = "#17a2b8";
+                    $scope.takeoutbtnbordercolor = "transparent";
+                    $scope.takeoutbtnwidth = "";
+                    
+                    
+                    $scope.deliverybtncolor = "#17a2b8";
+                    $scope.deliverybtnbordercolor = "transparent";
+                    $scope.deliverybtnwidth = "";
+                    
+                    
+                    $scope.hotelbtncolor = "#17a2b8";
+                    $scope.hotelbtnbordercolor = "transparent";
+                    $scope.hotelbtnwidth = "";
+                    
+                    
+                    $scope.gasolinestationbtncolor = "#17a2b8";
+                    $scope.gasolinestationbtnbordercolor = "#17a2b8";
+                    $scope.gasolinestationbtnwidth = "3px";
+                    
+                    
+                    $scope.moneytransferrerbordercolor = "transparent";
+                    $scope.moneytransferrerwidth = "";
+                    
+                    
+                    $scope.banksbordercolor = "transparent";
+                    $scope.bankswidth = "";
+                    
+                    
+                    $scope.foodsandrestaurantbtnbordercolor = "transparent";
+                    $scope.foodsandrestaurantbtnwidth = "";
+                    
+                    
+                    $scope.portsbtnbordercolor = "transparent";
+            $scope.portsbtnwidth = "";
+                    
+                    
+                    $scope.search = "Gasoline Station";
+                    
+                    
+                    document.getElementById("title_landing_cateegories").innerHTML = "CATFISH - GASOLINE STATION";
+        }
+        
+        
+        $scope.hotelbtn = function(){
+            
+                    $scope.hospitalbtncolor = "#17a2b8";
+                    $scope.hospitalbtnbordercolor = "transparent";
+                    $scope.hospitalbtnwidth = "";
+                    
+                    $scope.pharmacybtncolor = "#17a2b8";
+                    $scope.pharmacybtnbordercolor = "transparent";
+                    $scope.pharmacybtnwidth = "";
+                    
+                    
+                    $scope.grocerybtncolor = "#17a2b8";
+                    $scope.grocerybtnbordercolor = "transparent";
+                    $scope.grocerybtnwidth = "";
+                    
+                    
+                    $scope.takeoutbtncolor = "#17a2b8";
+                    $scope.takeoutbtnbordercolor = "transparent";
+                    $scope.takeoutbtnwidth = "";
+                    
+                    
+                    $scope.deliverybtncolor = "#17a2b8";
+                    $scope.deliverybtnbordercolor = "transparent";
+                    $scope.deliverybtnwidth = "";
+                    
+                    
+                    $scope.gasolinestationbtncolor = "#17a2b8";
+                    $scope.gasolinestationbtnbordercolor = "transparent";
+                    $scope.gasolinestationbtnwidth = "";
+                    
+                    
+                    $scope.hotelbtncolor = "#17a2b8";
+                    $scope.hotelbtnbordercolor = "#17a2b8";
+                    $scope.hotelbtnwidth = "3px";
+                    
+                    
+                    $scope.moneytransferrerbordercolor = "transparent";
+            $scope.moneytransferrerwidth = "";
+            
+            
+            $scope.banksbordercolor = "transparent";
+            $scope.bankswidth = "";
+            
+            
+            $scope.hardwarebtnbordercolor = "transparent";
+                    $scope.hardwarebtnwidth = "";
+                    
+                    
+                    $scope.foodsandrestaurantbtncolor = "#17a2b8";
+                    $scope.foodsandrestaurantbtnbordercolor = "transparent";
+                    $scope.foodsandrestaurantbtnwidth = "";
+                    
+                    
+                    $scope.portsbtncolor = "#17a2b8";
+                    $scope.portsbtnbordercolor = "transparent";
+                    $scope.portsbtnwidth = "";
+                    
+                    
+                    $scope.postofficebtncolor = "#17a2b8";
+                    $scope.postofficebtnbordercolor = "transparnt";
+                    $scope.postofficebtnwidth = "";
+                    
+                    
+                    $scope.mallsbtncolor = "#17a2b8";
+                    $scope.mallsbtnbordercolor = "transparent";
+                    $scope.mallsbtnwidth = "";
+                    
+                    
+                    $scope.search = "Hotel";
+                    
+                    
+                    
+                    
+                    
+                    document.getElementById("title_landing_cateegories").innerHTML = "CATFISH - HOTEL";
+        }
+        
+        
+        $scope.hospitalbtn = function(){
+            $scope.establishmentsdetails = "";
+            $http.get("../jsonfilesdata/hospital_json.json")
+                    .then(function (response) {
+                        $scope.establishmentsdetails = response.data;
+                    });
+                    $scope.pharmacybtncolor = "#17a2b8";
+                    $scope.pharmacybtnbordercolor = "transparent";
+                    $scope.pharmacybtnwidth = "";
+                    
+                    
+                    $scope.grocerybtncolor = "#17a2b8";
+                    $scope.grocerybtnbordercolor = "transparent";
+                    $scope.grocerybtnwidth = "";
+                    
+                    
+                    $scope.takeoutbtncolor = "#17a2b8";
+                    $scope.takeoutbtnbordercolor = "transparent";
+                    $scope.takeoutbtnwidth = "";
+                    
+                    
+                    $scope.deliverybtncolor = "#17a2b8";
+                    $scope.deliverybtnbordercolor = "transparent";
+                    $scope.deliverybtnwidth = "";
+                    
+                    
+                    $scope.gasolinestationbtncolor = "#17a2b8";
+                    $scope.gasolinestationbtnbordercolor = "transparent";
+                    $scope.gasolinestationbtnwidth = "";
+                    
+                    
+                    $scope.hotelbtncolor = "#17a2b8";
+                    $scope.hotelbtnbordercolor = "transparent";
+                    $scope.hotelbtnwidth = "";
+                    
+                    
+                    $scope.hospitalbtncolor = "#17a2b8";
+                    $scope.hospitalbtnbordercolor = "#17a2b8";
+                    $scope.hospitalbtnwidth = "3px";
+                    
+                    
+                    $scope.moneytransferrerbordercolor = "transparent";
+            $scope.moneytransferrerwidth = "0px";
+            
+            
+            $scope.banksbordercolor = "transparent";
+            $scope.bankswidth = "0px";
+            
+            
+            $scope.hardwarebtnbordercolor = "transparent";
+                    $scope.hardwarebtnwidth = "0px";
+                    
+                    
+                    $scope.foodsandrestaurantbtncolor = "#17a2b8";
+                    $scope.foodsandrestaurantbtnbordercolor = "transparent";
+                    $scope.foodsandrestaurantbtnwidth = "0px";
+                    
+                    
+                    $scope.portsbtncolor = "#17a2b8";
+                    $scope.portsbtnbordercolor = "transparent";
+                    $scope.portsbtnwidth = "0px";
+                    
+                    
+                    $scope.postofficebtncolor = "#17a2b8";
+                    $scope.postofficebtnbordercolor = "transparnt";
+                    $scope.postofficebtnwidth = "0px";
+                    
+                    
+                    $scope.mallsbtncolor = "#17a2b8";
+                    $scope.mallsbtnbordercolor = "transparent";
+                    $scope.mallsbtnwidth = "";
+                    
+                    
+                    $scope.search = "Hospital";
+                    
+                    
+                    document.getElementById("title_landing_cateegories").innerHTML = "CATFISH - HOSPITAL";
+        }
+        
+        
+        $scope.moneytransferrerbtn = function(){
+            $scope.moneytransferrerbordercolor = "#17a2b8";
+            $scope.moneytransferrerwidth = "3px";
+            
+            
+            $scope.grocerybtnbordercolor = "transparent";
+            $scope.grocerybtnwidth = "";
+            
+            
+                    $scope.pharmacybtnbordercolor = "transparent";
+                    $scope.pharmacybtnwidth = "";
+                    
+                    $scope.gasolinestationbtnbordercolor = "transparent";
+                    $scope.gasolinestationbtnwidth = "";
+                    
+                    
+                    $scope.banksbordercolor = "transparent";
+                    $scope.bankswidth = "0px";
+                    
+                    
+                    $scope.foodsandrestaurantbtnbordercolor = "transparent";
+                    $scope.foodsandrestaurantbtnwidth = "";
+                    
+                    
+                    $scope.portsbtnbordercolor = "transparent";
+            $scope.portsbtnwidth = "";
+                    
+                    
+                    $scope.search = "Money Transferrer";
+                    
+                    
+                    document.getElementById("title_landing_cateegories").innerHTML = "CATFISH - MONEY TRANSFERRER";
+        }
+        
+        
+        $scope.bankbtn = function(){
+            $scope.moneytransferrerbordercolor = "transparent";
+            $scope.moneytransferrerwidth = "0px";
+            
+            
+            $scope.grocerybtnbordercolor = "transparent";
+            $scope.grocerybtnwidth = "";
+            
+            
+                    $scope.pharmacybtnbordercolor = "transparent";
+                    $scope.pharmacybtnwidth = "";
+                    
+                    $scope.gasolinestationbtnbordercolor = "transparent";
+                    $scope.gasolinestationbtnwidth = "";
+                    
+                    
+                    $scope.banksbordercolor = "#17a2b8";
+                    $scope.bankswidth = "3px";
+                    
+                    
+                    $scope.foodsandrestaurantbtnbordercolor = "transparent";
+                    $scope.foodsandrestaurantbtnwidth = "";
+                    
+                    
+                    $scope.portsbtnbordercolor = "transparent";
+            $scope.portsbtnwidth = "";
+                    
+                    
+                    $scope.search = "Banks";
+                    
+                    
+                    document.getElementById("title_landing_cateegories").innerHTML = "CATFISH - BANKS";
         }
         
         
@@ -967,14 +2129,15 @@
         
         $scope.search_btn = function(){
             $scope.results_info_hide = true;
+            $scope.presspenbtgraph = "Auto Search";
         }
         
         
         
         
-    $scope.limit = 4;
+    $scope.limit = 9;
     $scope.loadMore = function() {         
-    var increamented = $scope.limit + 4;
+    var increamented = $scope.limit + 3;
     $scope.limit = increamented > $scope.establishmentsdetails.length ? $scope.establishmentsdetails.length : increamented;
     };
     
@@ -982,7 +2145,7 @@
     
     
     $scope.loadless = function() {         
-    var increamented = $scope.limit - 4;
+    var increamented = $scope.limit - 3;
     if(increamented > $scope.establishmentsdetails.length ? $scope.establishmentsdetails.length : increamented){
         $scope.limit = increamented > $scope.establishmentsdetails.length ? $scope.establishmentsdetails.length : increamented;
     }else{
@@ -1029,6 +2192,66 @@
                 .then(function (response) {
                     $scope.establishmentsdetails = response.data;
                 });
+                
+                
+                $scope.search = "";
+                
+                
+                $scope.pharmacybtncolor = "#17a2b8";
+                    $scope.pharmacybtnbordercolor = "transparent";
+                    $scope.pharmacybtnwidth = "";
+                    
+                    
+                    $scope.grocerybtncolor = "#17a2b8";
+                    $scope.grocerybtnbordercolor = "transparent";
+                    $scope.grocerybtnwidth = "";
+                    
+                    
+                    $scope.takeoutbtncolor = "#17a2b8";
+                    $scope.takeoutbtnbordercolor = "transparent";
+                    $scope.takeoutbtnwidth = "";
+                    
+                    
+                    $scope.deliverybtncolor = "#17a2b8";
+                    $scope.deliverybtnbordercolor = "transparent";
+                    $scope.deliverybtnwidth = "";
+                    
+                    
+                    $scope.gasolinestationbtncolor = "#17a2b8";
+                    $scope.gasolinestationbtnbordercolor = "transparent";
+                    $scope.gasolinestationbtnwidth = "";
+                    
+                    
+                    $scope.hotelbtncolor = "#17a2b8";
+                    $scope.hotelbtnbordercolor = "transparent";
+                    $scope.hotelbtnwidth = "";
+                    
+                    
+                    $scope.hospitalbtncolor = "#17a2b8";
+                    $scope.hospitalbtnbordercolor = "transparent";
+                    $scope.hospitalbtnwidth = "";
+                    
+                    
+                    $scope.allsearch = "All";
+                
+                
+                document.getElementById("title_landing_cateegories").innerHTML = "PRESSPEN | SEARCH ALL";
+    }
+    
+    
+    $scope.showcategories = function(){
+        $("#hidemore").show();
+        $("#hideline").show();
+        $("#printnameloadmore").hide();
+        $("#printnameloadless").show();
+    }
+    
+    
+    $scope.hidecategories = function(){
+        $("#hidemore").hide();
+        $("#hideline").hide();
+        $("#printnameloadmore").show();
+        $("#printnameloadless").hide();
     }
     
 
@@ -1104,7 +2327,7 @@
             } else if (establishmentdetails.toUpperCase() === ("Fire Station").toUpperCase() || establishmentdetails.toUpperCase() === ("Fire Stations").toUpperCase() || establishmentdetails.toUpperCase() === ("Fire Man").toUpperCase() || establishmentdetails.toUpperCase() === ("Fire Men").toUpperCase() || establishmentdetails.toUpperCase() === ("Fireman").toUpperCase() || establishmentdetails.toUpperCase() === ("Firemen").toUpperCase() || establishmentdetails.toUpperCase() === ("Bombero").toUpperCase()) {
                 $establishmenticon = "../../img/categories/new/firemen.png";
             } else {
-                return "../../img/categories/new/none.png";
+                $establishmenticon = "../../img/categories/new/none.png";
             }
             return $establishmenticon;
         }
