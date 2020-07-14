@@ -2,10 +2,10 @@ change when clickingh in categories ----------------------------done
 make view -----------------------------------------------------in the future
 remove operation --------------------------------------------------done
 remove lookout ---------------------------------------------------done
-change photos in home
-change photos in type in home
-change photos in how does it work in home
-change local businesses recommendation
+change photos in home ----------------------------------------------done
+change photos in type in home ----------------------------------------done
+change photos in how does it work in home ----------------------------done
+change local businesses recommendation ------------------------------city guide
 check spelling and grammar
 about ---------------------------------------------------------done
 contact ------------------------------------------------------done
@@ -30,7 +30,7 @@ remove comments
 scrape
 check spelling and grammar
 put a meta
-download photos and put
+download photos and put ----------------------------------------done put not
 upload
 create an account
 create a page

@@ -1,0 +1,4521 @@
+[
+  {
+    "web-scraper-order": "1592238897-341",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/10-dove-street-confectionery-banilad-mandaue-city/info",
+    "title": "10 Dove Street Confectionery",
+    "address": "Oakridge Business Park, A. S. Fortuna Street, Banilad, Mandaue City",
+    "contact": "+63324181010",
+    "reviewer_name": [],
+    "reviewer_rate": [],
+    "reviews": "60 Reviews",
+    "rate": 4.1,
+    "reviewer_text": [],
+    "open_establishment": "Opens at 7am",
+    "details": "Bakery - Bakery",
+    "dishes": null,
+    "cost": "PHP550 for two people (approx.)",
+    "services": [
+      {
+        "services": "Home Delivery"
+      },
+      {
+        "services": "Takeaway Available"
+      },
+      {
+        "services": "Desserts and Bakes"
+      },
+      {
+        "services": "Wifi"
+      },
+      {
+        "services": "Outdoor Seating"
+      },
+      {
+        "services": "Indoor Seating"
+      }
+    ],
+    "pages": 2,
+    "pages-href": "https://www.zomato.com/cebu/restaurants?page=2"
+  },
+  {
+    "web-scraper-order": "1592238772-334",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/larsian-barbeque-capitol-site/info",
+    "title": "Larsian Barbeque",
+    "address": "Don Mariano Cui Street, Capitol Site, Cebu City",
+    "contact": "Not available for this place",
+    "reviewer_name": [],
+    "reviewer_rate": [],
+    "reviews": "141 Reviews",
+    "rate": 3.2,
+    "reviewer_text": [
+      {
+        "reviewer_text": "Food: Grilled seafoods and meats. Pusô (hanging rice).\n\nPlace: Different stalls with almost the same items on the menu. Location has been renovated so tables and grilling stations are more organized compared to the old one. Be cautious though upon getting your bill as there are times that they add up some items you didn't order. Sum it all up if the amount is correct. You have been warned. \n\nPrice: Affordable."
+      },
+      {
+        "reviewer_text": "Food - Must try when visiting the Queen City of the South!\n\nPlace - Located in the heart of Fuente Osmena. Typical ihaw-ihaw place. Different stalls but almost the same items on the menu. Try to look around first before settling on the stall of your choice. Try to haggle as well. \n\nPrice - Affordable. Other's might say prices here are relatively high compared to other ihawan but hey, they have rental obligations and staffs to pay."
+      }
+    ],
+    "open_establishment": "24 Hours (Today)",
+    "details": "Quick Bites - Filipino, Grill",
+    "dishes": null,
+    "cost": "PHP250 for two people (approx.)",
+    "services": [
+      {
+        "services": "Breakfast"
+      },
+      {
+        "services": "Indoor Seating"
+      }
+    ],
+    "pages": 3,
+    "pages-href": "https://www.zomato.com/cebu/restaurants?page=3"
+  },
+  {
+    "web-scraper-order": "1592238102-296",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/soho-park-7-lahug-cebu-city/info",
+    "title": "Soho Park",
+    "address": "Ground Floor, Asian Premier Residences, Abad Street, Lahug City, Cebu",
+    "contact": "+63324157715",
+    "reviewer_name": [],
+    "reviewer_rate": [],
+    "reviews": "41 Reviews",
+    "rate": 3.6,
+    "reviewer_text": [
+      {
+        "reviewer_text": ""
+      },
+      {
+        "reviewer_text": "One server was not accommodating and the other one was fine but she miscalculated our bill. It was an okay experience; the steak was so-so but I don't think I'm coming back. I also think it's too pricey and I could name more restaurants where  I'm willing to pay the same price I spent here."
+      }
+    ],
+    "open_establishment": "Opens at 7:30am",
+    "details": "Casual Dining - European, International",
+    "dishes": null,
+    "cost": "Cash only",
+    "services": [
+      {
+        "services": "Breakfast"
+      },
+      {
+        "services": "Wine and Beer"
+      },
+      {
+        "services": "Craft Beer"
+      },
+      {
+        "services": "Table booking recommended"
+      },
+      {
+        "services": "Serves Organic Food"
+      },
+      {
+        "services": "Vegetarian Friendly"
+      },
+      {
+        "services": "Indoor Seating"
+      },
+      {
+        "services": "Kid Friendly"
+      },
+      {
+        "services": "Wifi"
+      },
+      {
+        "services": "Vegan Options"
+      },
+      {
+        "services": "All Day Breakfast"
+      }
+    ],
+    "pages": 5,
+    "pages-href": "https://www.zomato.com/cebu/restaurants?page=5"
+  },
+  {
+    "web-scraper-order": "1592238243-303",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/bucket-shrimps-capitol-site/info",
+    "title": "Bucket Shrimps",
+    "address": "Orchid Street, Capitol Site, Cebu City",
+    "contact": "+639956233060",
+    "reviewer_name": [
+      {
+        "reviewer_name": "Dinky"
+      },
+      {
+        "reviewer_name": "Rox Ulang"
+      }
+    ],
+    "reviewer_rate": [
+      {
+        "reviewer_rate": "4.0"
+      },
+      {
+        "reviewer_rate": "5.0"
+      }
+    ],
+    "reviews": "89 Reviews",
+    "rate": 4.1,
+    "reviewer_text": [
+      {
+        "reviewer_text": "Food tasted well. Buttered shrimp is a must try."
+      },
+      {
+        "reviewer_text": "I love the food especially the buttered shrimp. Defenitely will be back!"
+      }
+    ],
+    "open_establishment": "Opens at 11am",
+    "details": "Casual Dining - Filipino, Seafood",
+    "dishes": "Beer",
+    "cost": "PHP700 for two people (approx.) Without alcohol",
+    "services": [
+      {
+        "services": "Home Delivery"
+      },
+      {
+        "services": "Takeaway Available"
+      },
+      {
+        "services": "Beer"
+      },
+      {
+        "services": "Indoor Seating"
+      },
+      {
+        "services": "Wifi"
+      },
+      {
+        "services": "Table booking recommended"
+      }
+    ],
+    "pages": 5,
+    "pages-href": "https://www.zomato.com/cebu/restaurants?page=5"
+  },
+  {
+    "web-scraper-order": "1592237853-285",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/yakski-barbeque-capitol-site/info",
+    "title": "Yakski Barbeque",
+    "address": "268 Don Mariano Cui Street, Capitol Site, Cebu City",
+    "contact": "+63322543977",
+    "reviewer_name": [],
+    "reviewer_rate": [],
+    "reviews": "96 Reviews",
+    "rate": 4.3,
+    "reviewer_text": [],
+    "open_establishment": "Opens at 11:30am",
+    "details": "Quick Bites - Filipino, Grill",
+    "dishes": null,
+    "cost": "",
+    "services": [
+      {
+        "services": "Home Delivery"
+      },
+      {
+        "services": "Takeaway Available"
+      },
+      {
+        "services": "Beer"
+      },
+      {
+        "services": "Indoor Seating"
+      }
+    ],
+    "pages": "...",
+    "pages-href": "https://www.zomato.com/cebu/restaurants?page=6"
+  },
+  {
+    "web-scraper-order": "1592239173-359",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/j-co-donuts-coffee-cebu-business-park/info",
+    "title": "J.CO Donuts & Coffee",
+    "address": "Ground Floor, The Terraces, Ayala Center Cebu, Cebu Business Park, Cebu City",
+    "contact": "+63324012686",
+    "reviewer_name": [
+      {
+        "reviewer_name": "FoodCraving Review"
+      },
+      {
+        "reviewer_name": "Ohh Poe"
+      }
+    ],
+    "reviewer_rate": [
+      {
+        "reviewer_rate": "5.0"
+      },
+      {
+        "reviewer_rate": "5.0"
+      }
+    ],
+    "reviews": "85 Reviews",
+    "rate": 4.4,
+    "reviewer_text": [
+      {
+        "reviewer_text": "Craving for donut I have to try their signature donut the Alcapone. A soft donut topped with belgian white chocolate and sprinkle with slices of almond. The dough is very soft and the sweetness is just enough unlike its competition. The almonds and the white belgian chocolate combine with the donut gives a very pleasant taste.\nAbove it all they also have a very cozy place. Good for hang out or just relax while enjoying a bite of your donut."
+      },
+      {
+        "reviewer_text": "This place rocks the house.\nSometimes I'm in the mood for down and dirty donuts Like Mister Donut, but other times you want what almost can be described as gourmet donuts and that is how I would describe Jco.\nGreat place to go visit and to get delivery too on Grab or Foodpanda.\nPricy yes but this isn't just a mere donut it's practically a meal in and of itself.\nSome of the donuts are like a work of art."
+      }
+    ],
+    "open_establishment": "Opens at 10am",
+    "details": "Bakery - Bakery, Coffee",
+    "dishes": "Donut, Coffee",
+    "cost": "PHP500 for two people (approx.)",
+    "services": [
+      {
+        "services": "Takeaway Available"
+      },
+      {
+        "services": "Desserts and Bakes"
+      },
+      {
+        "services": "Outdoor Seating"
+      },
+      {
+        "services": "Wifi"
+      },
+      {
+        "services": "Indoor Seating"
+      }
+    ],
+    "pages": "",
+    "pages-href": ""
+  },
+  {
+    "web-scraper-order": "1592238631-325",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/acacia-steakhouse-capitol-site-cebu-city/info",
+    "title": "Acacia Steakhouse",
+    "address": "Green Valley Subdivision, Acacia Street, Capitol Hills, Capitol Site, Cebu City",
+    "contact": "+639228052957",
+    "reviewer_name": [],
+    "reviewer_rate": [],
+    "reviews": "106 Reviews",
+    "rate": 4.6,
+    "reviewer_text": [
+      {
+        "reviewer_text": "5 for the steak, consistency was just right,not too chewy. I just wish there was a little bit more done on the presentation. Aesthetics for the price you pay does add to its value. To add, the staff could be tad bit more friendlier. Smile when you enter and smile when you go."
+      },
+      {
+        "reviewer_text": ""
+      }
+    ],
+    "open_establishment": "Opens at 11:30am",
+    "details": "Casual Dining - Steak",
+    "dishes": null,
+    "cost": "PHP1200 for two people (approx.)",
+    "services": [
+      {
+        "services": "Home Delivery"
+      },
+      {
+        "services": "Takeaway Available"
+      },
+      {
+        "services": "Indoor Seating"
+      },
+      {
+        "services": "Outdoor Seating"
+      },
+      {
+        "services": "Wifi"
+      },
+      {
+        "services": "Table booking recommended"
+      }
+    ],
+    "pages": 3,
+    "pages-href": "https://www.zomato.com/cebu/restaurants?page=3"
+  },
+  {
+    "web-scraper-order": "1592237839-284",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/starbucks-1-cebu-business-park/info",
+    "title": "Starbucks",
+    "address": "Ground Floor, The Terraces, Ayala Center Cebu, Cebu Business Park, Cebu City",
+    "contact": "+63322318456",
+    "reviewer_name": [],
+    "reviewer_rate": [],
+    "reviews": "52 Reviews",
+    "rate": 4.2,
+    "reviewer_text": [
+      {
+        "reviewer_text": ""
+      },
+      {
+        "reviewer_text": ""
+      }
+    ],
+    "open_establishment": "Opens at 7am",
+    "details": "Café - Coffee",
+    "dishes": null,
+    "cost": "PHP550 for two people (approx.)",
+    "services": [
+      {
+        "services": "Takeaway Available"
+      },
+      {
+        "services": "Indoor Seating"
+      },
+      {
+        "services": "Wifi"
+      },
+      {
+        "services": "Outdoor Seating"
+      },
+      {
+        "services": "Desserts and Bakes"
+      }
+    ],
+    "pages": "...",
+    "pages-href": "https://www.zomato.com/cebu/restaurants?page=6"
+  },
+  {
+    "web-scraper-order": "1592238472-316",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/mooon-cafe-lahug/info",
+    "title": "Mooon Cafe",
+    "address": "The Walk, IT Park, Lahug, Cebu City",
+    "contact": "+63325054239",
+    "reviewer_name": [
+      {
+        "reviewer_name": "John Santos"
+      },
+      {
+        "reviewer_name": "QueenCee"
+      }
+    ],
+    "reviewer_rate": [
+      {
+        "reviewer_rate": "3.0"
+      },
+      {
+        "reviewer_rate": "5.0"
+      }
+    ],
+    "reviews": "86 Reviews",
+    "rate": 4,
+    "reviewer_text": [
+      {
+        "reviewer_text": "I was with colleagues from different countries and all wanted Mexican food for lunch. Good thing Mooon Cafe was close by. We ordered the Nacho Supreme, quesadilla and the chimichanga. Servings were adequate and the food was tasty. Service was fast and the staff were very attentive. A little pricey for lunch for 4 people but at least we got to satisfy our Mexican food cravings."
+      },
+      {
+        "reviewer_text": "Really good staff. They always follow up to tellvyou ablut your order. The place is not very spacious but it is alright and they don't close really early which I think is good.\n\nI love the food."
+      }
+    ],
+    "open_establishment": "11am – 1am (Today)",
+    "details": "Casual Dining - Mexican, Filipino, Asian",
+    "dishes": "Sisig, Chicken Fajita, Calamari, Pizza, Steak, Chips",
+    "cost": "PHP800 for two people (approx.) Without alcohol",
+    "services": [
+      {
+        "services": "Home Delivery"
+      },
+      {
+        "services": "Takeaway Available"
+      },
+      {
+        "services": "Wine and Beer"
+      },
+      {
+        "services": "Outdoor Seating"
+      },
+      {
+        "services": "Serves Cocktails"
+      },
+      {
+        "services": "Craft Beer"
+      },
+      {
+        "services": "Indoor Seating"
+      },
+      {
+        "services": "Wifi"
+      },
+      {
+        "services": "Bottle Service"
+      },
+      {
+        "services": "Table booking recommended"
+      }
+    ],
+    "pages": 4,
+    "pages-href": "https://www.zomato.com/cebu/restaurants?page=4"
+  },
+  {
+    "web-scraper-order": "1592237878-286",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/h-cafe-harolds-hotel-lahug-cebu-city/info",
+    "title": "H Cafe - Harolds Hotel",
+    "address": "Harolds Hotel, Gorordo Avenue Corner Rosal Street, Lahug, Cebu City 6000 6000",
+    "contact": "+63325057777",
+    "reviewer_name": [],
+    "reviewer_rate": [],
+    "reviews": "48 Reviews",
+    "rate": 3.9,
+    "reviewer_text": [
+      {
+        "reviewer_text": ""
+      },
+      {
+        "reviewer_text": ""
+      }
+    ],
+    "open_establishment": "Opens at 6am",
+    "details": "Casual Dining - American, European, Asian",
+    "dishes": null,
+    "cost": "PHP1200 for two people (approx.)",
+    "services": [
+      {
+        "services": "Breakfast"
+      },
+      {
+        "services": "Outdoor Seating"
+      },
+      {
+        "services": "Table booking recommended"
+      },
+      {
+        "services": "Group Meal"
+      },
+      {
+        "services": "Indoor Seating"
+      },
+      {
+        "services": "Wifi"
+      },
+      {
+        "services": "Buffet"
+      }
+    ],
+    "pages": "...",
+    "pages-href": "https://www.zomato.com/cebu/restaurants?page=6"
+  },
+  {
+    "web-scraper-order": "1592238367-309",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/fungs-noodle-house-lahug/info",
+    "title": "Fung's Noodle House",
+    "address": "Ground Floor, SSY Business Center, Salinas Drive, Lahug, Cebu City",
+    "contact": "+63322608565",
+    "reviewer_name": [],
+    "reviewer_rate": [],
+    "reviews": "55 Reviews",
+    "rate": 4.2,
+    "reviewer_text": [],
+    "open_establishment": "Opens at 11am",
+    "details": "Casual Dining - Chinese",
+    "dishes": null,
+    "cost": "PHP800 for two people (approx.) Without alcohol",
+    "services": [
+      {
+        "services": "Home Delivery"
+      },
+      {
+        "services": "Takeaway Available"
+      },
+      {
+        "services": "Beer"
+      },
+      {
+        "services": "Indoor Seating"
+      }
+    ],
+    "pages": 4,
+    "pages-href": "https://www.zomato.com/cebu/restaurants?page=4"
+  },
+  {
+    "web-scraper-order": "1592238061-294",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/paparts-diner-and-cafe-tipolo-mandaue-city/info",
+    "title": "Papart's Diner and Cafe",
+    "address": "Second Floor, Maroo Arcade, Mantawe Avenue, Tipolo, Mandaue City",
+    "contact": "+63323280798",
+    "reviewer_name": [],
+    "reviewer_rate": [],
+    "reviews": "73 Reviews",
+    "rate": 2.6,
+    "reviewer_text": [],
+    "open_establishment": "Opens at 10am",
+    "details": "Casual Dining - Filipino",
+    "dishes": null,
+    "cost": "",
+    "services": [
+      {
+        "services": "Free Parking"
+      },
+      {
+        "services": "Indoor Seating"
+      }
+    ],
+    "pages": 5,
+    "pages-href": "https://www.zomato.com/cebu/restaurants?page=5"
+  },
+  {
+    "web-scraper-order": "1592238787-335",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/tokyo-table-tipolo/info",
+    "title": "Tokyo Table",
+    "address": "City Time Square, Mantawe Avenue, Tipolo, Mandaue City",
+    "contact": "+63322397000",
+    "reviewer_name": [
+      {
+        "reviewer_name": "Yani"
+      },
+      {
+        "reviewer_name": "Alnixeats"
+      }
+    ],
+    "reviewer_rate": [
+      {
+        "reviewer_rate": "5.0"
+      },
+      {
+        "reviewer_rate": "3.0"
+      }
+    ],
+    "reviews": "130 Reviews",
+    "rate": 4.5,
+    "reviewer_text": [
+      {
+        "reviewer_text": "One of the best buffets my family and I have been too. You can reserve your seats ahead. \nFood is superb. I get to have my own array of yakiniku choices, and raw seafood (salmon was my fave) at the same time. \nNot to mention, their dessert bar, keeps me coming back for more\nSo much memories with this restaurant, from birthdays to graduations. \nSad to hear they have closed after years of operation. Absolutely, would miss this place."
+      },
+      {
+        "reviewer_text": "Sad to hear it’s already closed after 6 years! 😕 follow my instagram for more photo/videos blogs @alnixeats 😋"
+      }
+    ],
+    "open_establishment": "Opens at 11:30am",
+    "details": "Casual Dining - Japanese",
+    "dishes": null,
+    "cost": "PHP1500 for two people (approx.)",
+    "services": [
+      {
+        "services": "Outdoor Seating"
+      },
+      {
+        "services": "Table booking recommended"
+      },
+      {
+        "services": "Buffet"
+      },
+      {
+        "services": "Wifi"
+      }
+    ],
+    "pages": 3,
+    "pages-href": "https://www.zomato.com/cebu/restaurants?page=3"
+  },
+  {
+    "web-scraper-order": "1592238354-308",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/sulbing-dessert-cafe-lahug-cebu-city/info",
+    "title": "Sulbing Dessert Cafe",
+    "address": "eBloc 2, IT Park, Lahug, Cebu City",
+    "contact": "+63324142007",
+    "reviewer_name": [
+      {
+        "reviewer_name": "Jarena Evangelio"
+      },
+      {
+        "reviewer_name": "Joy Leyson"
+      }
+    ],
+    "reviewer_rate": [
+      {
+        "reviewer_rate": "5.0"
+      },
+      {
+        "reviewer_rate": "4.0"
+      }
+    ],
+    "reviews": "65 Reviews",
+    "rate": 4.2,
+    "reviewer_text": [
+      {
+        "reviewer_text": "I love the ambience of this place, it's relaxing. And I'm impressed coz they are open 24 hours a day."
+      },
+      {
+        "reviewer_text": "Craving for sweets and ended up here. Tried there Java Chip Frappe and it was the best that I've tasted so far. Besides from other cafes, I'd prefer Sulbing for my frappe heart."
+      }
+    ],
+    "open_establishment": "Opens at 10am",
+    "details": "Dessert Parlor - Desserts, Coffee",
+    "dishes": null,
+    "cost": "",
+    "services": [
+      {
+        "services": "Desserts and Bakes"
+      },
+      {
+        "services": "Indoor Seating"
+      },
+      {
+        "services": "Wifi"
+      }
+    ],
+    "pages": 4,
+    "pages-href": "https://www.zomato.com/cebu/restaurants?page=4"
+  },
+  {
+    "web-scraper-order": "1592237703-276",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/azure-beach-club-crimson-resort-and-spa-mactan-mactan-lapu-lapu-city/info",
+    "title": "Azure Beach Club - Crimson Resort and Spa Mactan",
+    "address": "Crimson Resort and Spa Mactan, Seascapes Resort Town, Mactan, Cebu, Mactan, Lapu-Lapu City",
+    "contact": "+63324019999",
+    "reviewer_name": [],
+    "reviewer_rate": [],
+    "reviews": "34 Reviews",
+    "rate": 3.9,
+    "reviewer_text": [
+      {
+        "reviewer_text": "If you’re looking for a place to splurge your money on food, this is it. Their dishes are pricey but reasonable since Azure is in a 5-star resort, and it is super worth it because the serving size is big. Their service is great too, so accommodating and welcoming. I love the ambiance because it is by the sea, sad thing is that when we had supper there, there was no view anymore because it is dark. I haven’t captured every dish we had but it was a 3 course meal and I was already getting full after the appetisers, again the servings were BIG and we are 5 in the family. Super worth it."
+      },
+      {
+        "reviewer_text": "Spent my birthday here at Azure Beach Club. Food was pricey but great. They also have a bar by the sea, super cool! Each course ranges from PHP900 to PHP3,000."
+      }
+    ],
+    "open_establishment": "Opens at 10:30am",
+    "details": "Casual Dining, Bar - Asian",
+    "dishes": null,
+    "cost": "",
+    "services": [
+      {
+        "services": "Beer"
+      },
+      {
+        "services": "Nightlife"
+      },
+      {
+        "services": "Wifi"
+      },
+      {
+        "services": "Outdoor Seating"
+      },
+      {
+        "services": "Serves Cocktails"
+      },
+      {
+        "services": "Table booking recommended"
+      }
+    ],
+    "pages": "...",
+    "pages-href": "https://www.zomato.com/cebu/restaurants?page=6"
+  },
+  {
+    "web-scraper-order": "1592237918-288",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/the-thray-guadalupe-cebu-city/info",
+    "title": "The Thray",
+    "address": "Grove Building, V Rama Avenue, Guadalupe, Cebu City",
+    "contact": "+639479918930",
+    "reviewer_name": [
+      {
+        "reviewer_name": "Ken Estenzo"
+      },
+      {
+        "reviewer_name": "C 33"
+      }
+    ],
+    "reviewer_rate": [
+      {
+        "reviewer_rate": "2.0"
+      },
+      {
+        "reviewer_rate": "1.0"
+      }
+    ],
+    "reviews": "37 Reviews",
+    "rate": 3.5,
+    "reviewer_text": [
+      {
+        "reviewer_text": "The servings are quite small and in terms of taste, it's okay. You can't really consider it boodle with the small servings. Just a thought for you guys."
+      },
+      {
+        "reviewer_text": "Here's a polite and honest feedback. I hope this will help you improve and get better.\n1. The place - maybe adjust the aircon a little bit to make it comfortable especially when it's around lunch time. It was hot when we were there.\n2. Anti-mage iced tea - it did not taste like iced tea at all. It was water, sugar and some ice. It's not even cold.\n3. We had the Warlock's steak (more like tenderloin slices/ small pieces and not exactly a whole steak) - it took some time for them to serve it but it was not even close to warm when it was brought to our table. The serving portion is too small.\n4. Price - not worth the price at all. It's too expensive for a not cold iced tea, cold steak and...read more"
+      }
+    ],
+    "open_establishment": "Opens at 11am",
+    "details": "Casual Dining - Steak, Seafood",
+    "dishes": null,
+    "cost": null,
+    "services": [
+      {
+        "services": "Free Parking"
+      },
+      {
+        "services": "Group Meal"
+      },
+      {
+        "services": "Indoor Seating"
+      }
+    ],
+    "pages": "...",
+    "pages-href": "https://www.zomato.com/cebu/restaurants?page=6"
+  },
+  {
+    "web-scraper-order": "1592238502-318",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/st-moritz-restaurant-cebu-business-park/info",
+    "title": "St. Moritz Restaurant",
+    "address": "St. Moritz Hotel, St. Moritz Road, Cebu Business Park, Cebu City",
+    "contact": "+63322311148",
+    "reviewer_name": [
+      {
+        "reviewer_name": "Max J"
+      },
+      {
+        "reviewer_name": "Crezia"
+      }
+    ],
+    "reviewer_rate": [
+      {
+        "reviewer_rate": "4.0"
+      },
+      {
+        "reviewer_rate": "5.0"
+      }
+    ],
+    "reviews": "102 Reviews",
+    "rate": 4.7,
+    "reviewer_text": [
+      {
+        "reviewer_text": "The place was tiny but it made up for the big servings of pork and beef steak. I love me some good gravy and theirs was one of the best I've had. Oh and they serve very good bread too!"
+      },
+      {
+        "reviewer_text": "Wagyu beef, tenderlon steak, Steak Tartar!"
+      }
+    ],
+    "open_establishment": "Opens at 7am",
+    "details": "Casual Dining - American",
+    "dishes": null,
+    "cost": "PHP1600 for two people (approx.) Without alcohol",
+    "services": [
+      {
+        "services": "Breakfast"
+      },
+      {
+        "services": "Wine and Beer"
+      },
+      {
+        "services": "Table booking recommended"
+      },
+      {
+        "services": "Indoor Seating"
+      },
+      {
+        "services": "Wifi"
+      }
+    ],
+    "pages": 4,
+    "pages-href": "https://www.zomato.com/cebu/restaurants?page=4"
+  },
+  {
+    "web-scraper-order": "1592238427-313",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/wokd-banilad-cebu-city/info",
+    "title": "Wok'd",
+    "address": "Ground Floor, Streetscape, Paseo Saturnino, Ma. Luisa Road, Banilad, Cebu City",
+    "contact": "+63322684933",
+    "reviewer_name": [],
+    "reviewer_rate": [],
+    "reviews": "58 Reviews",
+    "rate": 4.1,
+    "reviewer_text": [],
+    "open_establishment": "Opens at 11:30am",
+    "details": "Casual Dining - Thai",
+    "dishes": null,
+    "cost": "PHP1350 for two people (approx.) Without alcohol",
+    "services": [
+      {
+        "services": "Beer"
+      },
+      {
+        "services": "Outdoor Seating"
+      },
+      {
+        "services": "Table booking recommended"
+      },
+      {
+        "services": "Indoor Seating"
+      },
+      {
+        "services": "Wifi"
+      }
+    ],
+    "pages": 4,
+    "pages-href": "https://www.zomato.com/cebu/restaurants?page=4"
+  },
+  {
+    "web-scraper-order": "1592238817-336",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/feria-radisson-blu-cebu-north-reclamation-area-cebu-city/info",
+    "title": "Feria - Radisson Blu Cebu",
+    "address": "Radisson Blu Cebu, Juan Luna Avenue Corner Osmena Boulevard, North Reclamation Area, Cebu City",
+    "contact": "+63324029900",
+    "reviewer_name": [
+      {
+        "reviewer_name": "Beverly Morales"
+      },
+      {
+        "reviewer_name": "Max J"
+      }
+    ],
+    "reviewer_rate": [
+      {
+        "reviewer_rate": "5.0"
+      },
+      {
+        "reviewer_rate": "4.0"
+      }
+    ],
+    "reviews": "82 Reviews",
+    "rate": 4.3,
+    "reviewer_text": [
+      {
+        "reviewer_text": ""
+      },
+      {
+        "reviewer_text": "I've always had the impression from others that Feria didnt have as varied offering as other buffets in the city so when I came to try Feria I was quite pleased to see a lot of options. The carving station had tender and perfectly seasoned meats and the Indian station had some really good selections and their desserts were just perfect for my taste ( not too sweet and I didnt get that \"mass produced\" taste which I commonly get from other buffets). All the dishes I tried gave me the impression that only the freshest ingredients were used to prepare them."
+      }
+    ],
+    "open_establishment": "Opens at 6:30am",
+    "details": "Casual Dining - Asian",
+    "dishes": "Pizza, Tea, Lunch Buffet, Breakfast Buffet",
+    "cost": "PHP2200 for two people (approx.) Without alcohol",
+    "services": [
+      {
+        "services": "Breakfast"
+      },
+      {
+        "services": "Takeaway Available"
+      },
+      {
+        "services": "Full Bar Available"
+      },
+      {
+        "services": "Wifi"
+      },
+      {
+        "services": "Table booking recommended"
+      },
+      {
+        "services": "Indoor Seating"
+      },
+      {
+        "services": "Buffet"
+      }
+    ],
+    "pages": 2,
+    "pages-href": "https://www.zomato.com/cebu/restaurants?page=2"
+  },
+  {
+    "web-scraper-order": "1592238487-317",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/weekend-kasambagan-cebu-city/info",
+    "title": "Weekend",
+    "address": "Pope John Paul II Avenue, The Greenery, Kasambagan, Cebu 6000",
+    "contact": "+63323842802",
+    "reviewer_name": [
+      {
+        "reviewer_name": "The Jivenator"
+      },
+      {
+        "reviewer_name": "Sam Medriano"
+      }
+    ],
+    "reviewer_rate": [
+      {
+        "reviewer_rate": "5.0"
+      },
+      {
+        "reviewer_rate": "5.0"
+      }
+    ],
+    "reviews": "80 Reviews",
+    "rate": 4.1,
+    "reviewer_text": [
+      {
+        "reviewer_text": "The most underrated restaurant in Cebu. Definitely a bang for one's buck, you get what you paid for. We ordered five different dishes and all five dishes tasted spectacular, also aesthetically pleasing. The service crew is always smiling, which is also good. I will highly recommend this place!\n\nP.S: If you order the drown in cheese burger, do not forget to mention to the server that the raclette \"cheese\" needs to be poured on top of the patty. NOT ON TOP OF THE FRIES."
+      },
+      {
+        "reviewer_text": "The Fat bastard was just dang!  Worth every buck."
+      }
+    ],
+    "open_establishment": "Opens at 11am",
+    "details": "Casual Dining - American",
+    "dishes": null,
+    "cost": "",
+    "services": [
+      {
+        "services": "Full Bar Available"
+      },
+      {
+        "services": "Indoor Seating"
+      },
+      {
+        "services": "Private Dining Area Available"
+      },
+      {
+        "services": "Outdoor Seating"
+      },
+      {
+        "services": "Table booking recommended"
+      }
+    ],
+    "pages": 4,
+    "pages-href": "https://www.zomato.com/cebu/restaurants?page=4"
+  },
+  {
+    "web-scraper-order": "1592239025-349",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/sumo-sam-cebu-business-park-cebu-city/info",
+    "title": "Sumo Sam",
+    "address": "Ground Floor, The Terraces, Ayala Center Cebu, Cebu Business Park, Cebu City",
+    "contact": "+63324010643",
+    "reviewer_name": [],
+    "reviewer_rate": [],
+    "reviews": "104 Reviews",
+    "rate": 4.1,
+    "reviewer_text": [],
+    "open_establishment": "Opens at 10am",
+    "details": "Casual Dining - Japanese",
+    "dishes": null,
+    "cost": "PHP1200 for two people (approx.) Without alcohol",
+    "services": [
+      {
+        "services": "Home Delivery"
+      },
+      {
+        "services": "Takeaway Available"
+      },
+      {
+        "services": "Beer"
+      },
+      {
+        "services": "Indoor Seating"
+      },
+      {
+        "services": "Wifi"
+      },
+      {
+        "services": "Table booking recommended"
+      },
+      {
+        "services": "Outdoor Seating"
+      }
+    ],
+    "pages": 2,
+    "pages-href": "https://www.zomato.com/cebu/restaurants?page=2"
+  },
+  {
+    "web-scraper-order": "1592238712-330",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/red-lizard-taqueria-lahug-cebu-city/info",
+    "title": "Red Lizard Taqueria",
+    "address": "Filinvest Cebu Cyberzone, IT Park, Lahug, Cebu City",
+    "contact": "+63322339879",
+    "reviewer_name": [
+      {
+        "reviewer_name": "FoodBtold"
+      },
+      {
+        "reviewer_name": "John Don"
+      }
+    ],
+    "reviewer_rate": [
+      {
+        "reviewer_rate": "5.0"
+      },
+      {
+        "reviewer_rate": "2.0"
+      }
+    ],
+    "reviews": "112 Reviews",
+    "rate": 4.5,
+    "reviewer_text": [
+      {
+        "reviewer_text": "Always love the ambiance here plus friendly staff! Nachos Machos and luncheonette cheeseburger is 💯 recommended!\n\nIf your in the mood for a drink try their Mojito!\n\nIG: foodBtold\n\n#nachos #cheeseburger #goodeats #foodbtold #cebueats #ceburestaurants #restaurantsincebu #bestofcebu #whenincebu #foodie #foodieph"
+      },
+      {
+        "reviewer_text": "I was disappointed.  The tacos aren’t Mexican or Tex mex.  when I asked the server who brought the food if they had hot sauce he pointed across the restaurant and said I had to get it myself.  A second server was attentive enough to bring hot sauce to our table.   The food was not horrible but I had my hopes up for great food."
+      }
+    ],
+    "open_establishment": "11am – 1:30am (Today)",
+    "details": "Casual Dining - Mexican",
+    "dishes": "PHP800 for two people (approx.) Without alcohol",
+    "cost": "",
+    "services": [
+      {
+        "services": "Beer"
+      },
+      {
+        "services": "Outdoor Seating"
+      },
+      {
+        "services": "Indoor Seating"
+      },
+      {
+        "services": "Table booking recommended"
+      },
+      {
+        "services": "Kid Friendly"
+      },
+      {
+        "services": "Gluten Free Options"
+      },
+      {
+        "services": "Group Meal"
+      }
+    ],
+    "pages": 3,
+    "pages-href": "https://www.zomato.com/cebu/restaurants?page=3"
+  },
+  {
+    "web-scraper-order": "1592239128-356",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/balai-banilad-mandaue-city-mandaue-city/info",
+    "title": "Balai",
+    "address": "1 Floremer Subdivision, A. S. Fortuna Street, Banilad, Mandaue City",
+    "contact": "+639175825009",
+    "reviewer_name": [],
+    "reviewer_rate": [],
+    "reviews": "210 Reviews",
+    "rate": 4.3,
+    "reviewer_text": [
+      {
+        "reviewer_text": "Balai cafe will always be one of those cafés you’ll love to go to- for relaxation from a busy day at work, or at school. Just the perfect place to unwind dor its cozy furnitures and the home vibe it provides, true to it’s name- Balai.\nFood was great but what I can really recommend are their drinks. Coffee is what they are really known first next was their roasted chicken."
+      },
+      {
+        "reviewer_text": "Food was good and worth it at its price. I really like the coffee here, too. Ambience was really nice, good place to catch up.\n\nHowever, we waited for almost two hours for our food to be complete. One of my friends got irritated since when we first followed up for our order, we sensed that they have forgotten about it and told us to wait since the kitchen was busy. We waited for another hour for a salad and a breakfast plate. I think it would be wise if staff would actually write down the customer's orders instead of just memorizing it.\n\nIf not for the food, I would think twice on coming back here."
+      }
+    ],
+    "open_establishment": "Opens at 6am",
+    "details": "Café - Coffee",
+    "dishes": null,
+    "cost": "PHP500 for two people (approx.) Without alcohol",
+    "services": [
+      {
+        "services": "Breakfast"
+      },
+      {
+        "services": "Full Bar Available"
+      },
+      {
+        "services": "Indoor Seating"
+      },
+      {
+        "services": "All Day Breakfast"
+      },
+      {
+        "services": "Outdoor Seating"
+      }
+    ],
+    "pages": "",
+    "pages-href": ""
+  },
+  {
+    "web-scraper-order": "1592238607-324",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/cafe-racer-subangdaku-mandaue-city/info",
+    "title": "Cafe Racer",
+    "address": "Quano Avenue, Subangdaku, Mandaue City",
+    "contact": "+63325117798",
+    "reviewer_name": [
+      {
+        "reviewer_name": "Ridge Adam Gonzales"
+      },
+      {
+        "reviewer_name": "Go Ling"
+      }
+    ],
+    "reviewer_rate": [
+      {
+        "reviewer_rate": "2.0"
+      },
+      {
+        "reviewer_rate": "5.0"
+      }
+    ],
+    "reviews": "88 Reviews",
+    "rate": 4.1,
+    "reviewer_text": [
+      {
+        "reviewer_text": "Food was unfortunately sub-par. Ordered the carbonara, it was too runny and bland. Ordered the baked back ribs, the meat was not tender and hard to chew. The only dish I enjoyed was the meat lovers pizza but to be honest it reminded me of store bought frozen pizza.\n\nDecent service though and nice ambience. I wouldn't come here for the food but it would be a nice place to chill with friends and have a few drinks."
+      },
+      {
+        "reviewer_text": "The foods are awesome and I like the place's ambience.. The price is reasonable. Highly recommendable. We ordered the baked baby backribs and 1/2 herb chicken with mashed potato.."
+      }
+    ],
+    "open_establishment": "11am – 2am (Today)",
+    "details": "Casual Dining - American",
+    "dishes": "Beer, Burgers, Carbonara, Fish",
+    "cost": "PHP1100 for two people (approx.) Without alcohol",
+    "services": [
+      {
+        "services": "Home Delivery"
+      },
+      {
+        "services": "Beer"
+      },
+      {
+        "services": "Free Parking"
+      },
+      {
+        "services": "Indoor Seating"
+      },
+      {
+        "services": "Smoking Area"
+      },
+      {
+        "services": "Outdoor Seating"
+      },
+      {
+        "services": "Table booking recommended"
+      }
+    ],
+    "pages": 3,
+    "pages-href": "https://www.zomato.com/cebu/restaurants?page=3"
+  },
+  {
+    "web-scraper-order": "1592238925-343",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/the-pig-and-palm-cebu-business-park/info",
+    "title": "The Pig and Palm",
+    "address": "MSY Tower, Pecadores Road, Cebu Business Park, Cebu City",
+    "contact": "+63322558249",
+    "reviewer_name": [
+      {
+        "reviewer_name": "Docrey"
+      },
+      {
+        "reviewer_name": "Darlene Fuego"
+      }
+    ],
+    "reviewer_rate": [
+      {
+        "reviewer_rate": "5.0"
+      },
+      {
+        "reviewer_rate": "5.0"
+      }
+    ],
+    "reviews": "92 Reviews",
+    "rate": 4.5,
+    "reviewer_text": [
+      {
+        "reviewer_text": ""
+      },
+      {
+        "reviewer_text": ""
+      }
+    ],
+    "open_establishment": "Opens at 8am",
+    "details": "Casual Dining - Spanish",
+    "dishes": "Cocktails, Chicken Karage, Prawn, Mashed Potato, Pan Con Tomate",
+    "cost": "PHP2000 for two people (approx.) Without alcohol",
+    "services": [
+      {
+        "services": "Breakfast"
+      },
+      {
+        "services": "Full Bar Available"
+      },
+      {
+        "services": "Indoor Seating"
+      },
+      {
+        "services": "Group Meal"
+      },
+      {
+        "services": "Table booking recommended"
+      },
+      {
+        "services": "Outdoor Seating"
+      },
+      {
+        "services": "Private Dining Area Available"
+      }
+    ],
+    "pages": 2,
+    "pages-href": "https://www.zomato.com/cebu/restaurants?page=2"
+  },
+  {
+    "web-scraper-order": "1592239221-362",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/blackbeards-seafood-island-cebu-business-park-cebu-city/info",
+    "title": "Blackbeard's Seafood Island",
+    "address": "Fourth Floor, The Terraces, Ayala Center Cebu, Cebu Business Park, Cebu City",
+    "contact": "+639176254695",
+    "reviewer_name": [],
+    "reviewer_rate": [],
+    "reviews": "97 Reviews",
+    "rate": 3.4,
+    "reviewer_text": [
+      {
+        "reviewer_text": "Very bad customer service. Most of our orders aren’t given on time and most of it are wrong. The crew doesn’t listen and they just walk right out of you. Very bad experience. I don’t think we’ll ever come back here."
+      },
+      {
+        "reviewer_text": "The service is slow and it took 35 minutes for the food to get served. Staff were not sincere with their apologies and just smiling while we were ranting about how slow the service was and to speed up the serving. Bangus slice included in the binalot menu was already spoiled, smelly and seems raw.  The food menu advertise was tempting and delicious but it was the opposite. Not recommended for seafood lovers"
+      }
+    ],
+    "open_establishment": "Opens at 10am",
+    "details": "Casual Dining - Seafood, Filipino, American",
+    "dishes": null,
+    "cost": "PHP1250 for two people (approx.) Without alcohol",
+    "services": [
+      {
+        "services": "Home Delivery"
+      },
+      {
+        "services": "Takeaway Available"
+      },
+      {
+        "services": "Wine and Beer"
+      },
+      {
+        "services": "Indoor Seating"
+      },
+      {
+        "services": "Table booking recommended"
+      },
+      {
+        "services": "Wifi"
+      },
+      {
+        "services": "Outdoor Seating"
+      }
+    ],
+    "pages": "",
+    "pages-href": ""
+  },
+  {
+    "web-scraper-order": "1592238910-342",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/cafe-georg-kasambagan/info",
+    "title": "Cafe Georg",
+    "address": "Ground Floor, MLD Building, Gov. M. Cuenco Avenue, Kasambagan, Cebu City",
+    "contact": "+63322666134",
+    "reviewer_name": [],
+    "reviewer_rate": [],
+    "reviews": "150 Reviews",
+    "rate": 4.6,
+    "reviewer_text": [
+      {
+        "reviewer_text": ""
+      },
+      {
+        "reviewer_text": ""
+      }
+    ],
+    "open_establishment": "Opens at 10:30am",
+    "details": "Casual Dining, Café - Italian, Desserts, Coffee",
+    "dishes": null,
+    "cost": "PHP1100 for two people (approx.) Without alcohol",
+    "services": [
+      {
+        "services": "Beer"
+      },
+      {
+        "services": "Outdoor Seating"
+      },
+      {
+        "services": "Indoor Seating"
+      },
+      {
+        "services": "Table booking recommended"
+      },
+      {
+        "services": "Wifi"
+      },
+      {
+        "services": "Desserts and Bakes"
+      }
+    ],
+    "pages": 2,
+    "pages-href": "https://www.zomato.com/cebu/restaurants?page=2"
+  },
+  {
+    "web-scraper-order": "1592237823-283",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/vanille-bistro-banilad-cebu-city/info",
+    "title": "Vanille Bistro",
+    "address": "Streetscape, Paseo Saturnino, Ma. Luisa Road, Banilad, Cebu City",
+    "contact": "+63322684667",
+    "reviewer_name": [],
+    "reviewer_rate": [],
+    "reviews": "46 Reviews",
+    "rate": 3.5,
+    "reviewer_text": [],
+    "open_establishment": "Opens at 7am",
+    "details": "Café - Asian, Desserts",
+    "dishes": null,
+    "cost": "PHP1000 for two people (approx.)",
+    "services": [
+      {
+        "services": "Breakfast"
+      },
+      {
+        "services": "Outdoor Seating"
+      },
+      {
+        "services": "Desserts and Bakes"
+      },
+      {
+        "services": "Indoor Seating"
+      },
+      {
+        "services": "Wifi"
+      }
+    ],
+    "pages": "...",
+    "pages-href": "https://www.zomato.com/cebu/restaurants?page=6"
+  },
+  {
+    "web-scraper-order": "1592238162-299",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/golden-cowrie-lahug-cebu-city/info",
+    "title": "Golden Cowrie",
+    "address": "Salinas Drive, Lahug, Cebu City",
+    "contact": "+63322334243",
+    "reviewer_name": [],
+    "reviewer_rate": [],
+    "reviews": "71 Reviews",
+    "rate": 3.8,
+    "reviewer_text": [
+      {
+        "reviewer_text": "Good food but bad, bad service. They really need to improve their system. Perhaps assign servers per table? To make sure that every table is promptly attended to. Because we already pre-ordered while queueing... and yet our food got served an hour plus after we were given a table. The rice and kangkong were served first, the sizzling dish some 30 mins after, then the rest of the food another 30mins after it! By the time our order was complete, the rice and sizzling bangus had gone cold! Then the soup (which is supposed to be served first) came last. 🤦�?��?♀�?\nGood thing they thought of giving us a complimentary dessert (sliced mangoes) to compensate for their error. But still.. I...read more"
+      },
+      {
+        "reviewer_text": "Ate here a lot of times. Their food are okay. Although it takes time to get the staff’s attention because of the very large place and many customers. It also takes quite a lot of time for orders to reach your table when the place is busy."
+      }
+    ],
+    "open_establishment": "Opens at 11am",
+    "details": "Casual Dining - Filipino",
+    "dishes": null,
+    "cost": "PHP1000 for two people (approx.) Without alcohol",
+    "services": [
+      {
+        "services": "Home Delivery"
+      },
+      {
+        "services": "Takeaway Available"
+      },
+      {
+        "services": "Beer"
+      },
+      {
+        "services": "Outdoor Seating"
+      },
+      {
+        "services": "Indoor Seating"
+      },
+      {
+        "services": "Table booking recommended"
+      }
+    ],
+    "pages": 5,
+    "pages-href": "https://www.zomato.com/cebu/restaurants?page=5"
+  },
+  {
+    "web-scraper-order": "1592237740-278",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/ilaputi-capitol-site-cebu-city/info",
+    "title": "Ilaputi",
+    "address": "F17, Axis Entertainment Avenue, Escario Street, Capitol Site, Cebu City",
+    "contact": "+63324120262",
+    "reviewer_name": [
+      {
+        "reviewer_name": "Cho Carcel"
+      },
+      {
+        "reviewer_name": "CHarMz BOrcEs"
+      }
+    ],
+    "reviewer_rate": [
+      {
+        "reviewer_rate": "2.0"
+      },
+      {
+        "reviewer_rate": "5.0"
+      }
+    ],
+    "reviews": "54 Reviews",
+    "rate": 3.7,
+    "reviewer_text": [
+      {
+        "reviewer_text": "The stroganoff is actually pork not beef"
+      },
+      {
+        "reviewer_text": ""
+      }
+    ],
+    "open_establishment": "Opens at 11am",
+    "details": "Casual Dining - Filipino, Asian",
+    "dishes": "PHP1000 for two people (approx.) Without alcohol",
+    "cost": "",
+    "services": [
+      {
+        "services": "Home Delivery"
+      },
+      {
+        "services": "Takeaway Available"
+      },
+      {
+        "services": "Full Bar Available"
+      },
+      {
+        "services": "Outdoor Seating"
+      },
+      {
+        "services": "Table booking recommended"
+      },
+      {
+        "services": "Wifi"
+      },
+      {
+        "services": "Indoor Seating"
+      },
+      {
+        "services": "Live Music"
+      }
+    ],
+    "pages": "...",
+    "pages-href": "https://www.zomato.com/cebu/restaurants?page=6"
+  },
+  {
+    "web-scraper-order": "1592238382-310",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/wasted-chef-kamputhaw/info",
+    "title": "Wasted Chef",
+    "address": "Gorordo Avenue, Kamputhaw, Cebu City",
+    "contact": "+639228311858",
+    "reviewer_name": [
+      {
+        "reviewer_name": "Joj Rosos"
+      },
+      {
+        "reviewer_name": "Kiana Caryn"
+      }
+    ],
+    "reviewer_rate": [
+      {
+        "reviewer_rate": "1.0"
+      },
+      {
+        "reviewer_rate": "2.0"
+      }
+    ],
+    "reviews": "80 Reviews",
+    "rate": 2.6,
+    "reviewer_text": [
+      {
+        "reviewer_text": "THE WORST :(\nAKO MAINGON KAHOY KAHOY KAHOY (Hastat sud-an, wlng taste)\n\nFood: Kanang mura kog nakakaon ug kahoy (ang lasa, wala dri wala did2). For short, the food is not worth it\nAmbience: It was gooooood (to be sarcastic). The place looks like you are in a nature park but its not because of the noise around the area. The place is built like for a sake na naa lng siya (butang2x lang ug kahoy and stuff)\nService: Walay CCCCCCCCCCRRRRRRRRRR (bisag sink man lng)...No choice kay kahoy man (NATURAL). Ofc naay iro cge ug gala2x(sana ol iro pwede musulod makikaon lng + free).\n\nPS: Bangko nila and table is not comfy (Natumba ako Best Friend)......And Finally, SANA OL MAY KAHOY LAHAT...read more"
+      },
+      {
+        "reviewer_text": ""
+      }
+    ],
+    "open_establishment": "Opens at 6pm",
+    "details": "Casual Dining - European, Asian",
+    "dishes": "Pizza, Pasta, Shawarma, Burgers, Iced Tea",
+    "cost": "PHP600 for two people (approx.) Without alcohol",
+    "services": [
+      {
+        "services": "Wine"
+      },
+      {
+        "services": "Outdoor Seating"
+      },
+      {
+        "services": "Indoor Seating"
+      },
+      {
+        "services": "Bottle Service"
+      }
+    ],
+    "pages": 4,
+    "pages-href": "https://www.zomato.com/cebu/restaurants?page=4"
+  },
+  {
+    "web-scraper-order": "1592239158-358",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/the-pyramid-lahug-cebu-city/info",
+    "title": "The Pyramid",
+    "address": "Garden Bloc, IT Park, Lahug, Cebu City",
+    "contact": "+63325160254",
+    "reviewer_name": [],
+    "reviewer_rate": [],
+    "reviews": "228 Reviews",
+    "rate": 3.8,
+    "reviewer_text": [],
+    "open_establishment": "11am – 3am (Today)",
+    "details": "Casual Dining, Bar - Filipino, American, Italian, Korean",
+    "dishes": null,
+    "cost": "PHP1100 for two people (approx.) Without alcohol",
+    "services": [
+      {
+        "services": "Breakfast"
+      },
+      {
+        "services": "Full Bar Available"
+      },
+      {
+        "services": "Free Parking"
+      },
+      {
+        "services": "Bottle Service"
+      },
+      {
+        "services": "Outdoor Seating"
+      },
+      {
+        "services": "Indoor Seating"
+      },
+      {
+        "services": "All Day Breakfast"
+      },
+      {
+        "services": "Nightlife"
+      },
+      {
+        "services": "Serves Cocktails"
+      },
+      {
+        "services": "Wifi"
+      }
+    ],
+    "pages": "",
+    "pages-href": ""
+  },
+  {
+    "web-scraper-order": "1592237937-289",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/aa-bbq-lahug/info",
+    "title": "AA BBQ",
+    "address": "Salinas Drive, Lahug, Cebu City",
+    "contact": "+63322382185",
+    "reviewer_name": [
+      {
+        "reviewer_name": "Kisshiekish"
+      },
+      {
+        "reviewer_name": "Maria Clara Hermoso"
+      }
+    ],
+    "reviewer_rate": [
+      {
+        "reviewer_rate": "5.0"
+      },
+      {
+        "reviewer_rate": "5.0"
+      }
+    ],
+    "reviews": "55 Reviews",
+    "rate": 3.7,
+    "reviewer_text": [
+      {
+        "reviewer_text": "I witnessed how this place started in lahug where we usually eat after the late out parties with friends. The bbq and all their dishes are so yummy that I don't mind eating here everday. I always love their stuffed bangus, their halaan soup and of course the bbq's! It's kinda pricey but it's totally worth it. I just don't understand why they need to charge 15pesos per person if your going to sit in their air conditioned room."
+      },
+      {
+        "reviewer_text": "Good for family dinners, lots of options to choose from. My all time favorite is their sinigang shrimps, and sizzling squid. Same meal you will get from hukad or golden cowrie but on a much cheaper price!"
+      }
+    ],
+    "open_establishment": "11am – 1am (Today)",
+    "details": "Quick Bites - Filipino",
+    "dishes": "Sinigang",
+    "cost": "PHP350 for two people (approx.) Without alcohol",
+    "services": [
+      {
+        "services": "Beer"
+      },
+      {
+        "services": "Indoor Seating"
+      },
+      {
+        "services": "Outdoor Seating"
+      },
+      {
+        "services": "Wifi"
+      }
+    ],
+    "pages": "...",
+    "pages-href": "https://www.zomato.com/cebu/restaurants?page=6"
+  },
+  {
+    "web-scraper-order": "1592238442-314",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/port-restaurant-waterfront-cebu-city-hotel-casino-lahug/info",
+    "title": "Port Restaurant - Waterfront Cebu City Hotel & Casino",
+    "address": "Waterfront Cebu City Hotel & Casino, Salinas Drive, Lahug, Cebu City",
+    "contact": "+63322317441",
+    "reviewer_name": [],
+    "reviewer_rate": [],
+    "reviews": "88 Reviews",
+    "rate": 2.9,
+    "reviewer_text": [],
+    "open_establishment": "Opens at 11am",
+    "details": "Casual Dining - Seafood, Filipino",
+    "dishes": null,
+    "cost": "PHP800 for two people (approx.) Without alcohol",
+    "services": [
+      {
+        "services": "Wine and Beer"
+      },
+      {
+        "services": "Group Meal"
+      },
+      {
+        "services": "Table booking recommended"
+      },
+      {
+        "services": "Indoor Seating"
+      },
+      {
+        "services": "Private Dining Area Available"
+      },
+      {
+        "services": "Buffet"
+      },
+      {
+        "services": "Bottle Service"
+      }
+    ],
+    "pages": 4,
+    "pages-href": "https://www.zomato.com/cebu/restaurants?page=4"
+  },
+  {
+    "web-scraper-order": "1592239005-348",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/the-bada-by-you-korean-restaurant-kamputhaw/info",
+    "title": "The Bada by You Korean Restaurant",
+    "address": "9-3 Escario Street, Kamputhaw, Cebu City",
+    "contact": "+63325185445",
+    "reviewer_name": [
+      {
+        "reviewer_name": "Kiana Caryn"
+      },
+      {
+        "reviewer_name": "Lara Monegro"
+      }
+    ],
+    "reviewer_rate": [
+      {
+        "reviewer_rate": "2.0"
+      },
+      {
+        "reviewer_rate": "3.0"
+      }
+    ],
+    "reviews": "212 Reviews",
+    "rate": 3.6,
+    "reviewer_text": [
+      {
+        "reviewer_text": ""
+      },
+      {
+        "reviewer_text": "Saw some cockroaches roaming around. Plus, they don't have water in their cr."
+      }
+    ],
+    "open_establishment": "Opens at 12noon",
+    "details": "Casual Dining - Korean",
+    "dishes": "Kimchi, Bean Sprouts, Salad, Pork Bulgogi",
+    "cost": "PHP700 for two people (approx.) Without alcohol",
+    "services": [
+      {
+        "services": "Beer"
+      },
+      {
+        "services": "Wifi"
+      },
+      {
+        "services": "Indoor Seating"
+      },
+      {
+        "services": "Table booking recommended"
+      }
+    ],
+    "pages": 2,
+    "pages-href": "https://www.zomato.com/cebu/restaurants?page=2"
+  },
+  {
+    "web-scraper-order": "1592238727-331",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/10-dove-street-banilad-mandaue-city/info",
+    "title": "10 Dove Street",
+    "address": "Oakridge Business Park, A. S. Fortuna Street, Banilad, Mandaue City 6014",
+    "contact": "+63324181010",
+    "reviewer_name": [
+      {
+        "reviewer_name": "Varvas Manila"
+      },
+      {
+        "reviewer_name": "Ara Grace"
+      }
+    ],
+    "reviewer_rate": [
+      {
+        "reviewer_rate": "2.0"
+      },
+      {
+        "reviewer_rate": "3.0"
+      }
+    ],
+    "reviews": "98 Reviews",
+    "rate": 4,
+    "reviewer_text": [
+      {
+        "reviewer_text": "Very bad service. We pre ordered 2 hours earlier only to wait for 45 mins for our food to be served. We were not informed beforehand that certain menu items are not available until after 30 mins of waiting for our food. Our server Lyndel kept on smirking at us and did not bother to apologize for the inconvenience they caused us. Chicken pomodoro tasted like it was warmed while in plastic container. Food safety should dictate the food handler that they should transfer it to plate before warming it up thru microwave. Overall experience was bad."
+      },
+      {
+        "reviewer_text": "Their food doesn't have consistent quality. Some items would be great, and some mediocre, which makes it not worth their prices. With a similar price, might as well buy from Abaca Baking Co."
+      }
+    ],
+    "open_establishment": "Opens at 11am",
+    "details": "Casual Dining - Bakery, Asian",
+    "dishes": "Hot Chocolate, Salad, Corn Soup",
+    "cost": "PHP900 for two people (approx.)",
+    "services": [
+      {
+        "services": "Breakfast"
+      },
+      {
+        "services": "Takeaway Available"
+      },
+      {
+        "services": "Indoor Seating"
+      },
+      {
+        "services": "Desserts and Bakes"
+      },
+      {
+        "services": "Private Dining Area Available"
+      }
+    ],
+    "pages": 3,
+    "pages-href": "https://www.zomato.com/cebu/restaurants?page=3"
+  },
+  {
+    "web-scraper-order": "1592238877-340",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/zarks-burgers-north-reclamation-area-cebu-city/info",
+    "title": "Zark's Burgers",
+    "address": "Upper Ground Floor, SM City Cebu, North Reclamation Area, Cebu City",
+    "contact": "+63322324882",
+    "reviewer_name": [],
+    "reviewer_rate": [],
+    "reviews": "116 Reviews",
+    "rate": 3.9,
+    "reviewer_text": [
+      {
+        "reviewer_text": ""
+      },
+      {
+        "reviewer_text": ""
+      }
+    ],
+    "open_establishment": "Opens at 10am",
+    "details": "Casual Dining - Burger, American",
+    "dishes": null,
+    "cost": "PHP800 for two people (approx.)",
+    "services": [
+      {
+        "services": "Home Delivery"
+      },
+      {
+        "services": "Takeaway Available"
+      },
+      {
+        "services": "Outdoor Seating"
+      },
+      {
+        "services": "Indoor Seating"
+      }
+    ],
+    "pages": 2,
+    "pages-href": "https://www.zomato.com/cebu/restaurants?page=2"
+  },
+  {
+    "web-scraper-order": "1592239266-365",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/topokki-man-talamban/info",
+    "title": "Topokki Man",
+    "address": "Rosedale Suites, Gov. M. Cuenco Avenue, Talamban, Cebu City",
+    "contact": "+63323456701",
+    "reviewer_name": [],
+    "reviewer_rate": [],
+    "reviews": "271 Reviews",
+    "rate": 4.7,
+    "reviewer_text": [],
+    "open_establishment": "Opens at 11am",
+    "details": "Quick Bites - Korean",
+    "dishes": null,
+    "cost": "Friendly Staff",
+    "services": [
+      {
+        "services": "Home Delivery"
+      },
+      {
+        "services": "Takeaway Available"
+      },
+      {
+        "services": "Wifi"
+      },
+      {
+        "services": "Indoor Seating"
+      },
+      {
+        "services": "Outdoor Seating"
+      }
+    ],
+    "pages": "",
+    "pages-href": ""
+  },
+  {
+    "web-scraper-order": "1592238990-347",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/joeds-lutong-hapon-mabolo/info",
+    "title": "Joed's Lutong Hapon",
+    "address": "President Quirino Corner F. Cabahug Street, Mabolo, Cebu City",
+    "contact": "+639435707419",
+    "reviewer_name": [
+      {
+        "reviewer_name": "Lutherine Mariz Balagonsa"
+      },
+      {
+        "reviewer_name": "Ace Santos"
+      }
+    ],
+    "reviewer_rate": [
+      {
+        "reviewer_rate": "4.0"
+      },
+      {
+        "reviewer_rate": "2.0"
+      }
+    ],
+    "reviews": "136 Reviews",
+    "rate": 3.5,
+    "reviewer_text": [
+      {
+        "reviewer_text": ""
+      },
+      {
+        "reviewer_text": ""
+      }
+    ],
+    "open_establishment": "11am – 4am (Today)",
+    "details": "Quick Bites - Japanese, Ramen",
+    "dishes": "Ramen, Sushi, Spare Ribs, Rolls, Salmon",
+    "cost": "PHP550 for two people (approx.) Without alcohol",
+    "services": [
+      {
+        "services": "Beer"
+      },
+      {
+        "services": "Indoor Seating"
+      }
+    ],
+    "pages": 2,
+    "pages-href": "https://www.zomato.com/cebu/restaurants?page=2"
+  },
+  {
+    "web-scraper-order": "1592238517-319",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/tymad-bistro-banilad-cebu-city/info",
+    "title": "Tymad Bistro",
+    "address": "Paseo Saturnino, Ma. Luisa Road, Banilad, Cebu City",
+    "contact": "+63322397385",
+    "reviewer_name": [],
+    "reviewer_rate": [],
+    "reviews": "90 Reviews",
+    "rate": 4.3,
+    "reviewer_text": [
+      {
+        "reviewer_text": ""
+      },
+      {
+        "reviewer_text": "Excellent service.\n\nMenu is well thought of and several to choose from from meals to desserts.\n\nVery friendly staff and management.\nSilent and orderly environment.\nGood for formal hangouts.\n\nPrice is slightly expensive but is indeed worth it."
+      }
+    ],
+    "open_establishment": "Opens at 7am",
+    "details": "Casual Dining - French",
+    "dishes": null,
+    "cost": "PHP1800 for two people (approx.) Without alcohol",
+    "services": [
+      {
+        "services": "Breakfast"
+      },
+      {
+        "services": "Beer"
+      },
+      {
+        "services": "Table booking recommended"
+      },
+      {
+        "services": "Outdoor Seating"
+      },
+      {
+        "services": "Indoor Seating"
+      },
+      {
+        "services": "Wifi"
+      }
+    ],
+    "pages": 4,
+    "pages-href": "https://www.zomato.com/cebu/restaurants?page=4"
+  },
+  {
+    "web-scraper-order": "1592238592-323",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/peri-peri-charcoal-chicken-subangdaku-mandaue-city/info",
+    "title": "Peri Peri Charcoal Chicken",
+    "address": "Meerea High Street, Ouano Avenue, Subangdaku, Mandaue City",
+    "contact": "+63322728633",
+    "reviewer_name": [
+      {
+        "reviewer_name": "Ryan Kaw"
+      },
+      {
+        "reviewer_name": "Katherine Chin-Abella"
+      }
+    ],
+    "reviewer_rate": [
+      {
+        "reviewer_rate": "4.0"
+      },
+      {
+        "reviewer_rate": "4.0"
+      }
+    ],
+    "reviews": "65 Reviews",
+    "rate": 3.8,
+    "reviewer_text": [
+      {
+        "reviewer_text": "Love their truffle pasta. My comfort food."
+      },
+      {
+        "reviewer_text": "Has a variety of yummy food options to choose from. The sauces they have are also delicious and could go well with a lot of their dishes. This resto is one of our new favorites�?��?"
+      }
+    ],
+    "open_establishment": "Opens at 10am",
+    "details": "Casual Dining - African",
+    "dishes": "PHP1150 for two people (approx.) Without alcohol",
+    "cost": "",
+    "services": [
+      {
+        "services": "Beer"
+      },
+      {
+        "services": "Indoor Seating"
+      },
+      {
+        "services": "Table booking recommended"
+      },
+      {
+        "services": "Craft Beer"
+      },
+      {
+        "services": "Serves Cocktails"
+      },
+      {
+        "services": "Free Parking"
+      }
+    ],
+    "pages": 3,
+    "pages-href": "https://www.zomato.com/cebu/restaurants?page=3"
+  },
+  {
+    "web-scraper-order": "1592238682-328",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/fudge-banilad-mandaue-city/info",
+    "title": "Fudge",
+    "address": "888 A. S. Fortuna Street, Banilad, Mandaue City",
+    "contact": "+63324161727",
+    "reviewer_name": [
+      {
+        "reviewer_name": "Alexandria Gabud"
+      },
+      {
+        "reviewer_name": "Queenie"
+      }
+    ],
+    "reviewer_rate": [
+      {
+        "reviewer_rate": "4.0"
+      },
+      {
+        "reviewer_rate": "2.0"
+      }
+    ],
+    "reviews": "74 Reviews",
+    "rate": 4.2,
+    "reviewer_text": [
+      {
+        "reviewer_text": ""
+      },
+      {
+        "reviewer_text": "The staff didnt listen carefully and gave me wrong order. 😔"
+      }
+    ],
+    "open_establishment": "Opens at 8am",
+    "details": "Casual Dining - Desserts, Bakery, American, Filipino",
+    "dishes": "Lava Cake, Coffee, Burgers, Vanilla Ice Cream, Cheese Burger",
+    "cost": "PHP1150 for two people (approx.)",
+    "services": [
+      {
+        "services": "Home Delivery"
+      },
+      {
+        "services": "Takeaway Available"
+      },
+      {
+        "services": "Table booking recommended"
+      },
+      {
+        "services": "Wifi"
+      },
+      {
+        "services": "Desserts and Bakes"
+      },
+      {
+        "services": "Outdoor Seating"
+      },
+      {
+        "services": "Indoor Seating"
+      }
+    ],
+    "pages": 3,
+    "pages-href": "https://www.zomato.com/cebu/restaurants?page=3"
+  },
+  {
+    "web-scraper-order": "1592239143-357",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/stk-ta-bay-capitol-site/info",
+    "title": "STK ta Bay!",
+    "address": "Orchid Street, Capitol Site, Cebu City",
+    "contact": "+63322562700",
+    "reviewer_name": [],
+    "reviewer_rate": [],
+    "reviews": "216 Reviews",
+    "rate": 4.4,
+    "reviewer_text": [
+      {
+        "reviewer_text": "Food - Gives you the taste of Cebuano homestyle cooking. Grilled Tuna Panga is highly recommended! \n\nPlace - Looks like a humble home welcoming, its guests for a comforting lunch or dinner. The place seems narrow but can accommodate pouring customers during peak hours. They even have a collection of album display of several famous personalities that have dined in their restaurant. Sikat! \n\nPrice - Somewhat pricey."
+      },
+      {
+        "reviewer_text": "1 hour waiting time for ok food"
+      }
+    ],
+    "open_establishment": "Opens at 9am",
+    "details": "Casual Dining - Filipino",
+    "dishes": null,
+    "cost": "PHP900 for two people (approx.) Without alcohol",
+    "services": [
+      {
+        "services": "Beer"
+      },
+      {
+        "services": "Outdoor Seating"
+      },
+      {
+        "services": "Indoor Seating"
+      }
+    ],
+    "pages": "",
+    "pages-href": ""
+  },
+  {
+    "web-scraper-order": "1592237891-287",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/skillet-japanese-cafe-and-bistro-tipolo/info",
+    "title": "Skillet Japanese Cafe and Bistro",
+    "address": "Norkis Cyber Park, A. S. Fortuna Street, Tipolo, Mandaue City",
+    "contact": "+63324172805",
+    "reviewer_name": [
+      {
+        "reviewer_name": "Roxy Leornas"
+      },
+      {
+        "reviewer_name": "FoodCraving Review"
+      }
+    ],
+    "reviewer_rate": [
+      {
+        "reviewer_rate": "5.0"
+      },
+      {
+        "reviewer_rate": "4.0"
+      }
+    ],
+    "reviews": "34 Reviews",
+    "rate": 3.9,
+    "reviewer_text": [
+      {
+        "reviewer_text": ""
+      },
+      {
+        "reviewer_text": "Today i have to try the signature dish of their restaurant. The Angus Beef Ribeyes steak, Watermelon Juice for the drink and Tokyo Cheesecake for my dessert.-The Angus Beef Ribeyes steak is a combination of Angus Beef side with mashed potato and mix vegetables garnish with rosemary then match with Japanese Steak Sauce. The steak is cook on a medium rare, a bit juicy on the inside and seasoned very well. While the mashed potato is creamy and the mix vegetables is bit salty but it complements with the steak. The Japanese Steak Sauce almost tastes like a teriyaki sauce but lighter in flavor. The sauce combined with the steak level up the flavor. You did a very good job handling the Angus...read more"
+      }
+    ],
+    "open_establishment": "Opens at 11am",
+    "details": "Casual Dining - Japanese",
+    "dishes": "Ramen, Sushi, Cheesecake, Steak",
+    "cost": "PHP1350 for two people (approx.) Without alcohol",
+    "services": [
+      {
+        "services": "Wine and Beer"
+      },
+      {
+        "services": "Free Parking"
+      },
+      {
+        "services": "Indoor Seating"
+      }
+    ],
+    "pages": "...",
+    "pages-href": "https://www.zomato.com/cebu/restaurants?page=6"
+  },
+  {
+    "web-scraper-order": "1592237753-279",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/10000-roses-cafe-cordova/info",
+    "title": "10000 Roses Cafe",
+    "address": "Sa Baybayon, Day-as Barangay Road, Cordova, Cebu",
+    "contact": "+639568399427",
+    "reviewer_name": [
+      {
+        "reviewer_name": "KaonSuroySugbo"
+      },
+      {
+        "reviewer_name": "Kyle Escueta Gundaya"
+      }
+    ],
+    "reviewer_rate": [
+      {
+        "reviewer_rate": "4.0"
+      },
+      {
+        "reviewer_rate": "2.0"
+      }
+    ],
+    "reviews": "52 Reviews",
+    "rate": 3.2,
+    "reviewer_text": [
+      {
+        "reviewer_text": "Worth it!\n\nThe cold coffee tastes good (taste test - 8.5/10)\nThe place is relaxing especially at night. \nThe crews were respectful and the order was served quickly."
+      },
+      {
+        "reviewer_text": "Foods not that good. We traveled 18km long and got disappointed. Foods not recommendable but you can still check the place out since it's insta-worthy naman."
+      }
+    ],
+    "open_establishment": "Opens at 10am",
+    "details": "Café - Coffee",
+    "dishes": null,
+    "cost": null,
+    "services": [
+      {
+        "services": "Free Parking"
+      },
+      {
+        "services": "Indoor Seating"
+      },
+      {
+        "services": "Outdoor Seating"
+      },
+      {
+        "services": "Smoking Area"
+      },
+      {
+        "services": "Desserts and Bakes"
+      }
+    ],
+    "pages": "...",
+    "pages-href": "https://www.zomato.com/cebu/restaurants?page=6"
+  },
+  {
+    "web-scraper-order": "1592239053-351",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/scape-skydeck-pusok-lapu-lapu-city/info",
+    "title": "Scape Skydeck",
+    "address": "Roof Deck, Azon Residences, M. L. Quezon National Highway, Pusok, Lapu-Lapu City",
+    "contact": "+63324940898",
+    "reviewer_name": [
+      {
+        "reviewer_name": "Michaela Aliganga"
+      },
+      {
+        "reviewer_name": "Darladybuco"
+      }
+    ],
+    "reviewer_rate": [
+      {
+        "reviewer_rate": "4.0"
+      },
+      {
+        "reviewer_rate": "4.0"
+      }
+    ],
+    "reviews": "138 Reviews",
+    "rate": 4.2,
+    "reviewer_text": [
+      {
+        "reviewer_text": "We were able to experience Scape Slydeck and the view was magneficient esp. during night. You will be delighted by their phenomenal overlooking view of the Marcelo Fernan Bridge and Mactan channel. \n\nThe food might be quite expensive but it’s something different that’s worth a try. You can also use Eatigo app wherein you can choose different types of discounts. Discounts varies depending on the time. You can experience indoor and outdoor setting plus the crews are very accommodating. We ordered the pasta, burger and pizza for 3 person. Indeed those 3 foods we too much to handle for 3 person. They also have a happy hour for some of their drinks :5:00-7:00 pm wherein most of their...read more"
+      },
+      {
+        "reviewer_text": ""
+      }
+    ],
+    "open_establishment": "Opens at 11am",
+    "details": "Casual Dining, Lounge - International",
+    "dishes": "Pasta, Risotto, Chicken Wings, Salad, Cocktails, Truffle Pizza",
+    "cost": "Magnificent View",
+    "services": [
+      {
+        "services": "Full Bar Available"
+      },
+      {
+        "services": "Wifi"
+      },
+      {
+        "services": "Lunch Menu"
+      },
+      {
+        "services": "City View"
+      },
+      {
+        "services": "Outdoor Seating"
+      },
+      {
+        "services": "Table booking recommended"
+      },
+      {
+        "services": "Nightlife"
+      },
+      {
+        "services": "Indoor Seating"
+      }
+    ],
+    "pages": "",
+    "pages-href": ""
+  },
+  {
+    "web-scraper-order": "1592238742-332",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/puso-bistro-and-bar-kamputhaw/info",
+    "title": "Puso Bistro and Bar",
+    "address": "Ground Floor, Quest Hotel, Archbishop Reyes Avenue, Kamputhaw, Cebu City",
+    "contact": "+63324025999",
+    "reviewer_name": [],
+    "reviewer_rate": [],
+    "reviews": "60 Reviews",
+    "rate": 4.1,
+    "reviewer_text": [
+      {
+        "reviewer_text": "Best buffet breakfast in Cebuuu!!!"
+      },
+      {
+        "reviewer_text": "Marven Anorico was very helpful and he really attended to our meal needs. Food was great service too!!!!! 😊😊😊"
+      }
+    ],
+    "open_establishment": "6am – 1am (Today)",
+    "details": "Casual Dining - American, Asian, Bakery",
+    "dishes": null,
+    "cost": "Friendly Staff",
+    "services": [
+      {
+        "services": "Breakfast"
+      },
+      {
+        "services": "Home Delivery"
+      },
+      {
+        "services": "Takeaway Available"
+      },
+      {
+        "services": "Beer"
+      },
+      {
+        "services": "Wifi"
+      },
+      {
+        "services": "Serves Cocktails"
+      },
+      {
+        "services": "Table booking recommended"
+      },
+      {
+        "services": "Indoor Seating"
+      },
+      {
+        "services": "Buffet"
+      },
+      {
+        "services": "Private Dining Area Available"
+      },
+      {
+        "services": "Desserts and Bakes"
+      }
+    ],
+    "pages": 3,
+    "pages-href": "https://www.zomato.com/cebu/restaurants?page=3"
+  },
+  {
+    "web-scraper-order": "1592239038-350",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/shaka-lahug/info",
+    "title": "Shaka",
+    "address": "Garden Bloc, IT Park, Lahug, Cebu City",
+    "contact": "+63325142667",
+    "reviewer_name": [
+      {
+        "reviewer_name": "Katrina Casera"
+      },
+      {
+        "reviewer_name": "HR Ramos Masorong"
+      }
+    ],
+    "reviewer_rate": [
+      {
+        "reviewer_rate": "1.0"
+      },
+      {
+        "reviewer_rate": "2.0"
+      }
+    ],
+    "reviews": "140 Reviews",
+    "rate": 3.7,
+    "reviewer_text": [
+      {
+        "reviewer_text": "Service is terrible and discriminatory. They only prioritize group of foreigners. The food was overpriced and so-so. Would not recommend this place to anyone at all."
+      },
+      {
+        "reviewer_text": "Ordered a margarita and it took roughly almost 1hr before it got served. The place is good but manpower, nah"
+      }
+    ],
+    "open_establishment": "11am – 2am (Today)",
+    "details": "Casual Dining - Seafood",
+    "dishes": "Sisig, Scallops, Pad Thai",
+    "cost": "PHP900 for two people (approx.) Without alcohol",
+    "services": [
+      {
+        "services": "Beer"
+      },
+      {
+        "services": "Outdoor Seating"
+      },
+      {
+        "services": "Indoor Seating"
+      }
+    ],
+    "pages": 2,
+    "pages-href": "https://www.zomato.com/cebu/restaurants?page=2"
+  },
+  {
+    "web-scraper-order": "1592237980-291",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/streetyard-tipolo-mandaue-city/info",
+    "title": "Streetyard",
+    "address": "Second Floor, Parkmall, Ouano Avenue, Tipolo, Mandaue City",
+    "contact": "+63324523591",
+    "reviewer_name": [],
+    "reviewer_rate": [],
+    "reviews": "71 Reviews",
+    "rate": 4.2,
+    "reviewer_text": [],
+    "open_establishment": "Opens at 10am",
+    "details": "Quick Bites - Filipino, American",
+    "dishes": null,
+    "cost": "",
+    "services": [
+      {
+        "services": "Outdoor Seating"
+      },
+      {
+        "services": "Indoor Seating"
+      }
+    ],
+    "pages": 5,
+    "pages-href": "https://www.zomato.com/cebu/restaurants?page=5"
+  },
+  {
+    "web-scraper-order": "1592238225-302",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/the-ching-palace-lahug-cebu-city/info",
+    "title": "The Ching Palace",
+    "address": "20 Salinas Drive, Lahug, Cebu City",
+    "contact": "+63322338833",
+    "reviewer_name": [],
+    "reviewer_rate": [],
+    "reviews": "56 Reviews",
+    "rate": 4,
+    "reviewer_text": [],
+    "open_establishment": null,
+    "details": null,
+    "dishes": null,
+    "cost": "",
+    "services": [
+      {
+        "services": "Home Delivery"
+      },
+      {
+        "services": "Takeaway Available"
+      },
+      {
+        "services": "Beer"
+      },
+      {
+        "services": "Indoor Seating"
+      },
+      {
+        "services": "Wifi"
+      },
+      {
+        "services": "Table booking recommended"
+      }
+    ],
+    "pages": 5,
+    "pages-href": "https://www.zomato.com/cebu/restaurants?page=5"
+  },
+  {
+    "web-scraper-order": "1592238698-329",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/ding-qua-qua-dimsum-house-lahug/info",
+    "title": "Ding Qua Qua Dimsum House",
+    "address": "Second Floor, JY Square Discovery Mall, Lahug, Cebu City",
+    "contact": "+63322310111",
+    "reviewer_name": [],
+    "reviewer_rate": [],
+    "reviews": "139 Reviews",
+    "rate": 4,
+    "reviewer_text": [
+      {
+        "reviewer_text": "The place is always full when I go but the service is great. This is a great place to eat when hungry but on a budget. The buffet spread is full of their classic dishes so you won't miss anything! There's also a lot available in the buffet so there's lots to choose from. The dessert selection is also really good. A Cebuano staple definitely!!"
+      },
+      {
+        "reviewer_text": "Ding qua qua is a great dimsum place. It is famous for its affordable buffet and really good dimsum. I liked the quail egg dimsum, and the unli steam rice. The wide selection of food makes the buffet worth it - patatim, several dimsum, noodle soup, spring roll, and other meat, buchi, etc. It is good enough. Although i do not see servers most of the time, and ambience is like a typical cheao buffet resto."
+      }
+    ],
+    "open_establishment": "Opens at 10am",
+    "details": "Casual Dining - Chinese",
+    "dishes": null,
+    "cost": "PHP600 for two people (approx.)",
+    "services": [
+      {
+        "services": "Home Delivery"
+      },
+      {
+        "services": "Takeaway Available"
+      },
+      {
+        "services": "Table booking recommended"
+      },
+      {
+        "services": "Indoor Seating"
+      },
+      {
+        "services": "Wifi"
+      },
+      {
+        "services": "Buffet"
+      }
+    ],
+    "pages": 3,
+    "pages-href": "https://www.zomato.com/cebu/restaurants?page=3"
+  },
+  {
+    "web-scraper-order": "1592238532-320",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/the-sails-movenpick-hotel-resort-punta-engano-lapu-lapu-city/info",
+    "title": "The Sails - Movenpick Hotel & Resort",
+    "address": "Movenpick Hotel & Resort, Punta Engano, Lapu-Lapu City",
+    "contact": "+63324927777",
+    "reviewer_name": [
+      {
+        "reviewer_name": "Vien Streegan"
+      },
+      {
+        "reviewer_name": "Goldielyn Limsiy"
+      }
+    ],
+    "reviewer_rate": [
+      {
+        "reviewer_rate": "3.0"
+      },
+      {
+        "reviewer_rate": "4.0"
+      }
+    ],
+    "reviews": "45 Reviews",
+    "rate": 4.2,
+    "reviewer_text": [
+      {
+        "reviewer_text": "Loved the ambiance of this restaurant classy modern and would definitely give you good vibes.\nReason as to why I only rated it 3 stars is because the food selection wasn’t really worth its price. They do have diff themes per day and we went here on a Sunday (east meets west). \nRegular rate is around 1600 PHP per pax and we got discounts thru eatigo and only paid around 825 PHP (one round of drink included) wasn’t really a fan of the food nothing fancy nothing mouth watering food was just okay. Selections were limited. Pizza station, Japanese station (not really fresh), grilling station and dessert station and etc Ambiance of the place really gave us time to just enjoy and take a...read more"
+      },
+      {
+        "reviewer_text": "Food was great!! While there wasn't a lot of variety, the quality of the food available was good and consistent - which is pretty much what you ask for from a buffet\n\nIn particular, I loved the lechon belly, the grilling station (beef tenderloin, fish), the freshly baked pizza, the crepes, free flowing Heineken and the calamansi juice. The Japanese station was very sparse though - only maki was available. I'm usually used to a sashimi and tuna spread... Likewise, the fruits selection was great and super sweet. But their other desserts were meh - rather forgettable"
+      }
+    ],
+    "open_establishment": "Opens at 6:30am",
+    "details": "Fine Dining - Japanese, American, Italian, Filipino, Korean, Chinese",
+    "dishes": null,
+    "cost": "PHP2000 for two people (approx.) Without alcohol",
+    "services": [
+      {
+        "services": "Breakfast"
+      },
+      {
+        "services": "Full Bar Available"
+      },
+      {
+        "services": "Bottle Service"
+      },
+      {
+        "services": "Outdoor Seating"
+      },
+      {
+        "services": "Indoor Seating"
+      },
+      {
+        "services": "Table booking recommended"
+      },
+      {
+        "services": "Buffet"
+      },
+      {
+        "services": "Wifi"
+      }
+    ],
+    "pages": 4,
+    "pages-href": "https://www.zomato.com/cebu/restaurants?page=4"
+  },
+  {
+    "web-scraper-order": "1592238664-327",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/pearl-korean-meatshop-and-restaurant-capitol-site-cebu-city/info",
+    "title": "Pearl Korean Meatshop and Restaurant",
+    "address": "The Strip, Osmena Boulevard, Capitol Site, Cebu City",
+    "contact": "+63325057791",
+    "reviewer_name": [
+      {
+        "reviewer_name": "Maui Mares"
+      },
+      {
+        "reviewer_name": "Gail Romero"
+      }
+    ],
+    "reviewer_rate": [
+      {
+        "reviewer_rate": "4.0"
+      },
+      {
+        "reviewer_rate": "4.0"
+      }
+    ],
+    "reviews": "117 Reviews",
+    "rate": 4.1,
+    "reviewer_text": [
+      {
+        "reviewer_text": "great place to unwind. the place was a good place to dine in and to have a good date. the food was delicious and my girl enjoyed cooking it. love the place also the person with me Quennie Magat  #yay"
+      },
+      {
+        "reviewer_text": "Pearl is a good place to buy your meat if you want to have your samgyupsal in the house or a picnic. Their meat is clean and fresh and affordable too."
+      }
+    ],
+    "open_establishment": "Opens at 11am",
+    "details": "Casual Dining - Korean",
+    "dishes": "Kimchi, Cabbage Salad",
+    "cost": "PHP600 for two people (approx.) Without alcohol",
+    "services": [
+      {
+        "services": "Takeaway Available"
+      },
+      {
+        "services": "Beer"
+      },
+      {
+        "services": "Outdoor Seating"
+      },
+      {
+        "services": "Table booking recommended"
+      },
+      {
+        "services": "Indoor Seating"
+      }
+    ],
+    "pages": 3,
+    "pages-href": "https://www.zomato.com/cebu/restaurants?page=3"
+  },
+  {
+    "web-scraper-order": "1592238149-298",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/matias-bbq-banilad-mandaue-city/info",
+    "title": "Matias BBQ",
+    "address": "A. S. Fortuna Street, Banilad, Mandaue City",
+    "contact": "+63323452164",
+    "reviewer_name": [
+      {
+        "reviewer_name": "Athena Grace Lim"
+      },
+      {
+        "reviewer_name": "Ela Gaye Diola Perez"
+      }
+    ],
+    "reviewer_rate": [
+      {
+        "reviewer_rate": "4.0"
+      },
+      {
+        "reviewer_rate": "5.0"
+      }
+    ],
+    "reviews": "88 Reviews",
+    "rate": 4,
+    "reviewer_text": [
+      {
+        "reviewer_text": "Love how I can bring my friends here and just have a casual lunch/dinner out with them! I love the barbecue so much! My go to barbecue place!"
+      },
+      {
+        "reviewer_text": "Definitely the go-to place for bbq cravings! If you're new to Cebu, this should totally be in your places to try! A taste of Cebu and the price is really affordable!"
+      }
+    ],
+    "open_establishment": "Opens at 11:30am",
+    "details": "Quick Bites - Filipino, Grill",
+    "dishes": "Barbeque Chicken, Barbeque Pork",
+    "cost": "PHP300 for two people (approx.) Without alcohol",
+    "services": [
+      {
+        "services": "Beer"
+      },
+      {
+        "services": "Outdoor Seating"
+      },
+      {
+        "services": "Indoor Seating"
+      },
+      {
+        "services": "Table booking recommended"
+      }
+    ],
+    "pages": 5,
+    "pages-href": "https://www.zomato.com/cebu/restaurants?page=5"
+  },
+  {
+    "web-scraper-order": "1592238305-306",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/big-toms-charbroiled-burger-capitol-site/info",
+    "title": "Big Tom's Charbroiled Burger",
+    "address": "111 Juana Osmena Street, Capitol Site, Cebu City",
+    "contact": "+63322398101",
+    "reviewer_name": [
+      {
+        "reviewer_name": "Cristina Danielle Mercado"
+      },
+      {
+        "reviewer_name": "Jessilyn Gan"
+      }
+    ],
+    "reviewer_rate": [
+      {
+        "reviewer_rate": "5.0"
+      },
+      {
+        "reviewer_rate": "5.0"
+      }
+    ],
+    "reviews": "83 Reviews",
+    "rate": 4,
+    "reviewer_text": [
+      {
+        "reviewer_text": "Big Toms has good serving size and platter design. Burgers have good flavor and their decor and ambiance is always nice."
+      },
+      {
+        "reviewer_text": "Great place, great burgers...the place is walking distance from the hotel I'm staying at..it's worth the walk..yummy and juicy bugers and the lemoncito is so refreshing...nice staffs too :) #cebufoodtrips #cebufoods"
+      }
+    ],
+    "open_establishment": "Opens at 11am",
+    "details": "Casual Dining - Burger",
+    "dishes": "Burgers, Fries, Bacon Cheeseburger, Charbroiled Burger",
+    "cost": "PHP800 for two people (approx.) Without alcohol",
+    "services": [
+      {
+        "services": "Home Delivery"
+      },
+      {
+        "services": "Takeaway Available"
+      },
+      {
+        "services": "Beer"
+      },
+      {
+        "services": "Table booking recommended"
+      },
+      {
+        "services": "Indoor Seating"
+      },
+      {
+        "services": "Wifi"
+      }
+    ],
+    "pages": 4,
+    "pages-href": "https://www.zomato.com/cebu/restaurants?page=4"
+  },
+  {
+    "web-scraper-order": "1592239206-361",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/house-of-lechon-kamputhaw/info",
+    "title": "House of Lechon",
+    "address": "Acacia Street, Kamputhaw, Cebu City",
+    "contact": "+63322310958",
+    "reviewer_name": [
+      {
+        "reviewer_name": "Twinkle"
+      },
+      {
+        "reviewer_name": "Evert Miranda"
+      }
+    ],
+    "reviewer_rate": [
+      {
+        "reviewer_rate": "5.0"
+      },
+      {
+        "reviewer_rate": "4.0"
+      }
+    ],
+    "reviews": "253 Reviews",
+    "rate": 4.2,
+    "reviewer_text": [
+      {
+        "reviewer_text": "More than what I've expected. The meat is tasty and juicy. Loved that they actually serve the \"katas\" or the lechon juice. I specially liked the spicy variant. I wanted to come back to Cebu sooner to have this again."
+      },
+      {
+        "reviewer_text": "What you must order: Lechon of course 😀 kinilaw fiesta with pork and seafood, mongo soup (my comfort food) and clam soup with corn. Don't forget to add a zest of calamansi!"
+      }
+    ],
+    "open_establishment": "Opens at 10am",
+    "details": "Casual Dining - Filipino",
+    "dishes": "Scallops, Fish, Iced Tea, Lechon Sisig, Crisp Skin Chicken, Mixed Vegetables, Cheese Sticks",
+    "cost": "Decor",
+    "services": [
+      {
+        "services": "Home Delivery"
+      },
+      {
+        "services": "Beer"
+      },
+      {
+        "services": "Outdoor Seating"
+      },
+      {
+        "services": "Indoor Seating"
+      }
+    ],
+    "pages": "",
+    "pages-href": ""
+  },
+  {
+    "web-scraper-order": "1592238961-345",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/master-po-ramos-cebu-city/info",
+    "title": "Master Po",
+    "address": "Ground Floor, Plaza Nouvelle, E. Benedicto Street, Ramos, Cebu City",
+    "contact": "+63322338833",
+    "reviewer_name": [],
+    "reviewer_rate": [],
+    "reviews": "88 Reviews",
+    "rate": 4,
+    "reviewer_text": [],
+    "open_establishment": "Opens at 10:30am",
+    "details": "Quick Bites - Chinese",
+    "dishes": null,
+    "cost": "",
+    "services": [
+      {
+        "services": "Home Delivery"
+      },
+      {
+        "services": "Beer"
+      },
+      {
+        "services": "Free Parking"
+      },
+      {
+        "services": "Indoor Seating"
+      },
+      {
+        "services": "Wifi"
+      }
+    ],
+    "pages": 2,
+    "pages-href": "https://www.zomato.com/cebu/restaurants?page=2"
+  },
+  {
+    "web-scraper-order": "1592237718-277",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/pink-heaven-talisay-city/info",
+    "title": "Pink Heaven",
+    "address": "South Coast Center, N. Bacalso Avenue, Linao, Talisay City, Cebu",
+    "contact": "+63324914242",
+    "reviewer_name": [
+      {
+        "reviewer_name": "Vergaravaleriemae"
+      },
+      {
+        "reviewer_name": "Dcabiles89"
+      }
+    ],
+    "reviewer_rate": [
+      {
+        "reviewer_rate": "3.0"
+      },
+      {
+        "reviewer_rate": "3.0"
+      }
+    ],
+    "reviews": "46 Reviews",
+    "rate": 4,
+    "reviewer_text": [
+      {
+        "reviewer_text": ""
+      },
+      {
+        "reviewer_text": "Ambience is nice to chill but not too much money worthy on what you order though. Place is small so extra careful if you are along with kids."
+      }
+    ],
+    "open_establishment": "Opens at 10am",
+    "details": "Casual Dining, Dessert Parlor - Filipino, Desserts",
+    "dishes": "Teriyaki Chicken, Beef, Pasta, Toblerone Cheesecake",
+    "cost": "PHP1000 for two people (approx.)",
+    "services": [
+      {
+        "services": "Free Parking"
+      },
+      {
+        "services": "Indoor Seating"
+      },
+      {
+        "services": "Table booking recommended"
+      },
+      {
+        "services": "Outdoor Seating"
+      },
+      {
+        "services": "Wifi"
+      },
+      {
+        "services": "Desserts and Bakes"
+      }
+    ],
+    "pages": "...",
+    "pages-href": "https://www.zomato.com/cebu/restaurants?page=6"
+  },
+  {
+    "web-scraper-order": "1592239098-354",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/abaca-baking-company-kasambagan/info",
+    "title": "Abaca Baking Company",
+    "address": "The Crossroads, Gov. M. Cuenco Avenue, Kasambagan, Cebu City",
+    "contact": "+63322620969",
+    "reviewer_name": [],
+    "reviewer_rate": [],
+    "reviews": "167 Reviews",
+    "rate": 4.9,
+    "reviewer_text": [],
+    "open_establishment": "Opens at 7am",
+    "details": "Café - American, Bakery, Coffee",
+    "dishes": null,
+    "cost": "PHP1000 for two people (approx.) Without alcohol",
+    "services": [
+      {
+        "services": "Breakfast"
+      },
+      {
+        "services": "Takeaway Available"
+      },
+      {
+        "services": "Wine and Beer"
+      },
+      {
+        "services": "Wifi"
+      },
+      {
+        "services": "Outdoor Seating"
+      },
+      {
+        "services": "Desserts and Bakes"
+      },
+      {
+        "services": "Indoor Seating"
+      }
+    ],
+    "pages": "",
+    "pages-href": ""
+  },
+  {
+    "web-scraper-order": "1592238199-301",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/allegro-bluewater-maribago-beach-resort-and-spa-maribago/info",
+    "title": "Allegro - Bluewater Maribago Beach Resort and Spa",
+    "address": "Bluewater Maribago Beach Resort and Spa, Maribago, Lapu-Lapu City",
+    "contact": "+63324920100",
+    "reviewer_name": [],
+    "reviewer_rate": [],
+    "reviews": "26 Reviews",
+    "rate": 3.9,
+    "reviewer_text": [],
+    "open_establishment": "24 Hours (Today)",
+    "details": "Casual Dining - Filipino, American",
+    "dishes": null,
+    "cost": "",
+    "services": [
+      {
+        "services": "Breakfast"
+      },
+      {
+        "services": "Home Delivery"
+      },
+      {
+        "services": "Full Bar Available"
+      },
+      {
+        "services": "Table booking recommended"
+      },
+      {
+        "services": "Bottle Service"
+      },
+      {
+        "services": "Indoor Seating"
+      },
+      {
+        "services": "Buffet"
+      },
+      {
+        "services": "Wifi"
+      },
+      {
+        "services": "Outdoor Seating"
+      }
+    ],
+    "pages": 5,
+    "pages-href": "https://www.zomato.com/cebu/restaurants?page=5"
+  },
+  {
+    "web-scraper-order": "1592239083-353",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/coffee-prince-capitol-site-cebu-city/info",
+    "title": "Coffee Prince",
+    "address": "Osmena Boulevard, Capitol Site, Cebu City",
+    "contact": "+63324162081",
+    "reviewer_name": [],
+    "reviewer_rate": [],
+    "reviews": "151 Reviews",
+    "rate": 4,
+    "reviewer_text": [],
+    "open_establishment": "8am – 2am (Today)",
+    "details": "Café - Coffee",
+    "dishes": null,
+    "cost": "Cozy",
+    "services": [
+      {
+        "services": "Outdoor Seating"
+      },
+      {
+        "services": "Wifi"
+      },
+      {
+        "services": "Desserts and Bakes"
+      },
+      {
+        "services": "Indoor Seating"
+      }
+    ],
+    "pages": "",
+    "pages-href": ""
+  },
+  {
+    "web-scraper-order": "1592238457-315",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/buffalo-brads-lahug-cebu-city/info",
+    "title": "Buffalo Brads",
+    "address": "Garden Bloc, IT Park, Lahug, Cebu City",
+    "contact": "+639063313631",
+    "reviewer_name": [
+      {
+        "reviewer_name": "Max J"
+      },
+      {
+        "reviewer_name": "Charisse Hizon"
+      }
+    ],
+    "reviewer_rate": [
+      {
+        "reviewer_rate": "3.0"
+      },
+      {
+        "reviewer_rate": "5.0"
+      }
+    ],
+    "reviews": "88 Reviews",
+    "rate": 3.8,
+    "reviewer_text": [
+      {
+        "reviewer_text": "Their garlic parmesan is the only one I liked. Pretty convenient take away when your craving for some wings."
+      },
+      {
+        "reviewer_text": ""
+      }
+    ],
+    "open_establishment": "10:30am – 2am (Today)",
+    "details": "Casual Dining - American",
+    "dishes": "PHP700 for two people (approx.) Without alcohol",
+    "cost": "",
+    "services": [
+      {
+        "services": "Beer"
+      },
+      {
+        "services": "Outdoor Seating"
+      },
+      {
+        "services": "Indoor Seating"
+      }
+    ],
+    "pages": 4,
+    "pages-href": "https://www.zomato.com/cebu/restaurants?page=4"
+  },
+  {
+    "web-scraper-order": "1592238412-312",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/top-of-cebu-restaurant-busay-cebu-city/info",
+    "title": "Top of Cebu Restaurant",
+    "address": "Cebu Transcentral Highway, Busay, Cebu City",
+    "contact": "+63325160718",
+    "reviewer_name": [
+      {
+        "reviewer_name": "Hungry Hieu"
+      }
+    ],
+    "reviewer_rate": [
+      {
+        "reviewer_rate": "3.0"
+      }
+    ],
+    "reviews": "61 Reviews",
+    "rate": 3.9,
+    "reviewer_text": [
+      {
+        "reviewer_text": "Superb view overlooking cebu. There are plenty of seating so our group of 12 was able to dine and enjoy the scenary. The food looked appetising but not spectacular. The service was also a little slow with the restaurant pretty much filled with customers taking advantage of the view."
+      }
+    ],
+    "open_establishment": "Opens at 9am",
+    "details": "Casual Dining - Filipino",
+    "dishes": "PHP1600 for two people (approx.) Without alcohol",
+    "cost": "",
+    "services": [
+      {
+        "services": "Breakfast"
+      },
+      {
+        "services": "Full Bar Available"
+      },
+      {
+        "services": "Rooftop"
+      },
+      {
+        "services": "Outdoor Seating"
+      },
+      {
+        "services": "Table booking recommended"
+      }
+    ],
+    "pages": 4,
+    "pages-href": "https://www.zomato.com/cebu/restaurants?page=4"
+  },
+  {
+    "web-scraper-order": "1592238832-337",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/cafe-laguna-cebu-business-park/info",
+    "title": "Cafe Laguna",
+    "address": "Ground Floor, The Terraces, Ayala Center Cebu, Cebu Business Park, Cebu City",
+    "contact": "+63322310922",
+    "reviewer_name": [
+      {
+        "reviewer_name": "Zeats_Zettay"
+      }
+    ],
+    "reviewer_rate": [
+      {
+        "reviewer_rate": "3.0"
+      }
+    ],
+    "reviews": "121 Reviews",
+    "rate": 3.7,
+    "reviewer_text": [
+      {
+        "reviewer_text": "PLACE is good. Spacious. Love the seats and the interior as well. I love the atmosphere, family crowd and I’ve seen crowd of old people catching up. \n\nFOOD was good. I love the panghimagas or dessert. My special fave is the puto bongbong and bibingka! Yummm!!!!  The buko pandan was delish as well. And lumpiang sariwa. Yayyy! They have lots of food, filipino food. \n\nSERVER was slow. This was the only problem we encountered. Our server was great don’t get me wrong. But the food was very slow. Everytime they put food in our table we finish eat and the next dish took time to be served. It was just frustrating especially when you are\nmad hungry. And it is hard to call different server when...read more"
+      }
+    ],
+    "open_establishment": "Opens at 9:30am",
+    "details": "Casual Dining - Filipino",
+    "dishes": "Crispy Pata, Filipino Food, Lechon Kawali",
+    "cost": "PHP1200 for two people (approx.) Without alcohol",
+    "services": [
+      {
+        "services": "Home Delivery"
+      },
+      {
+        "services": "Beer"
+      },
+      {
+        "services": "Indoor Seating"
+      },
+      {
+        "services": "Wifi"
+      },
+      {
+        "services": "Outdoor Seating"
+      }
+    ],
+    "pages": 2,
+    "pages-href": "https://www.zomato.com/cebu/restaurants?page=2"
+  },
+  {
+    "web-scraper-order": "1592239236-363",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/la-vie-parisienne-lahug-cebu-city/info",
+    "title": "La Vie Parisienne",
+    "address": "271 Gorordo Avenue, Lahug, Cebu City",
+    "contact": "+63322604388",
+    "reviewer_name": [
+      {
+        "reviewer_name": "Beverly Morales"
+      },
+      {
+        "reviewer_name": "Leila Camillo"
+      }
+    ],
+    "reviewer_rate": [
+      {
+        "reviewer_rate": "4.0"
+      },
+      {
+        "reviewer_rate": "4.0"
+      }
+    ],
+    "reviews": "334 Reviews",
+    "rate": 4.1,
+    "reviewer_text": [
+      {
+        "reviewer_text": ""
+      },
+      {
+        "reviewer_text": ""
+      }
+    ],
+    "open_establishment": "7am – 2am (Today)",
+    "details": "Bakery - Bakery, French",
+    "dishes": "Wine, Pizza, Steak, Sandwich, Croissant, Pasta, Gelato",
+    "cost": "Cozy, Romantic Place",
+    "services": [
+      {
+        "services": "Wine"
+      },
+      {
+        "services": "Nightlife"
+      },
+      {
+        "services": "Outdoor Seating"
+      },
+      {
+        "services": "Indoor Seating"
+      },
+      {
+        "services": "Wifi"
+      },
+      {
+        "services": "Desserts and Bakes"
+      },
+      {
+        "services": "Bottle Service"
+      }
+    ],
+    "pages": "",
+    "pages-href": ""
+  },
+  {
+    "web-scraper-order": "1592238115-297",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/cebu-sumibi-yakiniku-tajimaya-kasambagan/info",
+    "title": "Cebu Sumibi Yakiniku Tajimaya",
+    "address": "The Crossroads, Gov. M. Cuenco Avenue, Kasambagan, Cebu City",
+    "contact": "+63322320533",
+    "reviewer_name": [],
+    "reviewer_rate": [],
+    "reviews": "82 Reviews",
+    "rate": 4.5,
+    "reviewer_text": [
+      {
+        "reviewer_text": ""
+      },
+      {
+        "reviewer_text": "One of the best cook-it-yourself restos in cebu. Although pricier than most restaurants of this genre, their food is worth it. Their meat melts in your mouth as the flavors explode in your tastebuds which will make you forget how pricy it is."
+      }
+    ],
+    "open_establishment": "Opens at 11am",
+    "details": "Casual Dining - Japanese, Ramen",
+    "dishes": null,
+    "cost": "PHP1200 for two people (approx.) Without alcohol",
+    "services": [
+      {
+        "services": "Home Delivery"
+      },
+      {
+        "services": "Wine and Beer"
+      },
+      {
+        "services": "Indoor Seating"
+      },
+      {
+        "services": "Table booking recommended"
+      }
+    ],
+    "pages": 5,
+    "pages-href": "https://www.zomato.com/cebu/restaurants?page=5"
+  },
+  {
+    "web-scraper-order": "1592238011-292",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/krave-cafe-lahug-cebu-city/info",
+    "title": "Krave Cafe",
+    "address": "Salinas Drive, Lahug, Cebu City",
+    "contact": "+63324024946",
+    "reviewer_name": [
+      {
+        "reviewer_name": "Norwen"
+      },
+      {
+        "reviewer_name": "Musings Of A Libra"
+      }
+    ],
+    "reviewer_rate": [
+      {
+        "reviewer_rate": "3.5"
+      },
+      {
+        "reviewer_rate": "4.0"
+      }
+    ],
+    "reviews": "54 Reviews",
+    "rate": 3.7,
+    "reviewer_text": [
+      {
+        "reviewer_text": "Toast bread to me differs not just in taste but in it’s texture, smell and the jam that goes with it. With this toasted bred from krave, I get just the right toast. Here’s a merienda treat for thy self on a busy day he had."
+      },
+      {
+        "reviewer_text": "Nice place to chill. Food was kinda bland for me but I like their matcha latte. Price was also okay."
+      }
+    ],
+    "open_establishment": "Opens at 8am",
+    "details": "Café - Desserts, Coffee",
+    "dishes": "PHP400 for two people (approx.)",
+    "cost": "",
+    "services": [
+      {
+        "services": "Home Delivery"
+      },
+      {
+        "services": "Takeaway Available"
+      },
+      {
+        "services": "All Day Breakfast"
+      },
+      {
+        "services": "Indoor Seating"
+      },
+      {
+        "services": "Desserts and Bakes"
+      },
+      {
+        "services": "Free Parking"
+      }
+    ],
+    "pages": 5,
+    "pages-href": "https://www.zomato.com/cebu/restaurants?page=5"
+  },
+  {
+    "web-scraper-order": "1592238186-300",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/ramen-dojo-north-reclamation-area-cebu-city/info",
+    "title": "Ramen Dojo",
+    "address": "Second Floor, North Wing, SM City Cebu, North Reclamation Area, Cebu City",
+    "contact": "Not available for this place",
+    "reviewer_name": [],
+    "reviewer_rate": [],
+    "reviews": "56 Reviews",
+    "rate": 3.8,
+    "reviewer_text": [
+      {
+        "reviewer_text": ""
+      },
+      {
+        "reviewer_text": "Good location. Good for its price. Efficient service."
+      }
+    ],
+    "open_establishment": "Opens at 10am",
+    "details": "Quick Bites - Japanese",
+    "dishes": null,
+    "cost": "",
+    "services": [
+      {
+        "services": "Home Delivery"
+      },
+      {
+        "services": "Takeaway Available"
+      },
+      {
+        "services": "Indoor Seating"
+      }
+    ],
+    "pages": 5,
+    "pages-href": "https://www.zomato.com/cebu/restaurants?page=5"
+  },
+  {
+    "web-scraper-order": "1592238397-311",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/wakamatsu-yakiniku-mabolo/info",
+    "title": "Wakamatsu Yakiniku",
+    "address": "Ground Floor, Pacific Square Building, F. Cabahug Street, Mabolo, Cebu City",
+    "contact": "+63322325897",
+    "reviewer_name": [
+      {
+        "reviewer_name": "Shamee"
+      },
+      {
+        "reviewer_name": "Julia Patricia Bunal"
+      }
+    ],
+    "reviewer_rate": [
+      {
+        "reviewer_rate": "1.0"
+      },
+      {
+        "reviewer_rate": "1.0"
+      }
+    ],
+    "reviews": "99 Reviews",
+    "rate": 3.7,
+    "reviewer_text": [
+      {
+        "reviewer_text": "The service was so terrible. We kept on repeating our orders to different waitresses for like around 4 times before they were served. A lot of our orders have also been forgotten and not served. They don’t list your orders and so a lot of it would be forgotten. It was unacceptable and you’d think they’d take a long time preparing the food because it’s going to be really delicious but the quality of the food is not even that good. The sashimi wasn’t fresh, not cut properly and took forever to arrive, and the teppanyaki was messy. The servers also weren’t polite and don’t listen whenever being called even though they’ve already seen you. It’s not just one, it’s all of...read more"
+      },
+      {
+        "reviewer_text": "Asked to have the grill changed at the table, then comes the new grill with a walking live cockroach! Waiter who changed the grill hurriedly caught the roach crawling onto the table. We thought that was it, but then... \nAfter almost finishing my ramen, I WAS SHOCKED to see another bug in the soup!How lucky are we to have 2 bugs for dinner?!?!?\nSee photo for proof. Never coming back here again!!!"
+      }
+    ],
+    "open_establishment": "Opens at 11:30am",
+    "details": "Casual Dining - Japanese, Ramen",
+    "dishes": "Yakiniku",
+    "cost": "PHP1300 for two people (approx.) Without alcohol",
+    "services": [
+      {
+        "services": "Wine and Beer"
+      },
+      {
+        "services": "Indoor Seating"
+      },
+      {
+        "services": "Table booking recommended"
+      },
+      {
+        "services": "Wifi"
+      },
+      {
+        "services": "Buffet"
+      }
+    ],
+    "pages": 4,
+    "pages-href": "https://www.zomato.com/cebu/restaurants?page=4"
+  },
+  {
+    "web-scraper-order": "1592238262-304",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/hamakaze-ramen-dining-bar-banilad-mandaue-city-mandaue-city/info",
+    "title": "Hamakaze Ramen Dining & Bar",
+    "address": "A. S. Fortuna Street, Banilad, Mandaue City",
+    "contact": "+63325054220",
+    "reviewer_name": [
+      {
+        "reviewer_name": "Razel Unabia"
+      },
+      {
+        "reviewer_name": "Sherlindy Lou"
+      }
+    ],
+    "reviewer_rate": [
+      {
+        "reviewer_rate": "1.0"
+      },
+      {
+        "reviewer_rate": "2.0"
+      }
+    ],
+    "reviews": "42 Reviews",
+    "rate": 4,
+    "reviewer_text": [
+      {
+        "reviewer_text": "The food is excellent and very delicious. But the staffs are insulting. We came a group of seven and we requested to arrange the table for us because we want to sit together as a group  but instead they insulted and told us that they can't do that because it's very difficult for them. It was okay for us, and we understand them but the other staff was so irritating because she rolled her eyes when one of my friends ask for additional glass for the beer. Good thing my friend, didn't see it. Hahaha. My friend is a war freak."
+      },
+      {
+        "reviewer_text": "Okay my friend recommended this place so we want to try it out. We've been to sashi and yushoken, and this place serve chicken broth soup. So for\nfood: 3 star out of 5, the noodles and pork is goood. However soup is okay. We ordered, shoyu and spicy shoyu and gy�?za.\nPlace: 4 star out of 5, homieee, they have parking.\nStaff: 1 star out of 5, not polite. They heard us criticising they're food specially the noodles. And they dont want to talk to us or serve us. Not cool guys."
+      }
+    ],
+    "open_establishment": "12noon – 3pm, 6pm – 5am (Today)",
+    "details": "Casual Dining - Japanese, Ramen",
+    "dishes": "Japanese Ramen, Pork Bone Soup",
+    "cost": "PHP950 for two people (approx.) Without alcohol",
+    "services": [
+      {
+        "services": "Beer"
+      },
+      {
+        "services": "Indoor Seating"
+      },
+      {
+        "services": "Table booking recommended"
+      }
+    ],
+    "pages": 5,
+    "pages-href": "https://www.zomato.com/cebu/restaurants?page=5"
+  },
+  {
+    "web-scraper-order": "1592238847-338",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/blue-elephant-cebu-business-park-cebu-city/info",
+    "title": "Blue Elephant",
+    "address": "19th Floor, Apple One Equicom Tower, Mindanao Corner Biliran  Avenue, Cebu Business Park, Cebu City",
+    "contact": "+63322629088",
+    "reviewer_name": [],
+    "reviewer_rate": [],
+    "reviews": "135 Reviews",
+    "rate": 4,
+    "reviewer_text": [
+      {
+        "reviewer_text": ""
+      },
+      {
+        "reviewer_text": "A great place to catch up with family or friends while listening to the live band. The portion sizes compensates well with the price. Their pasta is superb!🙂"
+      }
+    ],
+    "open_establishment": "Opens at 5:30pm",
+    "details": "Casual Dining - Asian",
+    "dishes": null,
+    "cost": "Romantic Dinner, Live Music, Rooftop Ambience",
+    "services": [
+      {
+        "services": "Full Bar Available"
+      },
+      {
+        "services": "Indoor Seating"
+      },
+      {
+        "services": "Private Dining Area Available"
+      },
+      {
+        "services": "Outdoor Seating"
+      },
+      {
+        "services": "Table booking recommended"
+      }
+    ],
+    "pages": 2,
+    "pages-href": "https://www.zomato.com/cebu/restaurants?page=2"
+  },
+  {
+    "web-scraper-order": "1592239193-360",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/buffet-101-tipolo/info",
+    "title": "Buffet 101",
+    "address": "City Time Square, Mantawe Avenue, Tipolo, Mandaue City",
+    "contact": "+63325172222",
+    "reviewer_name": [
+      {
+        "reviewer_name": "Eyah Shanna Antonio"
+      }
+    ],
+    "reviewer_rate": [
+      {
+        "reviewer_rate": "3.0"
+      }
+    ],
+    "reviews": "273 Reviews",
+    "rate": 4.3,
+    "reviewer_text": [
+      {
+        "reviewer_text": "My family & I went here for lunch and we were one of the few customers who arrived just as they opened at 11:30am.\n\nI love the interiors.. fancy & spacious. However, the seats assigned to us (Table #85 I think.. the ones near the restroom & japanese station with the half circle couches) had a damaged couch so it was so uncomfortable because it just kept tickling my thighs. LOL. I had to pull out a separate chair. Did not bother ask to be seated at another table because the lady who escorted us to our seats seemed to be in a rush.\n\nI roamed around to check all of the food available before adding them to my plate but there were very limited food options as compared to Vikings.\n\nI loved the...read more"
+      }
+    ],
+    "open_establishment": "Opens at 12noon",
+    "details": "Casual Dining - Filipino, Chinese, Korean, Japanese",
+    "dishes": "Noodle, Pizza, Roasted Beef, Tea",
+    "cost": "PHP1600 for two people (approx.)",
+    "services": [
+      {
+        "services": "Buffet"
+      },
+      {
+        "services": "Indoor Seating"
+      }
+    ],
+    "pages": "",
+    "pages-href": ""
+  },
+  {
+    "web-scraper-order": "1592237768-280",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/chik-chow-food-express-buffet-kamputhaw/info",
+    "title": "Chik Chow Food Express Buffet",
+    "address": "316 - C General Maxilom Avenue, Kamputhaw, Cebu City",
+    "contact": "+63322559959",
+    "reviewer_name": [
+      {
+        "reviewer_name": "Demi Bernice Eslit"
+      },
+      {
+        "reviewer_name": "Eric Cabaluna Nacorda"
+      }
+    ],
+    "reviewer_rate": [
+      {
+        "reviewer_rate": "4.0"
+      },
+      {
+        "reviewer_rate": "3.5"
+      }
+    ],
+    "reviews": "38 Reviews",
+    "rate": 3.8,
+    "reviewer_text": [
+      {
+        "reviewer_text": "I love the place! It's not easily discoverable though because it's not at the side of the street, they need bigger signs so people would be able to see them. Went here with a co-teacher when I was still teaching. Their food is good! Although they dont have that much food choices, the Filipino-Chinese brand is really present. I think it's 300 per person. I also think you need to make reservations before you go there because it's not a huge and spacious place."
+      },
+      {
+        "reviewer_text": "Been here 6 times. The lengua and the all-meat dinugoan keeps calling me back. But they do need to introduce a few more dishes to the mix. The location is very much accessible and parking is plentiful. However, the attendants are a little bit too at home, with their loud conversations. Some piped-in soft music would be nice, to drown some of the noise from neighboring tables."
+      }
+    ],
+    "open_establishment": "Opens at 11am",
+    "details": "Casual Dining - Filipino, Chinese",
+    "dishes": "Roasted Pork, Meatballs",
+    "cost": "PHP600 for two people (approx.) Without alcohol",
+    "services": [
+      {
+        "services": "Home Delivery"
+      },
+      {
+        "services": "Beer"
+      },
+      {
+        "services": "Outdoor Seating"
+      },
+      {
+        "services": "Buffet"
+      },
+      {
+        "services": "Indoor Seating"
+      },
+      {
+        "services": "Wifi"
+      }
+    ],
+    "pages": "...",
+    "pages-href": "https://www.zomato.com/cebu/restaurants?page=6"
+  },
+  {
+    "web-scraper-order": "1592238644-326",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/cardinal-coffea-capitol-site-cebu-city/info",
+    "title": "Cardinal Coffea",
+    "address": "Don Jose Avila Street, Capitol Site, Cebu City",
+    "contact": "+63328887658",
+    "reviewer_name": [],
+    "reviewer_rate": [],
+    "reviews": "80 Reviews",
+    "rate": 4.4,
+    "reviewer_text": [
+      {
+        "reviewer_text": "I'm not a fan of cakes. But this one? You will ask for more. \"YEMA CAKE\" at Php 90.00 per slice and Php 350.00 whole.\n\nCake was so good and not too sweet perfect to my taste. Nice ambiance.\n\nLocated at Don Jose Avila Street, Capitol Site, Cebu City."
+      }
+    ],
+    "open_establishment": "Opens at 7am",
+    "details": "Café - Coffee",
+    "dishes": null,
+    "cost": "",
+    "services": [
+      {
+        "services": "Home Delivery"
+      },
+      {
+        "services": "Takeaway Available"
+      },
+      {
+        "services": "Indoor Seating"
+      },
+      {
+        "services": "Desserts and Bakes"
+      },
+      {
+        "services": "Wifi"
+      }
+    ],
+    "pages": 3,
+    "pages-href": "https://www.zomato.com/cebu/restaurants?page=3"
+  },
+  {
+    "web-scraper-order": "1592237950-290",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/chatime-lahug-cebu-city/info",
+    "title": "Chatime",
+    "address": "eBloc 2, IT Park, Lahug, Cebu City",
+    "contact": "+63325052121",
+    "reviewer_name": [
+      {
+        "reviewer_name": "Tiffany"
+      },
+      {
+        "reviewer_name": "Angelie Myrrh Parojinog"
+      }
+    ],
+    "reviewer_rate": [
+      {
+        "reviewer_rate": "5.0"
+      },
+      {
+        "reviewer_rate": "4.0"
+      }
+    ],
+    "reviews": "91 Reviews",
+    "rate": 4.1,
+    "reviewer_text": [
+      {
+        "reviewer_text": ""
+      },
+      {
+        "reviewer_text": "Place is packed with lots of customers at night therefore the service wa very slow. Had to wait for almost am hour to get served. Place is very clean despite the crowd. The arrangement of seats was a little too tight and it's very noisy inside"
+      }
+    ],
+    "open_establishment": "Opens at 11am",
+    "details": "Beverage Shop - Beverages",
+    "dishes": "PHP350 for two people (approx.)",
+    "cost": "",
+    "services": [
+      {
+        "services": "Home Delivery"
+      },
+      {
+        "services": "Takeaway Available"
+      },
+      {
+        "services": "Wifi"
+      },
+      {
+        "services": "Indoor Seating"
+      },
+      {
+        "services": "Outdoor Seating"
+      }
+    ],
+    "pages": "...",
+    "pages-href": "https://www.zomato.com/cebu/restaurants?page=6"
+  },
+  {
+    "web-scraper-order": "1592238080-295",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/coffee-factory-banilad-mandaue-city/info",
+    "title": "Coffee Factory",
+    "address": "A. S. Fortuna Street, Banilad, Mandaue City",
+    "contact": "+63323493361",
+    "reviewer_name": [
+      {
+        "reviewer_name": "Iumpad"
+      },
+      {
+        "reviewer_name": "Cristina Danielle Mercado"
+      }
+    ],
+    "reviewer_rate": [
+      {
+        "reviewer_rate": "1.0"
+      },
+      {
+        "reviewer_rate": "4.0"
+      }
+    ],
+    "reviews": "67 Reviews",
+    "rate": 4,
+    "reviewer_text": [
+      {
+        "reviewer_text": "one of the recent orders arrived with just half of the content since the take-out order wasn't properly sealed. Still ordered the next day for take-away, and wrote on the instructions that they seal it properly. Was surprised the order arrived with a voucher since i didn't ask for it, only to realize it was a generic foodpanda voucher for NEW user. what a joke. How can i be a NEW user when I've been using food panda to order from them? But since, they open early, i made another order again. After waiting, instead of a hot latte, i received an iced one. I double checked my foodpanda order to see if i made a mistake but no, especially that i order the same drink everytime. So i called their...read more"
+      },
+      {
+        "reviewer_text": "This place is one of the best to study in. It is really quiet wherein all you'll hear is the sound of their music and the sound of the blenders making drinks. It also provides different types of areas to study in. There's an outdoor roadside setting, a sofa type setting, a high stool bar type and even a big table setting. It's great for those who want to really study or have a peaceful place to just stay in. Their Lemon Tea is also delicious."
+      }
+    ],
+    "open_establishment": "7am – 12:30am (Today)",
+    "details": "Café - Coffee",
+    "dishes": "Coffee",
+    "cost": "PHP400 for two people (approx.)",
+    "services": [
+      {
+        "services": "Outdoor Seating"
+      },
+      {
+        "services": "Indoor Seating"
+      },
+      {
+        "services": "Wifi"
+      }
+    ],
+    "pages": 5,
+    "pages-href": "https://www.zomato.com/cebu/restaurants?page=5"
+  },
+  {
+    "web-scraper-order": "1592239251-364",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/ramen-yushoken-banilad-mandaue-city/info",
+    "title": "Ramen Yushoken",
+    "address": "Oakridge Business Park, A. S. Fortuna Street, Banilad, Mandaue City",
+    "contact": "+63323677017",
+    "reviewer_name": [],
+    "reviewer_rate": [],
+    "reviews": "354 Reviews",
+    "rate": 4.9,
+    "reviewer_text": [],
+    "open_establishment": "Opens at 11am",
+    "details": "Casual Dining - Japanese, Ramen",
+    "dishes": null,
+    "cost": "Friendly Staff, Prompt Service",
+    "services": [
+      {
+        "services": "Beer"
+      },
+      {
+        "services": "Wifi"
+      },
+      {
+        "services": "Indoor Seating"
+      },
+      {
+        "services": "Table booking recommended"
+      }
+    ],
+    "pages": "",
+    "pages-href": ""
+  },
+  {
+    "web-scraper-order": "1592238577-322",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/tides-shangri-las-mactan-resort-spa-punta-engano-lapu-lapu-city/info",
+    "title": "Tides - Shangri-la's Mactan Resort & Spa",
+    "address": "Shangri-la's Mactan Resort & Spa, Garden Level, Main Wing, Punta Engano, Lapu-Lapu City",
+    "contact": "+63322310288",
+    "reviewer_name": [],
+    "reviewer_rate": [],
+    "reviews": "53 Reviews",
+    "rate": 4.1,
+    "reviewer_text": [],
+    "open_establishment": "Opens at 6am",
+    "details": "Fine Dining - International",
+    "dishes": null,
+    "cost": "PHP1900 for two people (approx.) Without alcohol",
+    "services": [
+      {
+        "services": "Breakfast"
+      },
+      {
+        "services": "Home Delivery"
+      },
+      {
+        "services": "Full Bar Available"
+      },
+      {
+        "services": "Indoor Seating"
+      },
+      {
+        "services": "Outdoor Seating"
+      },
+      {
+        "services": "Wifi"
+      },
+      {
+        "services": "Table booking recommended"
+      },
+      {
+        "services": "Buffet"
+      }
+    ],
+    "pages": 3,
+    "pages-href": "https://www.zomato.com/cebu/restaurants?page=3"
+  },
+  {
+    "web-scraper-order": "1592238562-321",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/tom-n-toms-coffee-kasambagan/info",
+    "title": "Tom N Tom's Coffee",
+    "address": "The Greenery, Juan Luna Avenue, Kasambagan, Cebu City",
+    "contact": "+63325052111",
+    "reviewer_name": [
+      {
+        "reviewer_name": "Cristina Danielle Mercado"
+      },
+      {
+        "reviewer_name": "Andrea Aligato"
+      }
+    ],
+    "reviewer_rate": [
+      {
+        "reviewer_rate": "5.0"
+      },
+      {
+        "reviewer_rate": "4.0"
+      }
+    ],
+    "reviews": "83 Reviews",
+    "rate": 4.2,
+    "reviewer_text": [
+      {
+        "reviewer_text": "I honestly love this place but sadly, it's far from my house so I can't be a regular there. Their drinks are tasty and their garlic toast is my favorite. It's quite a treat and it's a great place to study. Ambiance is nice."
+      },
+      {
+        "reviewer_text": "Definitely the place to chill and unwind with a good cup of coffee and friendly staff. Place is accessible and their are parking spaces so you don't have to worry about parking too. Also, even if there are a lot of people, it doesn't feel like other coffee shops that it gets annoying when it's crowded. Good place!"
+      }
+    ],
+    "open_establishment": "24 Hours (Today)",
+    "details": "Café - Coffee, Bakery",
+    "dishes": "Coffee, Tea",
+    "cost": "Friendly Staff",
+    "services": [
+      {
+        "services": "Indoor Seating"
+      },
+      {
+        "services": "Wifi"
+      },
+      {
+        "services": "Desserts and Bakes"
+      }
+    ],
+    "pages": 3,
+    "pages-href": "https://www.zomato.com/cebu/restaurants?page=3"
+  },
+  {
+    "web-scraper-order": "1592239068-352",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/tazza-cafe-patisserie-lahug/info",
+    "title": "Tazza Cafe & Patisserie",
+    "address": "Ground Floor, Tsai Hotel, Wilson Street, Lahug, Cebu City",
+    "contact": "+63322635321",
+    "reviewer_name": [],
+    "reviewer_rate": [],
+    "reviews": "118 Reviews",
+    "rate": 4.3,
+    "reviewer_text": [],
+    "open_establishment": "Opens at 6:30am",
+    "details": "Café - European, Coffee",
+    "dishes": null,
+    "cost": "Friendly Staff",
+    "services": [
+      {
+        "services": "Outdoor Seating"
+      },
+      {
+        "services": "Indoor Seating"
+      },
+      {
+        "services": "Wifi"
+      }
+    ],
+    "pages": "",
+    "pages-href": ""
+  },
+  {
+    "web-scraper-order": "1592238275-305",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/cafe-talk-capitol-site-cebu-city/info",
+    "title": "Cafe Talk",
+    "address": "731 N. Escario Street, Capitol Site, Cebu City",
+    "contact": "+63324104541",
+    "reviewer_name": [
+      {
+        "reviewer_name": "Hungry Hieu"
+      },
+      {
+        "reviewer_name": "Musings Of A Libra"
+      }
+    ],
+    "reviewer_rate": [
+      {
+        "reviewer_rate": "4.0"
+      },
+      {
+        "reviewer_rate": "3.0"
+      }
+    ],
+    "reviews": "74 Reviews",
+    "rate": 3.1,
+    "reviewer_text": [
+      {
+        "reviewer_text": "Cute and cosy; perfect to hang out in a group or you can go solo for some me time. You just need to make one order per person to take advantage of one of their reading nooks. The decor comes with a nice selection of books, board games, and cute soft toys to snuggle up with. If you're hungry you can grab one of their western or Korean inspired dishes; these are a tad small but delicious."
+      },
+      {
+        "reviewer_text": "I used to want to visit this place before. But upon visiting, I never wanna go back again. The place was full of random scribbles which I find very dirty. Their ramen was also weird-tasting."
+      }
+    ],
+    "open_establishment": "9am – 1am (Today)",
+    "details": "Café - Coffee",
+    "dishes": "Coffee",
+    "cost": "Board Games",
+    "services": [
+      {
+        "services": "Outdoor Seating"
+      },
+      {
+        "services": "Indoor Seating"
+      },
+      {
+        "services": "Wifi"
+      }
+    ],
+    "pages": 5,
+    "pages-href": "https://www.zomato.com/cebu/restaurants?page=5"
+  },
+  {
+    "web-scraper-order": "1592238757-333",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/burrow-tsai-hotel-lahug/info",
+    "title": "Burrow - Tsai Hotel",
+    "address": "Ground Floor, Tsai Hotel, Wilson Street, Lahug, Cebu City 6000",
+    "contact": "+63323281074",
+    "reviewer_name": [
+      {
+        "reviewer_name": "Pat Constante"
+      },
+      {
+        "reviewer_name": "Geson John Gawchua Mandawe"
+      }
+    ],
+    "reviewer_rate": [
+      {
+        "reviewer_rate": "3.0"
+      },
+      {
+        "reviewer_rate": "4.0"
+      }
+    ],
+    "reviews": "136 Reviews",
+    "rate": 3.8,
+    "reviewer_text": [
+      {
+        "reviewer_text": "Food - Unliwings were okay. Not bad. I even remember comparing the original wings to Jollibee's. \n\nPlace - Located at the ground floor of Tsai Hotel in Lahug City. Simple interiors. \n\nPrice - For less than Php300, you get unlimited wings in 5 different flavors. Not a bad deal nowadays."
+      },
+      {
+        "reviewer_text": "Very affordable! Staffs are polite and waiting time isn’t that long so you won’t get bored and all."
+      }
+    ],
+    "open_establishment": "Opens at 11am",
+    "details": "Casual Dining - Filipino, American",
+    "dishes": "Wings, Garlic Parmesan, Tea, Beer",
+    "cost": "PHP600 for two people (approx.) Without alcohol",
+    "services": [
+      {
+        "services": "Home Delivery"
+      },
+      {
+        "services": "Takeaway Available"
+      },
+      {
+        "services": "Beer"
+      },
+      {
+        "services": "Indoor Seating"
+      },
+      {
+        "services": "Table booking recommended"
+      },
+      {
+        "services": "Outdoor Seating"
+      }
+    ],
+    "pages": 3,
+    "pages-href": "https://www.zomato.com/cebu/restaurants?page=3"
+  },
+  {
+    "web-scraper-order": "1592237803-282",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/mickys-cafe-kamputhaw/info",
+    "title": "Micky's Cafe",
+    "address": "7 Escario Street, Kamputhaw, Cebu City",
+    "contact": "+63322322567",
+    "reviewer_name": [
+      {
+        "reviewer_name": "Mary Grace General Adolfo"
+      }
+    ],
+    "reviewer_rate": [
+      {
+        "reviewer_rate": "3.0"
+      }
+    ],
+    "reviews": "53 Reviews",
+    "rate": 4.3,
+    "reviewer_text": [
+      {
+        "reviewer_text": "“Hey micky, you’re so fine you blow my mind, hey micky!�? Micky’s so good for a tea partyyy. Their service is just extra! It’s a small place but they have many jap cakes for you to choose from. Yuumm"
+      }
+    ],
+    "open_establishment": "Opens at 10:30am",
+    "details": "Café - Desserts, Coffee",
+    "dishes": "Coffee, Mango Cheesecake, Pasta, New York Cheesecake, Strawberry Shortcake, Pie",
+    "cost": "PHP600 for two people (approx.)",
+    "services": [
+      {
+        "services": "Free Parking"
+      },
+      {
+        "services": "Indoor Seating"
+      },
+      {
+        "services": "Desserts and Bakes"
+      },
+      {
+        "services": "Outdoor Seating"
+      }
+    ],
+    "pages": "...",
+    "pages-href": "https://www.zomato.com/cebu/restaurants?page=6"
+  },
+  {
+    "web-scraper-order": "1592238975-346",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/murrays-new-orleans-cebu-business-park-cebu-city/info",
+    "title": "Murray's New Orleans",
+    "address": "Fourth Floor, The Terraces, Ayala Center Cebu, Cebu Business Park, Cebu City",
+    "contact": "+63324012676",
+    "reviewer_name": [],
+    "reviewer_rate": [],
+    "reviews": "92 Reviews",
+    "rate": 4.1,
+    "reviewer_text": [
+      {
+        "reviewer_text": ""
+      },
+      {
+        "reviewer_text": "One of my favorite restaurants, service is superb, food tastes divine and food portion is relative to the price."
+      }
+    ],
+    "open_establishment": "Opens at 11am",
+    "details": "Casual Dining - American",
+    "dishes": null,
+    "cost": "Decor, Live Music",
+    "services": [
+      {
+        "services": "Home Delivery"
+      },
+      {
+        "services": "Takeaway Available"
+      },
+      {
+        "services": "Wine and Beer"
+      },
+      {
+        "services": "Indoor Seating"
+      },
+      {
+        "services": "Table booking recommended"
+      },
+      {
+        "services": "Wifi"
+      },
+      {
+        "services": "Outdoor Seating"
+      }
+    ],
+    "pages": 2,
+    "pages-href": "https://www.zomato.com/cebu/restaurants?page=2"
+  },
+  {
+    "web-scraper-order": "1592239113-355",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/circa-1900-lahug-cebu-city/info",
+    "title": "Circa 1900",
+    "address": "Casa Uno, Sanjercas Ville Extension Road, Gorordo Avenue, Lahug, Cebu City",
+    "contact": "+63324173886",
+    "reviewer_name": [],
+    "reviewer_rate": [],
+    "reviews": "174 Reviews",
+    "rate": 4.4,
+    "reviewer_text": [],
+    "open_establishment": "Opens at 11am",
+    "details": "Casual Dining - Asian, American",
+    "dishes": null,
+    "cost": "Romantic Dinner",
+    "services": [
+      {
+        "services": "Home Delivery"
+      },
+      {
+        "services": "Takeaway Available"
+      },
+      {
+        "services": "Full Bar Available"
+      },
+      {
+        "services": "Bottle Service"
+      },
+      {
+        "services": "Outdoor Seating"
+      },
+      {
+        "services": "Indoor Seating"
+      },
+      {
+        "services": "Table booking recommended"
+      },
+      {
+        "services": "Wifi"
+      }
+    ],
+    "pages": "",
+    "pages-href": ""
+  },
+  {
+    "web-scraper-order": "1592238320-307",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/barikata-ramen-bar-lahug/info",
+    "title": "Barikata Ramen Bar",
+    "address": "Calyx Centre, IT Park, Lahug, Cebu City",
+    "contact": "+63322689582",
+    "reviewer_name": [
+      {
+        "reviewer_name": "Tiffy"
+      },
+      {
+        "reviewer_name": "Kyle Suarez"
+      }
+    ],
+    "reviewer_rate": [
+      {
+        "reviewer_rate": "5.0"
+      },
+      {
+        "reviewer_rate": "5.0"
+      }
+    ],
+    "reviews": "79 Reviews",
+    "rate": 4.3,
+    "reviewer_text": [
+      {
+        "reviewer_text": "Our go-to ramen place."
+      },
+      {
+        "reviewer_text": "It was really my first time eating at this restau. When we dined, there wasn't so much people so eventhough the place was small we had ample seating and I would not need to worry our elbows might get hurt from passing diners. I love the ambiance, although, it was a little messy, I can still feel the japanese-y vibe in it. I love that they have an open kitchen, it gives me an idea on how my food was prepared and an idea for future business/ running a kitchen preferrences. Also, their attendants were very attentive 😅. Finally, for the food it was affordable for me. Like what I mentioned on my previous reviews for other restaus, quality and quantity should come together for me to judge it...read more"
+      }
+    ],
+    "open_establishment": "Opens at 11:30am",
+    "details": "Casual Dining - Japanese, Ramen",
+    "dishes": "Ramen, Noodle, Gyoza",
+    "cost": "Prompt Service",
+    "services": [
+      {
+        "services": "Beer"
+      },
+      {
+        "services": "Outdoor Seating"
+      },
+      {
+        "services": "Indoor Seating"
+      },
+      {
+        "services": "Table booking recommended"
+      }
+    ],
+    "pages": 4,
+    "pages-href": "https://www.zomato.com/cebu/restaurants?page=4"
+  },
+  {
+    "web-scraper-order": "1592238030-293",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/makchang-banilad-mandaue-city-mandaue-city/info",
+    "title": "Makchang",
+    "address": "The Space, A. S. Fortuna Street, Banilad, Mandaue City",
+    "contact": "+63324108453",
+    "reviewer_name": [
+      {
+        "reviewer_name": "Musings Of A Libra"
+      }
+    ],
+    "reviewer_rate": [
+      {
+        "reviewer_rate": "4.0"
+      }
+    ],
+    "reviews": "62 Reviews",
+    "rate": 4,
+    "reviewer_text": [
+      {
+        "reviewer_text": "Everything was good- from their meat (I only ate beef since I don't eat pork) to their side dishes. They refilled side dishes fast and staff were attentive. Might come back again since it's relatively close to where I'm staying."
+      }
+    ],
+    "open_establishment": "11am – 4am (Today)",
+    "details": "Casual Dining - Korean",
+    "dishes": "Samgyupsal, Kimchi, Noodle, Bibimbap",
+    "cost": "PHP1150 for two people (approx.) Without alcohol",
+    "services": [
+      {
+        "services": "Beer"
+      },
+      {
+        "services": "Indoor Seating"
+      }
+    ],
+    "pages": 5,
+    "pages-href": "https://www.zomato.com/cebu/restaurants?page=5"
+  },
+  {
+    "web-scraper-order": "1592237783-281",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/wingers-unlimited-3-kamputhaw-cebu-city/info",
+    "title": "Wingers Unlimited",
+    "address": "Mango Square, General Maxilom Avenue, Kamputhaw, Cebu City",
+    "contact": "+639453481288",
+    "reviewer_name": [
+      {
+        "reviewer_name": "Kiana Caryn"
+      },
+      {
+        "reviewer_name": "Jarena Evangelio"
+      }
+    ],
+    "reviewer_rate": [
+      {
+        "reviewer_rate": "3.0"
+      },
+      {
+        "reviewer_rate": "5.0"
+      }
+    ],
+    "reviews": "76 Reviews",
+    "rate": 2.7,
+    "reviewer_text": [
+      {
+        "reviewer_text": ""
+      },
+      {
+        "reviewer_text": "Unlimited chicken, fries, drinks, and ice cream for 300 pesos only. Looking forward to find another branch in Manila."
+      }
+    ],
+    "open_establishment": "Opens at 11am",
+    "details": "Quick Bites - American",
+    "dishes": null,
+    "cost": "",
+    "services": [
+      {
+        "services": "Home Delivery"
+      },
+      {
+        "services": "Indoor Seating"
+      }
+    ],
+    "pages": "...",
+    "pages-href": "https://www.zomato.com/cebu/restaurants?page=6"
+  },
+  {
+    "web-scraper-order": "1592238862-339",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/anzani-lahug-cebu-city/info",
+    "title": "Anzani",
+    "address": "Panorama Heights, Nivel Hills, Lahug, Cebu City",
+    "contact": "+63322327375",
+    "reviewer_name": [],
+    "reviewer_rate": [],
+    "reviews": "107 Reviews",
+    "rate": 4.3,
+    "reviewer_text": [
+      {
+        "reviewer_text": ""
+      },
+      {
+        "reviewer_text": "Great customer service. We had a reservation at 10pm on valentines day but we were stuck in traffic for almost 2 hours and when we called the restaurant they waited for us and accommodated us 5 mins before closing. When our friends informed them that they were going to prank us at the restaurant, they even helped them hide and participated in it. The food, especially their wine collection, and ambience is wonderful and I recommend this restaurant to anyone who wants to have a good time. The staff was really friendly."
+      }
+    ],
+    "open_establishment": "Opens at 11:30am",
+    "details": "Fine Dining, Wine Bar - Mediterranean",
+    "dishes": null,
+    "cost": "Romantic Place",
+    "services": [
+      {
+        "services": "Home Delivery"
+      },
+      {
+        "services": "Full Bar Available"
+      },
+      {
+        "services": "Wifi"
+      },
+      {
+        "services": "Indoor Seating"
+      },
+      {
+        "services": "Private Dining Area Available"
+      },
+      {
+        "services": "Outdoor Seating"
+      },
+      {
+        "services": "Luxury Dining"
+      },
+      {
+        "services": "Table booking recommended"
+      }
+    ],
+    "pages": 2,
+    "pages-href": "https://www.zomato.com/cebu/restaurants?page=2"
+  },
+  {
+    "web-scraper-order": "1592238940-344",
+    "web-scraper-start-url": "https://www.zomato.com/cebu/restaurants",
+    "link": "",
+    "link-href": "https://www.zomato.com/cebu/dolce-lahug/info",
+    "title": "Dolce",
+    "address": "Panorama Heights, Nivel Hills, Lahug, Cebu City",
+    "contact": "+63325127263",
+    "reviewer_name": [],
+    "reviewer_rate": [],
+    "reviews": "132 Reviews",
+    "rate": 4,
+    "reviewer_text": [
+      {
+        "reviewer_text": "Came here with my Valentine's date and we sat outside. I was kinda disappointed about almost everything I experienced here.\n☑ They don't have Meals, Sandwiches & Burgers available at the moment. So we just opt for their Carbonara. I was about to get the Penne Pasta but again, they only have the Spaghetti one. So I had no option.\n✅ I like the pasta, it's creamy and seasoned well. They have a large serving too.\n☑ I expected the bread to be crunchy but it's the exact opposite. Nothing too special with their blueberry cheesecake, I didn't taste the very hint of blueberry and the slice is very small for its price. Also, the Mango shake is great but they could have served it in a glass...read more"
+      },
+      {
+        "reviewer_text": "Legit ambiance, perfect for catching up, long night talks and group conversations.. Spaces not overcrowded, and just right for large groups.. Also has indoor and outdoor areas depending on your preference!"
+      }
+    ],
+    "open_establishment": "7am – 1am (Today)",
+    "details": "Café - Coffee, Desserts",
+    "dishes": null,
+    "cost": "Friendly Staff",
+    "services": [
+      {
+        "services": "Home Delivery"
+      },
+      {
+        "services": "Takeaway Available"
+      },
+      {
+        "services": "Desserts and Bakes"
+      },
+      {
+        "services": "Outdoor Seating"
+      },
+      {
+        "services": "Wifi"
+      },
+      {
+        "services": "Indoor Seating"
+      }
+    ],
+    "pages": 2,
+    "pages-href": "https://www.zomato.com/cebu/restaurants?page=2"
+  }
+]
