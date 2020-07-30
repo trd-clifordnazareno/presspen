@@ -38,7 +38,8 @@ app.config(function ($routeProvider) {
                             controller: "myCtrl"
                         })
                         .when("/blank", {
-                            template: "nothing"
+                            //template: "nothing"
+                              templateUrl: "views/blank.html"
                         })
                                 .otherwise({
                         redirectTo: '/blank'
