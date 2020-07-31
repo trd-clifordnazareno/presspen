@@ -1951,6 +1951,13 @@
         
         
         $scope.hotelbtn = function(){
+		
+		
+		$scope.establishmentsdetails = "";
+            $http.get("../jsonfilesdata/hotel_json.json")
+                    .then(function (response) {
+                        $scope.establishmentsdetails = response.data;
+                    });
             
                     $scope.hospitalbtncolor = "#17a2b8";
                     $scope.hospitalbtnbordercolor = "transparent";
