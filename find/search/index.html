@@ -328,7 +328,7 @@
                                 <li><a href="#" ng-click="mallsbtn()" style="color:{{mallsbtncolor}}; border-color: {{mallsbtnbordercolor}}; border-width: {{mallsbtnwidth}}; font-size: 19px; text-decoration: none;"> Malls</a></li>
 <li><a href="#" ng-click="advertisingbtn()" style="color:{{mallsbtncolor}}; border-color: {{mallsbtnbordercolor}}; border-width: {{mallsbtnwidth}}; font-size: 19px; text-decoration: none;"> Advertising</a></li>
 <li><a href="#" ng-click="agriculturebtn()" style="color:{{mallsbtncolor}}; border-color: {{mallsbtnbordercolor}}; border-width: {{mallsbtnwidth}}; font-size: 19px; text-decoration: none;"> Agriculture</a></li>
-<li><a href="#" ng-click="distributorbtn()" style="color:{{mallsbtncolor}}; border-color: {{mallsbtnbordercolor}}; border-width: {{mallsbtnwidth}}; font-size: 19px; text-decoration: none;"> Distributor</a></li>
+<li><a href="#" ng-click="dis_btn()" style="color:red; font-size: 19px; text-decoration: none;"> Distributor</a></li>
 <li><a href="#" ng-click="hardwarebtn()" style="color:{{mallsbtncolor}}; border-color: {{mallsbtnbordercolor}}; border-width: {{mallsbtnwidth}}; font-size: 19px; text-decoration: none;"> Warehouse</a></li>
 
 
@@ -2358,7 +2358,7 @@
         }
         
         
-        $scope.distributorbtn = function () {
+        $scope.dis_btn = function () {
             $scope.establishmentsdetails = "";
             $http.get("../jsonfilesdata/distributor_json.json")
                     .then(function (response) {
