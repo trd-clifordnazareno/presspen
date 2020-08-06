@@ -2416,7 +2416,7 @@
         
         $scope.school_btn = function () {
             $scope.establishmentsdetails = "";
-            $http.get("../jsonfilesdata/school_json.json")
+            $http.get("../jsonfilesdata/schooldatajson.json")
                     .then(function (response) {
                         return $scope.establishmentsdetails = response.data;
                     });
