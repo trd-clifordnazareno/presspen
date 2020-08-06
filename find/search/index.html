@@ -2570,8 +2570,46 @@
                 $establishmenticon = "../../img/categories/new/grocery.png";
             } else if (establishmentdetails.toUpperCase() === ("Fire Station").toUpperCase() || establishmentdetails.toUpperCase() === ("Fire Stations").toUpperCase() || establishmentdetails.toUpperCase() === ("Fire Man").toUpperCase() || establishmentdetails.toUpperCase() === ("Fire Men").toUpperCase() || establishmentdetails.toUpperCase() === ("Fireman").toUpperCase() || establishmentdetails.toUpperCase() === ("Firemen").toUpperCase() || establishmentdetails.toUpperCase() === ("Bombero").toUpperCase()) {
                 $establishmenticon = "../../img/categories/new/firemen.png";
-            } else {
-                return $establishmenticon = "../../img/categories/new/none.png";
+            }
+		
+		
+		else if (establishmentdetails === 1 || 
+			 establishmentdetails === 2 || 
+			 establishmentdetails === 3 || 
+			 establishmentdetails === 4 || 
+			 establishmentdetails === 5 || 
+			 establishmentdetails === 6 || 
+			 establishmentdetails === 7 || 
+			 establishmentdetails === 8 || 
+			 establishmentdetails === 9 || 
+			 establishmentdetails === 10 ||
+			 establishmentdetails === 11 ||
+			 establishmentdetails === 12 ||
+			 establishmentdetails === 13 ||
+			 establishmentdetails === 14 ||
+			 establishmentdetails === 15 ||
+			 establishmentdetails === 16 ||
+			 establishmentdetails === 17 ||
+			 establishmentdetails === 18 ||
+			 establishmentdetails === 19 ||
+			 establishmentdetails === 20 ||
+			 establishmentdetails === 20 ||
+			 establishmentdetails === 22 ||
+			 establishmentdetails === 23 ||
+			 establishmentdetails === 24 ||
+			 establishmentdetails === 25 ||
+			 establishmentdetails === 26 ||
+			 establishmentdetails === 27 ||
+			 establishmentdetails === 28 ||
+			 establishmentdetails === 29 ||
+			 establishmentdetails === 30 ||
+			) {
+                $establishmenticon = "../../img/categories/new/none.png";
+            }
+		
+		
+		else {
+                 $establishmenticon = "../../img/categories/new/none.png";
             }
             return $establishmenticon;
         }
