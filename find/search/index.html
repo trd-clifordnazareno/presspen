@@ -664,6 +664,50 @@
                                     <center style="
                                             margin-left: 19px;
                                             " ng-if="establishment.details != empty">{{establishment.details}} </center>
+					    
+					    
+					    <div class="listing__item__text__rating" style="position: absolute;">
+                                                    <div class="listing__item__rating__star">
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        <div ng-if="establishment.rate==1 && establishment.rate<=1.9"><span class="icon_star"></span></div>
+                                        <div ng-if="establishment.rate>=2 && establishment.rate<=2.9">
+                                            <span class="icon_star"></span>
+                                            <span class="icon_star"></span>
+                                            <span>&nbsp&nbsp&nbsp{{establishment.reviews}}</span>
+                                        </div>
+                                        <div ng-if="establishment.rate>=3 && establishment.rate<=3.9">
+                                            <span class="icon_star"></span>
+                                            <span class="icon_star"></span>
+                                            <span class="icon_star"></span>
+                                            <span>&nbsp&nbsp&nbsp{{establishment.reviews}}</span>
+                                        </div>
+                                        <div ng-if="establishment.rate>=4 && establishment.rate<=4.9">
+                                            <span class="icon_star"></span>
+                                            <span class="icon_star"></span>
+                                            <span class="icon_star"></span>
+                                            <span class="icon_star"></span>
+                                            <span>&nbsp&nbsp&nbsp{{establishment.reviews}}</span>
+                                        </div>
+                                        <div ng-if="establishment.rate>=5 && establishment.rate<=5.9">
+                                            <span class="icon_star"></span>
+                                            <span class="icon_star"></span>
+                                            <span class="icon_star"></span>
+                                            <span class="icon_star"></span>
+                                            <span class="icon_star"></span>
+                                            <span>&nbsp&nbsp&nbsp{{establishment.reviews}}</span>
+                                        </div>
+                                                <!--<div>
+                                            
+                                            
+                                        </div>-->        
+                                                    </div>
+                                                   
+                                                </div>
+                                    <p></p>
 
                                     </td>
                                     <td role="cell">
