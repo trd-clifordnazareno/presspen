@@ -960,7 +960,9 @@ For Business Posting And Inqueries You May Call At +(63) 09234648296</span>
                 
         $http.get("../jsonfilesdata/default_json.json")
                 .then(function (response) {
-                    $scope.establishmentsdetails = response.data;
+                    ///$scope.establishmentsdetails = response.data;
+		var myArray = response.data;
+			$scope.establishmentsdetails = removeDumplicateValue(myArray);
                 });
         $http.get("../jsonfilesdata/default_extend_json.json")
                 .then(function (response) {
@@ -975,11 +977,15 @@ For Business Posting And Inqueries You May Call At +(63) 09234648296</span>
             $scope.establishmentsdetails = "";
             $http.get("../jsonfilesdata/restaurant_json.json")
                     .then(function (response) {
-                        $scope.establishmentsdetails = response.data;
+                        ///$scope.establishmentsdetails = response.data;
+		    var myArray = response.data;
+			$scope.establishmentsdetails = removeDumplicateValue(myArray);
                     });
             $http.get("../jsonfilesdata/restaurant_extend_json.json")
                     .then(function (response) {
-                        $scope.establishmentsdetailsextend = response.data;
+                        ///$scope.establishmentsdetailsextend = response.data;
+		    var myArray = response.data;
+			$scope.establishmentsdetails = removeDumplicateValue(myArray);
                     });
                     
                     
@@ -1041,7 +1047,9 @@ For Business Posting And Inqueries You May Call At +(63) 09234648296</span>
             $scope.establishmentsdetails = "";
             $http.get("../jsonfilesdata/food_json.json")
                     .then(function (response) {
-                        $scope.establishmentsdetails = response.data;
+                        ///$scope.establishmentsdetails = response.data;
+		    var myArray = response.data;
+			$scope.establishmentsdetails = removeDumplicateValue(myArray);
                     });
             $scope.hospitalbtncolor = "#17a2b8";
                     $scope.hospitalbtnbordercolor = "transparent";
@@ -1138,7 +1146,9 @@ For Business Posting And Inqueries You May Call At +(63) 09234648296</span>
             $scope.establishmentsdetails = "";
             $http.get("../jsonfilesdata/port_json.json")
                     .then(function (response) {
-                        $scope.establishmentsdetails = response.data;
+                        ///$scope.establishmentsdetails = response.data;
+		    var myArray = response.data;
+			$scope.establishmentsdetails = removeDumplicateValue(myArray);
                     });
              $scope.hospitalbtncolor = "#17a2b8";
                     $scope.hospitalbtnbordercolor = "transparent";
@@ -1235,7 +1245,9 @@ For Business Posting And Inqueries You May Call At +(63) 09234648296</span>
             $scope.establishmentsdetails = "";
             $http.get("../jsonfilesdata/postoffice_json.json")
                     .then(function (response) {
-                        $scope.establishmentsdetails = response.data;
+                        ///$scope.establishmentsdetails = response.data;
+		    var myArray = response.data;
+			$scope.establishmentsdetails = removeDumplicateValue(myArray);
                     });
             $scope.hospitalbtncolor = "#17a2b8";
                     $scope.hospitalbtnbordercolor = "transparent";
@@ -1332,7 +1344,9 @@ For Business Posting And Inqueries You May Call At +(63) 09234648296</span>
             $scope.establishmentsdetails = "";
             $http.get("../jsonfilesdata/mall_json.json")
                     .then(function (response) {
-                        $scope.establishmentsdetails = response.data;
+                        ///$scope.establishmentsdetails = response.data;
+		    var myArray = response.data;
+			$scope.establishmentsdetails = removeDumplicateValue(myArray);
                     });
             $scope.hospitalbtncolor = "#17a2b8";
                     $scope.hospitalbtnbordercolor = "transparent";
@@ -1597,7 +1611,9 @@ For Business Posting And Inqueries You May Call At +(63) 09234648296</span>
             $scope.establishmentsdetails = "";
             $http.get("../jsonfilesdata/beauty.json")
                     .then(function (response) {
-                        $scope.establishmentsdetails = response.data;
+                        ///$scope.establishmentsdetails = response.data;
+		    var myArray = response.data;
+			$scope.establishmentsdetails = removeDumplicateValue(myArray);
                     });
             /*$http.get("../jsonfilesdata/mall_extend_json.json")
              .then(function(response) {
@@ -1688,7 +1704,9 @@ For Business Posting And Inqueries You May Call At +(63) 09234648296</span>
             $scope.establishmentsdetails = "";
             $http.get("../jsonfilesdata/grocery_json.json")
                     .then(function (response) {
-                        $scope.establishmentsdetails = response.data;
+                        //$scope.establishmentsdetails = response.data;
+			var myArray = response.data;
+			$scope.establishmentsdetails = removeDumplicateValue(myArray);
                     });
                     $scope.grocerybtncolor = "#17a2b8";
                     $scope.grocerybtnbordercolor = "#17a2b8";
@@ -1754,7 +1772,9 @@ For Business Posting And Inqueries You May Call At +(63) 09234648296</span>
                     $scope.establishmentsdetails = "";
                     $http.get("../jsonfilesdata/pharmacy_json.json")
                         .then(function (response) {
-                            $scope.establishmentsdetails = response.data;
+                            ///$scope.establishmentsdetails = response.data;
+			    var myArray = response.data;
+				$scope.establishmentsdetails = removeDumplicateValue(myArray);
                     });
                     $scope.pharmacybtncolor = "#17a2b8";
                     $scope.pharmacybtnbordercolor = "#17a2b8";
@@ -1818,7 +1838,9 @@ For Business Posting And Inqueries You May Call At +(63) 09234648296</span>
             $scope.establishmentsdetails = "";
                     $http.get("../jsonfilesdata/gasoline_json.json")
                         .then(function (response) {
-                            $scope.establishmentsdetails = response.data;
+                            //$scope.establishmentsdetails = response.data;
+			    var myArray = response.data;
+			$scope.establishmentsdetails = removeDumplicateValue(myArray);
                     });
                     $scope.hospitalbtncolor = "#17a2b8";
                     $scope.hospitalbtnbordercolor = "transparent";
@@ -1884,7 +1906,9 @@ For Business Posting And Inqueries You May Call At +(63) 09234648296</span>
 		$scope.establishmentsdetails = "";
             $http.get("../jsonfilesdata/hotel_json.json")
                     .then(function (response) {
-                        $scope.establishmentsdetails = response.data;
+                        ///$scope.establishmentsdetails = response.data;
+		    var myArray = response.data;
+			$scope.establishmentsdetails = removeDumplicateValue(myArray);
                     });
             
                     $scope.hospitalbtncolor = "#17a2b8";
@@ -1967,7 +1991,9 @@ For Business Posting And Inqueries You May Call At +(63) 09234648296</span>
             $scope.establishmentsdetails = "";
             $http.get("../jsonfilesdata/hospital_json.json")
                     .then(function (response) {
-                        $scope.establishmentsdetails = response.data;
+                        ///$scope.establishmentsdetails = response.data;
+		    var myArray = response.data;
+			$scope.establishmentsdetails = removeDumplicateValue(myArray);
                     });
                     $scope.pharmacybtncolor = "#17a2b8";
                     $scope.pharmacybtnbordercolor = "transparent";
@@ -2047,7 +2073,10 @@ For Business Posting And Inqueries You May Call At +(63) 09234648296</span>
             $scope.establishmentsdetails = "";
             $http.get("../jsonfilesdata/moneyorder_json.json")
                     .then(function (response) {
-                        $scope.establishmentsdetails = response.data;
+                        ///$scope.establishmentsdetails = response.data;
+		         //$scope.establishmentsdetails = response.data;
+			var myArray = response.data;
+			$scope.establishmentsdetails = removeDumplicateValue(myArray);
                     });
             $scope.moneytransferrerbordercolor = "#17a2b8";
             $scope.moneytransferrerwidth = "1px";
@@ -2087,7 +2116,9 @@ For Business Posting And Inqueries You May Call At +(63) 09234648296</span>
             $scope.establishmentsdetails = "";
             $http.get("../jsonfilesdata/banks_json.json")
                     .then(function (response) {
-                        $scope.establishmentsdetails = response.data;
+                        ///$scope.establishmentsdetails = response.data;
+		    var myArray = response.data;
+			$scope.establishmentsdetails = removeDumplicateValue(myArray);
                     });
             $scope.moneytransferrerbordercolor = "transparent";
             $scope.moneytransferrerwidth = "0px";
@@ -2246,7 +2277,9 @@ For Business Posting And Inqueries You May Call At +(63) 09234648296</span>
             $scope.establishmentsdetails = "";
             $http.get("../jsonfilesdata/advertising_json.json")
                     .then(function (response) {
-                        $scope.establishmentsdetails = response.data;
+                        ///$scope.establishmentsdetails = response.data;
+		    var myArray = response.data;
+			$scope.establishmentsdetails = removeDumplicateValue(myArray);
                     });
             
                     $scope.search = "Advertising";
@@ -2259,7 +2292,9 @@ For Business Posting And Inqueries You May Call At +(63) 09234648296</span>
             $scope.establishmentsdetails = "";
             $http.get("../jsonfilesdata/agriculture_json.json")
                     .then(function (response) {
-                        $scope.establishmentsdetails = response.data;
+                        ///$scope.establishmentsdetails = response.data;
+		    var myArray = response.data;
+			$scope.establishmentsdetails = removeDumplicateValue(myArray);
                     });
             
                     $scope.search = "agriculture";
@@ -2287,7 +2322,9 @@ For Business Posting And Inqueries You May Call At +(63) 09234648296</span>
             $scope.establishmentsdetails = "";
             $http.get("../jsonfilesdata/hardware_json.json")
                     .then(function (response) {
-                        $scope.establishmentsdetails = response.data;
+                        ///$scope.establishmentsdetails = response.data;
+		    var myArray = response.data;
+			$scope.establishmentsdetails = removeDumplicateValue(myArray);
                     });
             
                     $scope.search = "Hardware";
@@ -2301,7 +2338,9 @@ For Business Posting And Inqueries You May Call At +(63) 09234648296</span>
             $scope.establishmentsdetails = "";
             $http.get("../jsonfilesdata/cargo_json.json")
                     .then(function (response) {
-                        $scope.establishmentsdetails = response.data;
+                        ///$scope.establishmentsdetails = response.data;
+		    var myArray = response.data;
+			$scope.establishmentsdetails = removeDumplicateValue(myArray);
                     });
             
                     $scope.search = "Cargo";
@@ -2315,7 +2354,9 @@ For Business Posting And Inqueries You May Call At +(63) 09234648296</span>
             $scope.establishmentsdetails = "";
             $http.get("../jsonfilesdata/delivery_json.json")
                     .then(function (response) {
-                        $scope.establishmentsdetails = response.data;
+                        ///$scope.establishmentsdetails = response.data;
+		    var myArray = response.data;
+			$scope.establishmentsdetails = removeDumplicateValue(myArray);
                     });
             
                     $scope.search = "Delivery";
@@ -2329,7 +2370,9 @@ For Business Posting And Inqueries You May Call At +(63) 09234648296</span>
             $scope.establishmentsdetails = "";
             $http.get("../jsonfilesdata/schooldatajson.json")
                     .then(function (response) {
-                        return $scope.establishmentsdetails = response.data;
+                        ///return $scope.establishmentsdetails = response.data;
+		    var myArray = response.data;
+			return $scope.establishmentsdetails = removeDumplicateValue(myArray);
                     });
             
                     $scope.search = "School";
@@ -2343,7 +2386,9 @@ For Business Posting And Inqueries You May Call At +(63) 09234648296</span>
             $scope.establishmentsdetails = "";
             $http.get("../jsonfilesdata/motor_cycle_distributor_json.json")
                     .then(function (response) {
-                        $scope.establishmentsdetails = response.data;
+                        ///$scope.establishmentsdetails = response.data;
+		    var myArray = response.data;
+			$scope.establishmentsdetails = removeDumplicateValue(myArray);
                     });
             
                     $scope.search = "MotorCycle";
@@ -2357,7 +2402,9 @@ For Business Posting And Inqueries You May Call At +(63) 09234648296</span>
             $scope.establishmentsdetails = "";
             $http.get("../jsonfilesdata/car_distributor_json.json")
                     .then(function (response) {
-                        $scope.establishmentsdetails = response.data;
+                        ///$scope.establishmentsdetails = response.data;
+		    var myArray = response.data;
+			$scope.establishmentsdetails = removeDumplicateValue(myArray);
                     });
             
                     $scope.search = "Car Distributor";
@@ -2371,7 +2418,9 @@ For Business Posting And Inqueries You May Call At +(63) 09234648296</span>
             $scope.establishmentsdetails = "";
             $http.get("../jsonfilesdata/auto_parts_json.json")
                     .then(function (response) {
-                        $scope.establishmentsdetails = response.data;
+                        ///scope.establishmentsdetails = response.data;
+		    var myArray = response.data;
+			$scope.establishmentsdetails = removeDumplicateValue(myArray);
                     });
             
                     $scope.search = "Auto Parts";
@@ -2385,7 +2434,9 @@ For Business Posting And Inqueries You May Call At +(63) 09234648296</span>
             $scope.establishmentsdetails = "";
             $http.get("../jsonfilesdata/motor_parts_json.json")
                     .then(function (response) {
-                        $scope.establishmentsdetails = response.data;
+                        ///$scope.establishmentsdetails = response.data;
+		    var myArray = response.data;
+			$scope.establishmentsdetails = removeDumplicateValue(myArray);
                     });
             
                     $scope.search = "Motor Parts";
@@ -2495,4 +2546,19 @@ For Business Posting And Inqueries You May Call At +(63) 09234648296</span>
             return $establishmenticon;
         }
     });
+	
+	
+	function removeDumplicateValue(myArray){
+var newArray = [];
+
+angular.forEach(myArray, function(value, key) {
+var exists = false;
+angular.forEach(newArray, function(val2, key) {
+if(angular.equals(value.contact, val2.contact)){ exists = true };
+});
+if(exists == false && value.contact != "") { newArray.push(value); }
+});
+
+return newArray;
+}
 </script>
