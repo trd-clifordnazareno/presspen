@@ -59,8 +59,43 @@
                     </div>
                 </div>
             </div>
-            <div id="mobile-menu-wrap"><div class="slicknav_menu"><a href="#" aria-haspopup="true" role="button" tabindex="0" class="slicknav_btn slicknav_collapsed" style="outline: none;"><span class="slicknav_menutxt">MENU</span><span class="slicknav_icon"><span class="slicknav_icon-bar"></span><span class="slicknav_icon-bar"></span><span class="slicknav_icon-bar"></span></span></a><nav class="slicknav_nav slicknav_hidden" aria-hidden="true" role="menu" style="display: none;">
-                            <ul>
+            <div>
+              <link rel="stylesheet" href="bar/demo/style.css">
+              <link rel="stylesheet" href="bar/dist/slicknav.css">
+
+              <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+              </head>
+              <body>
+              <p style="color: transparent;"><b style="color: transparent;">Resize browser to view mobile menu</b></p>
+
+
+              <ul id="menu">
+
+              </ul>
+
+              <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+              <script src="bar/dist/jquery.slicknav.js"></script>
+              <script type="text/javascript">
+              $(document).ready(function(){
+              	$('#menu').slicknav();
+              });
+              </script>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+<div>
+            <div id="mobile-menu-wrap"><div class="slicknav_menu">
+                            <!--<ul>
                                 <li class="active"><a href="./index.html" role="menuitem">Home</a></li>
                                 <li><a href="./listing.html" role="menuitem">Listing</a></li>
                                 <li><a href="#" role="menuitem">Categories</a></li>
@@ -74,8 +109,8 @@
                                 </li>
                                 <li><a href="./blog.html" role="menuitem">Blog</a></li>
                                 <li><a href="#" role="menuitem">Shop</a></li>
-                            </ul>
-                        </nav></div></div>
+                            </ul>-->
+                        </div></div>
         </div>
     </header>
     <!-- Header Section End -->
