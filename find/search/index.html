@@ -139,6 +139,34 @@
                         </div>
                     </div>
                 </div>
+		    
+		    
+		    
+		    
+		    
+		    
+		    <div>
+              <link rel="stylesheet" href="bar/demo/style.css">
+              <link rel="stylesheet" href="bar/dist/slicknav.css">
+
+              <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+              </head>
+              <body>
+              <p style="color: transparent;"><b style="color: transparent;">Resize browser to view mobile menu</b></p>
+
+
+              <ul id="menu">
+
+              </ul>
+
+              <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+              <script src="bar/dist/jquery.slicknav.js"></script>
+
+            </div>
+		    
+		    
+		    
+		    
                 <div id="mobile-menu-wrap"><div class="slicknav_menu"><a href="#" aria-haspopup="true" role="button" tabindex="0" class="slicknav_btn slicknav_collapsed"><span class="slicknav_menutxt">MENU</span><span class="slicknav_icon"><span class="slicknav_icon-bar"></span><span class="slicknav_icon-bar"></span><span class="slicknav_icon-bar"></span></span></a><nav class="slicknav_nav slicknav_hidden" aria-hidden="true" role="menu" style="display: none;">
                             <ul>
                                 <li class="active"><a href="./index.html" role="menuitem">Home</a></li>
@@ -2560,4 +2588,13 @@ if(exists == false && value.contact != "") { newArray.push(value); }
 
 return newArray;
 }
+</script>
+
+
+
+</script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $('#menu').slicknav();
+});
 </script>
