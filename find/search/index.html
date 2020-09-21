@@ -838,7 +838,7 @@ For Business Posting And Inqueries You May Call At (032) 349 5373 </span>
     var app = angular.module('myApp', ['angularUtils.directives.dirPagination']);
     app.controller('myCtrl', function ($scope, $http) {
         $scope.results_info_hide = false;
-
+$('#menu').slicknav();
 
 
         /// default
@@ -2593,8 +2593,3 @@ return newArray;
 
 
 
-<script type="text/javascript">
-$(document).ready(function(){
-  $('#menu').slicknav();
-});
-</script>
